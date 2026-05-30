@@ -166,6 +166,18 @@ export function weatherByMonth(): Map<string, MonthWeather> {
 	return out;
 }
 
+/** Blended cost per mile (¢) across all clean trips — one source for the card + chart. */
+export function overallCentsPerMile(): number | null {
+	let cost = 0;
+	let miles = 0;
+	for (const t of cleanTrips) {
+		if (t.miles == null) continue;
+		cost += t.costUsd;
+		miles += t.miles;
+	}
+	return miles > 0 ? round((cost / miles) * 100, 2) : null;
+}
+
 export interface MonthCostPerMile {
 	month: string;
 	centsPerMile: number | null;

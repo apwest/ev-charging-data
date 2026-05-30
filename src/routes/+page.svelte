@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { meta, vehicles } from '$lib/data';
+	import { overallCentsPerMile } from '$lib/aggregations';
 	import EfficiencyVsTemp from '$lib/components/EfficiencyVsTemp.svelte';
 	import MonthlyEnergyByNetwork from '$lib/components/MonthlyEnergyByNetwork.svelte';
 	import MonthlySpend from '$lib/components/MonthlySpend.svelte';
@@ -10,13 +11,17 @@
 	const vehicle = vehicles[0];
 	const fmt = new Intl.NumberFormat('en-US');
 
-	const stats = [
+	type Stat = { label: string; value: string; unit?: string };
+
+	const cpm = overallCentsPerMile();
+	const stats: Stat[] = [
 		{ label: 'Sessions', value: fmt.format(meta.counts.sessions) },
 		{ label: 'Trips', value: fmt.format(meta.counts.trips) },
-		{ label: 'Energy', value: `${fmt.format(Math.round(meta.totals.energyKwh))} kWh` },
-		{ label: 'Miles', value: fmt.format(Math.round(meta.totals.miles)) },
-		{ label: 'Total cost', value: `$${fmt.format(Math.round(meta.totals.costUsd))}` },
-		{ label: 'Avg efficiency', value: `${meta.avgMiPerKwh?.toFixed(2)} mi/kWh` }
+		{ label: 'Energy', value: fmt.format(Math.round(meta.totals.energyKwh)), unit: 'kWh' },
+		{ label: 'Miles', value: fmt.format(Math.round(meta.totals.miles)), unit: 'mi' },
+		{ label: 'Total cost', value: fmt.format(Math.round(meta.totals.costUsd)), unit: 'US$' },
+		{ label: 'Avg efficiency', value: meta.avgMiPerKwh?.toFixed(2) ?? '—', unit: 'mi/kWh' },
+		{ label: 'Avg cost/mile', value: cpm != null ? cpm.toFixed(2) : '—', unit: '¢/mi' }
 	];
 </script>
 
@@ -33,8 +38,9 @@
 	<section class="stats">
 		{#each stats as s (s.label)}
 			<div class="stat">
-				<span class="value">{s.value}</span>
-				<span class="label">{s.label}</span>
+				<span class="stat-label">{s.label}</span>
+				<span class="stat-value">{s.value}</span>
+				{#if s.unit}<span class="stat-unit">{s.unit}</span>{/if}
 			</div>
 		{/each}
 	</section>
@@ -84,17 +90,31 @@
 		background: #fff;
 		border: 1px solid #e5e7eb;
 		border-radius: 12px;
-		padding: 1rem;
+		padding: 0.85rem 1rem;
 		display: flex;
 		flex-direction: column;
-		gap: 0.2rem;
 	}
-	.stat .value {
-		font-size: 1.35rem;
+	.stat-label {
+		font-size: 0.72rem;
 		font-weight: 600;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: #6b7280;
 	}
-	.stat .label {
+	/* value on its own line, centered */
+	.stat-value {
+		text-align: center;
+		font-size: 1.9rem;
+		font-weight: 700;
+		color: #111827;
+		line-height: 1.1;
+		margin: 0.2rem 0 0.05rem;
+	}
+	/* unit just below the value, right-aligned */
+	.stat-unit {
+		align-self: flex-end;
 		font-size: 0.8rem;
+		font-weight: 500;
 		color: #6b7280;
 	}
 	.charts {

@@ -1,15 +1,11 @@
 <script lang="ts">
 	import Chart from './Chart.svelte';
 	import Card from './Card.svelte';
-	import { costPerMileByMonth, monthLabel } from '$lib/aggregations';
+	import { costPerMileByMonth, overallCentsPerMile, monthLabel } from '$lib/aggregations';
 	import type { ChartConfiguration } from 'chart.js';
 
 	const months = costPerMileByMonth();
-
-	// Overall blended rate across all clean trips, for the subtitle.
-	const totalCost = months.reduce((a, m) => a + m.costUsd, 0);
-	const totalMiles = months.reduce((a, m) => a + m.miles, 0);
-	const overall = totalMiles > 0 ? (totalCost / totalMiles) * 100 : 0;
+	const overall = overallCentsPerMile() ?? 0;
 
 	const data: ChartConfiguration<'line'>['data'] = {
 		labels: months.map((m) => monthLabel(m.month)),
