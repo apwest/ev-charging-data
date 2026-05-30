@@ -1,6 +1,10 @@
 <script lang="ts">
 	import { meta, vehicles } from '$lib/data';
 	import EfficiencyVsTemp from '$lib/components/EfficiencyVsTemp.svelte';
+	import MonthlyEnergyByNetwork from '$lib/components/MonthlyEnergyByNetwork.svelte';
+	import MonthlySpend from '$lib/components/MonthlySpend.svelte';
+	import EfficiencyOverTime from '$lib/components/EfficiencyOverTime.svelte';
+	import NetworkBreakdown from '$lib/components/NetworkBreakdown.svelte';
 
 	const vehicle = vehicles[0];
 	const fmt = new Intl.NumberFormat('en-US');
@@ -35,7 +39,11 @@
 	</section>
 
 	<section class="charts">
-		<EfficiencyVsTemp />
+		<div class="span-2"><EfficiencyVsTemp /></div>
+		<div class="span-2"><MonthlyEnergyByNetwork /></div>
+		<div class="span-2"><MonthlySpend /></div>
+		<div><EfficiencyOverTime /></div>
+		<div><NetworkBreakdown /></div>
 	</section>
 </main>
 
@@ -86,5 +94,18 @@
 	.stat .label {
 		font-size: 0.8rem;
 		color: #6b7280;
+	}
+	.charts {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+	@media (min-width: 760px) {
+		.charts {
+			grid-template-columns: 1fr 1fr;
+		}
+		.charts .span-2 {
+			grid-column: span 2;
+		}
 	}
 </style>

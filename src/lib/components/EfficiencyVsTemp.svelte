@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Chart from './Chart.svelte';
+	import Card from './Card.svelte';
 	import { cleanTrips } from '$lib/data';
 	import { linearRegression } from '$lib/stats';
 	import type { ChartConfiguration } from 'chart.js';
@@ -72,41 +73,11 @@
 
 	// Slope is per °F; show the swing across the observed range for an intuitive headline.
 	const swing = reg ? Math.abs(reg.slope) * (maxX - minX) : null;
+	const subtitle =
+		`${points.length} trips · ${minX}°–${maxX}°F` +
+		(swing != null ? ` · ~${swing.toFixed(2)} mi/kWh swing across the range` : '');
 </script>
 
-<div class="card">
-	<header>
-		<h2>Efficiency vs. Temperature</h2>
-		<p>
-			{points.length} trips · {minX}°–{maxX}°F
-			{#if swing != null}
-				· ~{swing.toFixed(2)} mi/kWh swing across the range
-			{/if}
-		</p>
-	</header>
-	<div class="chart">
-		<Chart type="scatter" {data} {options} />
-	</div>
-</div>
-
-<style>
-	.card {
-		background: var(--surface, #fff);
-		border: 1px solid var(--border, #e5e7eb);
-		border-radius: 12px;
-		padding: 1.25rem;
-	}
-	header h2 {
-		margin: 0;
-		font-size: 1.05rem;
-	}
-	header p {
-		margin: 0.25rem 0 1rem;
-		color: var(--muted, #6b7280);
-		font-size: 0.85rem;
-	}
-	.chart {
-		position: relative;
-		height: 380px;
-	}
-</style>
+<Card title="Efficiency vs. Temperature" {subtitle} height={380}>
+	<Chart type="scatter" {data} {options} />
+</Card>
