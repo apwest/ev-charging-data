@@ -1,0 +1,58 @@
+name: Update data
+
+# Phase 3a: pull the Google Sheet, refresh weather, regenerate JSON, commit if changed.
+# Starts as manual-only (workflow_dispatch). Once the secrets below are set and a manual
+# run is green, uncomment the schedule to run daily.
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 11 * * *' # ~6-7am ET; adjust to taste
+
+permissions:
+  contents: write # push the data commit (which triggers the deploy workflow)
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Pull Google Sheet as CSV
+        # SHEET_CSV_URL = the "Publish to web → CSV" link for the EV Charging tab.
+        env:
+          SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
+        run: |
+          curl -sL --fail "$SHEET_CSV_URL" -o "EV Charging Data - EV Charging.csv"
+          echo "Pulled $(wc -l < 'EV Charging Data - EV Charging.csv') lines."
+
+      - name: Fetch + build weather
+        env:
+          WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
+        run: npm run weather
+
+      - name: Regenerate JSON
+        run: npm run convert
+
+      - name: Commit data changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes — nothing to commit."
+          else
+            git commit -m "data: daily update ($(date -u +%Y-%m-%d))"
+            git push
+            echo "Pushed data update; deploy workflow will publish it."
+          fi
