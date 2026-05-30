@@ -21,3 +21,7 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Raw weather API cache (bulky, regenerable). The aggregated data/weather.json
+# IS committed; these per-month dumps are not.
+data/weather-*.json

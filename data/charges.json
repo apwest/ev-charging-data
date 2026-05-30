@@ -23,6 +23,12 @@
       "avgHigh": 44,
       "high": 50
     },
+    "weatherF": {
+      "low": 27,
+      "avg": 36.8,
+      "high": 50,
+      "obs": 31
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-02-09T07:39:11-05:00"
@@ -50,6 +56,12 @@
       "avg": 38,
       "avgHigh": 47,
       "high": 61
+    },
+    "weatherF": {
+      "low": 27,
+      "avg": 31.3,
+      "high": 35,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -79,6 +91,12 @@
       "avgHigh": 43,
       "high": 50
     },
+    "weatherF": {
+      "low": 25,
+      "avg": 31.7,
+      "high": 40,
+      "obs": 32
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-02-15T06:46:51-05:00"
@@ -106,6 +124,12 @@
       "avg": 36,
       "avgHigh": 46,
       "high": 57
+    },
+    "weatherF": {
+      "low": 31,
+      "avg": 42.1,
+      "high": 57,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -135,6 +159,12 @@
       "avgHigh": 49,
       "high": 64
     },
+    "weatherF": {
+      "low": 28,
+      "avg": 42.2,
+      "high": 64,
+      "obs": 42
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-02-27T07:43:21-05:00"
@@ -162,6 +192,12 @@
       "avg": 40,
       "avgHigh": 52,
       "high": 64
+    },
+    "weatherF": {
+      "low": 27,
+      "avg": 32.6,
+      "high": 39,
+      "obs": 28
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -191,6 +227,12 @@
       "avgHigh": 53,
       "high": 64
     },
+    "weatherF": {
+      "low": 21,
+      "avg": 33.6,
+      "high": 45,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-03-01T07:33:00-05:00"
@@ -218,6 +260,12 @@
       "avg": 41,
       "avgHigh": 50,
       "high": 60
+    },
+    "weatherF": {
+      "low": 37,
+      "avg": 43.9,
+      "high": 51,
+      "obs": 49
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -247,6 +295,12 @@
       "avgHigh": 53,
       "high": 60
     },
+    "weatherF": {
+      "low": 43,
+      "avg": 47.5,
+      "high": 55,
+      "obs": 35
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-03-06T07:53:26-05:00"
@@ -274,6 +328,12 @@
       "avg": 46,
       "avgHigh": 52,
       "high": 60
+    },
+    "weatherF": {
+      "low": 43,
+      "avg": 45.6,
+      "high": 48,
+      "obs": 36
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -303,6 +363,12 @@
       "avgHigh": 46,
       "high": 48
     },
+    "weatherF": {
+      "low": 35,
+      "avg": 40.8,
+      "high": 46,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-03-11T07:54:21-04:00"
@@ -330,6 +396,12 @@
       "avg": 42,
       "avgHigh": 48,
       "high": 57
+    },
+    "weatherF": {
+      "low": 39,
+      "avg": 46.7,
+      "high": 57,
+      "obs": 26
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -359,6 +431,12 @@
       "avgHigh": 50,
       "high": 57
     },
+    "weatherF": {
+      "low": 32,
+      "avg": 46.1,
+      "high": 57,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-03-13T18:47:00-04:00"
@@ -386,6 +464,12 @@
       "avg": 45,
       "avgHigh": 53,
       "high": 62
+    },
+    "weatherF": {
+      "low": 36,
+      "avg": 48.2,
+      "high": 62,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -415,6 +499,12 @@
       "avgHigh": 54,
       "high": 62
     },
+    "weatherF": {
+      "low": 42,
+      "avg": 45,
+      "high": 47,
+      "obs": 33
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-03-15T07:45:44-04:00"
@@ -442,6 +532,12 @@
       "avg": 47,
       "avgHigh": 56,
       "high": 62
+    },
+    "weatherF": {
+      "low": 39,
+      "avg": 44.9,
+      "high": 51,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -471,6 +567,12 @@
       "avgHigh": 54,
       "high": 60
     },
+    "weatherF": {
+      "low": 36,
+      "avg": 43.3,
+      "high": 54,
+      "obs": 32
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-03-20T07:40:05-04:00"
@@ -498,6 +600,12 @@
       "avg": 45,
       "avgHigh": 54,
       "high": 60
+    },
+    "weatherF": {
+      "low": 36,
+      "avg": 43.3,
+      "high": 54,
+      "obs": 32
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -527,6 +635,12 @@
       "avgHigh": 51,
       "high": 60
     },
+    "weatherF": {
+      "low": 30,
+      "avg": 34.3,
+      "high": 41,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-03-20T18:40:00-04:00"
@@ -554,6 +668,12 @@
       "avg": 37,
       "avgHigh": 43,
       "high": 45
+    },
+    "weatherF": {
+      "low": 34,
+      "avg": 38.8,
+      "high": 43,
+      "obs": 28
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -583,6 +703,12 @@
       "avgHigh": 46,
       "high": 57
     },
+    "weatherF": {
+      "low": 39,
+      "avg": 47.1,
+      "high": 57,
+      "obs": 39
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-03-27T07:18:32-04:00"
@@ -610,6 +736,12 @@
       "avg": 44,
       "avgHigh": 49,
       "high": 57
+    },
+    "weatherF": {
+      "low": 39,
+      "avg": 44.5,
+      "high": 53,
+      "obs": 33
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -639,6 +771,12 @@
       "avgHigh": 55,
       "high": 60
     },
+    "weatherF": {
+      "low": 38,
+      "avg": 44.1,
+      "high": 49,
+      "obs": 46
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-04-02T07:48:32-04:00"
@@ -666,6 +804,12 @@
       "avg": 45,
       "avgHigh": 50,
       "high": 60
+    },
+    "weatherF": {
+      "low": 37,
+      "avg": 38.4,
+      "high": 40,
+      "obs": 51
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -695,6 +839,12 @@
       "avgHigh": 50,
       "high": 67
     },
+    "weatherF": {
+      "low": 33,
+      "avg": 51.1,
+      "high": 67,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-04-08T07:44:22-04:00"
@@ -722,6 +872,12 @@
       "avg": 49,
       "avgHigh": 59,
       "high": 67
+    },
+    "weatherF": {
+      "low": 41,
+      "avg": 53.8,
+      "high": 65,
+      "obs": 25
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -751,6 +907,12 @@
       "avgHigh": 59,
       "high": 67
     },
+    "weatherF": {
+      "low": 41,
+      "avg": 53.8,
+      "high": 65,
+      "obs": 25
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-04-10T18:22:00-04:00"
@@ -778,6 +940,12 @@
       "avg": 54,
       "avgHigh": 64,
       "high": 67
+    },
+    "weatherF": {
+      "low": 52,
+      "avg": 60.8,
+      "high": 64,
+      "obs": 43
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -807,6 +975,12 @@
       "avgHigh": 65,
       "high": 75
     },
+    "weatherF": {
+      "low": 43,
+      "avg": 58.9,
+      "high": 70,
+      "obs": 25
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-04-16T07:49:32-04:00"
@@ -834,6 +1008,12 @@
       "avg": 55,
       "avgHigh": 64,
       "high": 75
+    },
+    "weatherF": {
+      "low": 45,
+      "avg": 48,
+      "high": 51,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -863,6 +1043,12 @@
       "avgHigh": 57,
       "high": 61
     },
+    "weatherF": {
+      "low": 32,
+      "avg": 47.2,
+      "high": 59,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-04-22T07:46:56-04:00"
@@ -890,6 +1076,12 @@
       "avg": 49,
       "avgHigh": 61,
       "high": 66
+    },
+    "weatherF": {
+      "low": 41,
+      "avg": 51.3,
+      "high": 66,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -919,6 +1111,12 @@
       "avgHigh": 61,
       "high": 66
     },
+    "weatherF": {
+      "low": 30,
+      "avg": 43.1,
+      "high": 59,
+      "obs": 31
+    },
     "closesTrip": true,
     "milesMissing": true,
     "tripId": "2024-04-26T07:35:00-04:00"
@@ -946,6 +1144,12 @@
       "avg": 52,
       "avgHigh": 65,
       "high": 73
+    },
+    "weatherF": {
+      "low": 54,
+      "avg": 63.6,
+      "high": 73,
+      "obs": 25
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -975,6 +1179,12 @@
       "avgHigh": 65,
       "high": 77
     },
+    "weatherF": {
+      "low": 50,
+      "avg": 59.5,
+      "high": 77,
+      "obs": 47
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-05-06T07:32:59-04:00"
@@ -1002,6 +1212,12 @@
       "avg": 54,
       "avgHigh": 66,
       "high": 81
+    },
+    "weatherF": {
+      "low": 50,
+      "avg": 59.2,
+      "high": 81,
+      "obs": 63
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -1031,6 +1247,12 @@
       "avgHigh": 70,
       "high": 81
     },
+    "weatherF": {
+      "low": 47,
+      "avg": 52.7,
+      "high": 58,
+      "obs": 30
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-05-07T16:28:24-04:00"
@@ -1058,6 +1280,12 @@
       "avg": 53,
       "avgHigh": 62,
       "high": 66
+    },
+    "weatherF": {
+      "low": 38,
+      "avg": 47.7,
+      "high": 63,
+      "obs": 36
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -1087,6 +1315,12 @@
       "avgHigh": 68,
       "high": 78
     },
+    "weatherF": {
+      "low": 59,
+      "avg": 65.3,
+      "high": 74,
+      "obs": 26
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-05-14T20:37:42-04:00"
@@ -1114,6 +1348,12 @@
       "avg": 61,
       "avgHigh": 69,
       "high": 78
+    },
+    "weatherF": {
+      "low": 55,
+      "avg": 57.6,
+      "high": 62,
+      "obs": 31
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -1143,6 +1383,12 @@
       "avgHigh": 73,
       "high": 90
     },
+    "weatherF": {
+      "low": 58,
+      "avg": 73.5,
+      "high": 90,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-05-21T20:42:01-04:00"
@@ -1170,6 +1416,12 @@
       "avg": 69,
       "avgHigh": 84,
       "high": 90
+    },
+    "weatherF": {
+      "low": 58,
+      "avg": 68.5,
+      "high": 83,
+      "obs": 33
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -1199,6 +1451,12 @@
       "avgHigh": 77,
       "high": 83
     },
+    "weatherF": {
+      "low": 50,
+      "avg": 58.3,
+      "high": 64,
+      "obs": 44
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-05-30T16:50:15-04:00"
@@ -1226,6 +1484,12 @@
       "avg": 66,
       "avgHigh": 76,
       "high": 83
+    },
+    "weatherF": {
+      "low": 48,
+      "avg": 58.4,
+      "high": 78,
+      "obs": 38
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -1255,6 +1519,12 @@
       "avgHigh": 77,
       "high": 85
     },
+    "weatherF": {
+      "low": 50,
+      "avg": 66.8,
+      "high": 85,
+      "obs": 29
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-05-30T16:50:15-04:00"
@@ -1282,6 +1552,12 @@
       "avg": 69,
       "avgHigh": 82,
       "high": 86
+    },
+    "weatherF": {
+      "low": 65,
+      "avg": 72.2,
+      "high": 78,
+      "obs": 45
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -1311,6 +1587,12 @@
       "avgHigh": 80,
       "high": 86
     },
+    "weatherF": {
+      "low": 59,
+      "avg": 67.8,
+      "high": 75,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-06-08T09:32:50-04:00"
@@ -1338,6 +1620,12 @@
       "avg": 67,
       "avgHigh": 76,
       "high": 79
+    },
+    "weatherF": {
+      "low": 59,
+      "avg": 69.9,
+      "high": 79,
+      "obs": 22
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -1367,6 +1655,12 @@
       "avgHigh": 80,
       "high": 85
     },
+    "weatherF": {
+      "low": 65,
+      "avg": 71.6,
+      "high": 85,
+      "obs": 35
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-06-14T08:10:14-04:00"
@@ -1394,6 +1688,12 @@
       "avg": 68,
       "avgHigh": 80,
       "high": 85
+    },
+    "weatherF": {
+      "low": 57,
+      "avg": 70.3,
+      "high": 78,
+      "obs": 29
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -1423,6 +1723,12 @@
       "avgHigh": 83,
       "high": 88
     },
+    "weatherF": {
+      "low": 53,
+      "avg": 63.7,
+      "high": 86,
+      "obs": 45
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-07-03T07:35:02-04:00"
@@ -1450,6 +1756,12 @@
       "avg": 70,
       "avgHigh": 83,
       "high": 88
+    },
+    "weatherF": {
+      "low": 53,
+      "avg": 63.7,
+      "high": 86,
+      "obs": 45
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -1479,6 +1791,12 @@
       "avgHigh": 85,
       "high": 88
     },
+    "weatherF": {
+      "low": 60,
+      "avg": 73.6,
+      "high": 86,
+      "obs": 27
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-07-03T07:35:02-04:00"
@@ -1506,6 +1824,12 @@
       "avg": 78,
       "avgHigh": 89,
       "high": 94
+    },
+    "weatherF": {
+      "low": 72,
+      "avg": 79.6,
+      "high": 91,
+      "obs": 31
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -1535,6 +1859,12 @@
       "avgHigh": 89,
       "high": 94
     },
+    "weatherF": {
+      "low": 75,
+      "avg": 81.8,
+      "high": 90,
+      "obs": 34
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-07-09T18:53:13-04:00"
@@ -1562,6 +1892,12 @@
       "avg": 80,
       "avgHigh": 91,
       "high": 94
+    },
+    "weatherF": {
+      "low": 74,
+      "avg": 82,
+      "high": 91,
+      "obs": 29
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -1591,6 +1927,12 @@
       "avgHigh": 89,
       "high": 91
     },
+    "weatherF": {
+      "low": 73,
+      "avg": 78.6,
+      "high": 84,
+      "obs": 48
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-07-09T18:53:13-04:00"
@@ -1618,6 +1960,12 @@
       "avg": 80,
       "avgHigh": 89,
       "high": 91
+    },
+    "weatherF": {
+      "low": 73,
+      "avg": 78.6,
+      "high": 84,
+      "obs": 48
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -1647,6 +1995,12 @@
       "avgHigh": 90,
       "high": 95
     },
+    "weatherF": {
+      "low": 70,
+      "avg": 83.5,
+      "high": 95,
+      "obs": 28
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-07-13T12:58:33-04:00"
@@ -1674,6 +2028,12 @@
       "avg": 80,
       "avgHigh": 91,
       "high": 95
+    },
+    "weatherF": {
+      "low": 75,
+      "avg": 83.6,
+      "high": 95,
+      "obs": 26
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -1703,6 +2063,12 @@
       "avgHigh": 92,
       "high": 95
     },
+    "weatherF": {
+      "low": 67,
+      "avg": 77.6,
+      "high": 87,
+      "obs": 35
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-07-13T12:58:33-04:00"
@@ -1730,6 +2096,12 @@
       "avg": 77,
       "avgHigh": 89,
       "high": 95
+    },
+    "weatherF": {
+      "low": 58,
+      "avg": 70.7,
+      "high": 87,
+      "obs": 35
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -1759,6 +2131,12 @@
       "avgHigh": 85,
       "high": 88
     },
+    "weatherF": {
+      "low": 69,
+      "avg": 73.7,
+      "high": 78,
+      "obs": 26
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-07-23T17:26:24-04:00"
@@ -1786,6 +2164,12 @@
       "avg": 73,
       "avgHigh": 82,
       "high": 88
+    },
+    "weatherF": {
+      "low": 67,
+      "avg": 70.4,
+      "high": 73,
+      "obs": 38
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -1815,6 +2199,12 @@
       "avgHigh": 81,
       "high": 87
     },
+    "weatherF": {
+      "low": 58,
+      "avg": 73.2,
+      "high": 87,
+      "obs": 25
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-07-23T17:26:24-04:00"
@@ -1842,6 +2232,12 @@
       "avg": 70,
       "avgHigh": 83,
       "high": 87
+    },
+    "weatherF": {
+      "low": 66,
+      "avg": 69.5,
+      "high": 75,
+      "obs": 46
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -1871,6 +2267,12 @@
       "avgHigh": 85,
       "high": 93
     },
+    "weatherF": {
+      "low": 71,
+      "avg": 82.4,
+      "high": 93,
+      "obs": 25
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-07-29T18:39:30-04:00"
@@ -1898,6 +2300,12 @@
       "avg": 80,
       "avgHigh": 91,
       "high": 95
+    },
+    "weatherF": {
+      "low": 79,
+      "avg": 83.7,
+      "high": 93,
+      "obs": 33
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -1927,6 +2335,12 @@
       "avgHigh": 92,
       "high": 95
     },
+    "weatherF": {
+      "low": 66,
+      "avg": 74.7,
+      "high": 90,
+      "obs": 37
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-08-05T18:16:33-04:00"
@@ -1954,6 +2368,12 @@
       "avg": 74,
       "avgHigh": 84,
       "high": 93
+    },
+    "weatherF": {
+      "low": 57,
+      "avg": 64.2,
+      "high": 72,
+      "obs": 41
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -1983,6 +2403,12 @@
       "avgHigh": 84,
       "high": 93
     },
+    "weatherF": {
+      "low": 57,
+      "avg": 64.2,
+      "high": 72,
+      "obs": 41
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-08-07T17:21:01-04:00"
@@ -2010,6 +2436,12 @@
       "avg": 70,
       "avgHigh": 81,
       "high": 88
+    },
+    "weatherF": {
+      "low": 60,
+      "avg": 71.8,
+      "high": 83,
+      "obs": 26
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2039,6 +2471,12 @@
       "avgHigh": 84,
       "high": 88
     },
+    "weatherF": {
+      "low": 56,
+      "avg": 66.9,
+      "high": 82,
+      "obs": 30
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-08-07T17:21:01-04:00"
@@ -2066,6 +2504,12 @@
       "avg": 67,
       "avgHigh": 83,
       "high": 87
+    },
+    "weatherF": {
+      "low": 55,
+      "avg": 63.9,
+      "high": 87,
+      "obs": 66
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -2095,6 +2539,12 @@
       "avgHigh": 82,
       "high": 87
     },
+    "weatherF": {
+      "low": 57,
+      "avg": 64.4,
+      "high": 78,
+      "obs": 62
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-08-17T08:55:48-04:00"
@@ -2122,6 +2572,12 @@
       "avg": 68,
       "avgHigh": 80,
       "high": 87
+    },
+    "weatherF": {
+      "low": 69,
+      "avg": 73.8,
+      "high": 82,
+      "obs": 45
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2151,6 +2607,12 @@
       "avgHigh": 77,
       "high": 82
     },
+    "weatherF": {
+      "low": 53,
+      "avg": 64.2,
+      "high": 76,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-08-17T08:55:48-04:00"
@@ -2178,6 +2640,12 @@
       "avg": 64,
       "avgHigh": 77,
       "high": 83
+    },
+    "weatherF": {
+      "low": 51,
+      "avg": 59.6,
+      "high": 83,
+      "obs": 50
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -2207,6 +2675,12 @@
       "avgHigh": 84,
       "high": 91
     },
+    "weatherF": {
+      "low": 50,
+      "avg": 66,
+      "high": 74,
+      "obs": 25
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-08-28T17:44:13-04:00"
@@ -2234,6 +2708,12 @@
       "avg": 66,
       "avgHigh": 81,
       "high": 84
+    },
+    "weatherF": {
+      "low": 45,
+      "avg": 59.7,
+      "high": 82,
+      "obs": 32
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -2263,6 +2743,12 @@
       "avgHigh": 78,
       "high": 82
     },
+    "weatherF": {
+      "low": 57,
+      "avg": 66.9,
+      "high": 79,
+      "obs": 32
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-09-07T09:21:03-04:00"
@@ -2290,6 +2776,12 @@
       "avg": 62,
       "avgHigh": 77,
       "high": 80
+    },
+    "weatherF": {
+      "low": 49,
+      "avg": 61.5,
+      "high": 80,
+      "obs": 35
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2319,6 +2811,12 @@
       "avgHigh": 78,
       "high": 83
     },
+    "weatherF": {
+      "low": 45,
+      "avg": 57.1,
+      "high": 83,
+      "obs": 40
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-09-10T17:45:39-04:00"
@@ -2346,6 +2844,12 @@
       "avg": 60,
       "avgHigh": 82,
       "high": 85
+    },
+    "weatherF": {
+      "low": 53,
+      "avg": 61.7,
+      "high": 84,
+      "obs": 58
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2375,6 +2879,12 @@
       "avgHigh": 83,
       "high": 85
     },
+    "weatherF": {
+      "low": 43,
+      "avg": 53.7,
+      "high": 84,
+      "obs": 65
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-09-14T08:45:08-04:00"
@@ -2402,6 +2912,12 @@
       "avg": 60,
       "avgHigh": 82,
       "high": 84
+    },
+    "weatherF": {
+      "low": 49,
+      "avg": 58.9,
+      "high": 79,
+      "obs": 58
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2431,6 +2947,12 @@
       "avgHigh": 74,
       "high": 84
     },
+    "weatherF": {
+      "low": 59,
+      "avg": 60.2,
+      "high": 63,
+      "obs": 44
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-09-14T08:45:08-04:00"
@@ -2458,6 +2980,12 @@
       "avg": 63,
       "avgHigh": 70,
       "high": 80
+    },
+    "weatherF": {
+      "low": 59,
+      "avg": 66.4,
+      "high": 80,
+      "obs": 32
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2487,6 +3015,12 @@
       "avgHigh": 72,
       "high": 80
     },
+    "weatherF": {
+      "low": 55,
+      "avg": 61.2,
+      "high": 74,
+      "obs": 57
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-09-14T08:45:08-04:00"
@@ -2514,6 +3048,12 @@
       "avg": 62,
       "avgHigh": 72,
       "high": 80
+    },
+    "weatherF": {
+      "low": 49,
+      "avg": 56.8,
+      "high": 67,
+      "obs": 49
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -2543,6 +3083,12 @@
       "avgHigh": 73,
       "high": 80
     },
+    "weatherF": {
+      "low": 48,
+      "avg": 56.2,
+      "high": 70,
+      "obs": 57
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-01T17:39:23-04:00"
@@ -2570,6 +3116,12 @@
       "avg": 56,
       "avgHigh": 71,
       "high": 75
+    },
+    "weatherF": {
+      "low": 46,
+      "avg": 54.8,
+      "high": 68,
+      "obs": 42
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2599,6 +3151,12 @@
       "avgHigh": 71,
       "high": 75
     },
+    "weatherF": {
+      "low": 42,
+      "avg": 52.2,
+      "high": 75,
+      "obs": 46
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-01T17:39:23-04:00"
@@ -2626,6 +3184,12 @@
       "avg": 55,
       "avgHigh": 73,
       "high": 76
+    },
+    "weatherF": {
+      "low": 42,
+      "avg": 55.2,
+      "high": 76,
+      "obs": 54
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -2655,6 +3219,12 @@
       "avgHigh": 72,
       "high": 76
     },
+    "weatherF": {
+      "low": 43,
+      "avg": 56.7,
+      "high": 64,
+      "obs": 55
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-07T17:43:23-04:00"
@@ -2682,6 +3252,12 @@
       "avg": 51,
       "avgHigh": 69,
       "high": 76
+    },
+    "weatherF": {
+      "low": 37,
+      "avg": 47.3,
+      "high": 67,
+      "obs": 40
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2711,6 +3287,12 @@
       "avgHigh": 69,
       "high": 76
     },
+    "weatherF": {
+      "low": 37,
+      "avg": 47.3,
+      "high": 67,
+      "obs": 40
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-07T17:43:23-04:00"
@@ -2738,6 +3320,12 @@
       "avg": 51,
       "avgHigh": 66,
       "high": 70
+    },
+    "weatherF": {
+      "low": 46,
+      "avg": 52.9,
+      "high": 61,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2767,6 +3355,12 @@
       "avgHigh": 68,
       "high": 74
     },
+    "weatherF": {
+      "low": 34,
+      "avg": 58.8,
+      "high": 74,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-10-07T17:43:23-04:00"
@@ -2794,6 +3388,12 @@
       "avg": 51,
       "avgHigh": 63,
       "high": 74
+    },
+    "weatherF": {
+      "low": 43,
+      "avg": 50.8,
+      "high": 54,
+      "obs": 45
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2823,6 +3423,12 @@
       "avgHigh": 62,
       "high": 74
     },
+    "weatherF": {
+      "low": 34,
+      "avg": 47.1,
+      "high": 58,
+      "obs": 25
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-14T16:57:16-04:00"
@@ -2850,6 +3456,12 @@
       "avg": 50,
       "avgHigh": 62,
       "high": 74
+    },
+    "weatherF": {
+      "low": 34,
+      "avg": 47.1,
+      "high": 58,
+      "obs": 25
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2879,6 +3491,12 @@
       "avgHigh": 60,
       "high": 74
     },
+    "weatherF": {
+      "low": 31,
+      "avg": 46.6,
+      "high": 59,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-14T16:57:16-04:00"
@@ -2906,6 +3524,12 @@
       "avg": 45,
       "avgHigh": 56,
       "high": 59
+    },
+    "weatherF": {
+      "low": 26,
+      "avg": 37.4,
+      "high": 57,
+      "obs": 35
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2935,6 +3559,12 @@
       "avgHigh": 56,
       "high": 59
     },
+    "weatherF": {
+      "low": 26,
+      "avg": 37.4,
+      "high": 57,
+      "obs": 35
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-14T16:57:16-04:00"
@@ -2962,6 +3592,12 @@
       "avg": 45,
       "avgHigh": 58,
       "high": 62
+    },
+    "weatherF": {
+      "low": 29,
+      "avg": 41.6,
+      "high": 62,
+      "obs": 39
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -2991,6 +3627,12 @@
       "avgHigh": 62,
       "high": 74
     },
+    "weatherF": {
+      "low": 28,
+      "avg": 38,
+      "high": 74,
+      "obs": 64
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-14T16:57:16-04:00"
@@ -3018,6 +3660,12 @@
       "avg": 43,
       "avgHigh": 71,
       "high": 85
+    },
+    "weatherF": {
+      "low": 36,
+      "avg": 56.2,
+      "high": 85,
+      "obs": 28
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3047,6 +3695,12 @@
       "avgHigh": 76,
       "high": 85
     },
+    "weatherF": {
+      "low": 46,
+      "avg": 56.5,
+      "high": 79,
+      "obs": 35
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-10-14T16:57:16-04:00"
@@ -3074,6 +3728,12 @@
       "avg": 49,
       "avgHigh": 79,
       "high": 85
+    },
+    "weatherF": {
+      "low": 45,
+      "avg": 55.3,
+      "high": 80,
+      "obs": 48
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3103,6 +3763,12 @@
       "avgHigh": 79,
       "high": 85
     },
+    "weatherF": {
+      "low": 48,
+      "avg": 56.8,
+      "high": 73,
+      "obs": 46
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-23T17:57:02-04:00"
@@ -3130,6 +3796,12 @@
       "avg": 55,
       "avgHigh": 76,
       "high": 85
+    },
+    "weatherF": {
+      "low": 37,
+      "avg": 50.4,
+      "high": 64,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3159,6 +3831,12 @@
       "avgHigh": 68,
       "high": 80
     },
+    "weatherF": {
+      "low": 29,
+      "avg": 41.2,
+      "high": 57,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-10-23T17:57:02-04:00"
@@ -3186,6 +3864,12 @@
       "avg": 49,
       "avgHigh": 63,
       "high": 73
+    },
+    "weatherF": {
+      "low": 27,
+      "avg": 41.7,
+      "high": 52,
+      "obs": 27
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3215,6 +3899,12 @@
       "avgHigh": 60,
       "high": 68
     },
+    "weatherF": {
+      "low": 27,
+      "avg": 45.9,
+      "high": 57,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-28T06:27:11-04:00"
@@ -3242,6 +3932,12 @@
       "avg": 47,
       "avgHigh": 60,
       "high": 68
+    },
+    "weatherF": {
+      "low": 27,
+      "avg": 45.9,
+      "high": 57,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3271,6 +3967,12 @@
       "avgHigh": 62,
       "high": 75
     },
+    "weatherF": {
+      "low": 50,
+      "avg": 60,
+      "high": 75,
+      "obs": 29
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-10-28T06:27:11-04:00"
@@ -3298,6 +4000,12 @@
       "avg": 54,
       "avgHigh": 69,
       "high": 81
+    },
+    "weatherF": {
+      "low": 53,
+      "avg": 67.2,
+      "high": 81,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -3327,6 +4035,12 @@
       "avgHigh": 64,
       "high": 81
     },
+    "weatherF": {
+      "low": 22,
+      "avg": 40.1,
+      "high": 53,
+      "obs": 34
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-11-04T06:15:29-05:00"
@@ -3354,6 +4068,12 @@
       "avg": 51,
       "avgHigh": 64,
       "high": 81
+    },
+    "weatherF": {
+      "low": 45,
+      "avg": 63.2,
+      "high": 77,
+      "obs": 25
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3383,6 +4103,12 @@
       "avgHigh": 64,
       "high": 81
     },
+    "weatherF": {
+      "low": 45,
+      "avg": 63.2,
+      "high": 77,
+      "obs": 25
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-11-04T06:15:29-05:00"
@@ -3410,6 +4136,12 @@
       "avg": 52,
       "avgHigh": 64,
       "high": 83
+    },
+    "weatherF": {
+      "low": 58,
+      "avg": 71.8,
+      "high": 83,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3439,6 +4171,12 @@
       "avgHigh": 71,
       "high": 83
     },
+    "weatherF": {
+      "low": 26,
+      "avg": 43.6,
+      "high": 54,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-11-04T06:15:29-05:00"
@@ -3466,6 +4204,12 @@
       "avg": 51,
       "avgHigh": 65,
       "high": 72
+    },
+    "weatherF": {
+      "low": 49,
+      "avg": 59.4,
+      "high": 70,
+      "obs": 34
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3495,6 +4239,12 @@
       "avgHigh": 61,
       "high": 70
     },
+    "weatherF": {
+      "low": 35,
+      "avg": 45.9,
+      "high": 54,
+      "obs": 26
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-11-04T06:15:29-05:00"
@@ -3522,6 +4272,12 @@
       "avg": 46,
       "avgHigh": 57,
       "high": 70
+    },
+    "weatherF": {
+      "low": 28,
+      "avg": 37.6,
+      "high": 47,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3551,6 +4307,12 @@
       "avgHigh": 57,
       "high": 70
     },
+    "weatherF": {
+      "low": 28,
+      "avg": 37.6,
+      "high": 47,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-11-04T06:15:29-05:00"
@@ -3578,6 +4340,12 @@
       "avg": 45,
       "avgHigh": 56,
       "high": 70
+    },
+    "weatherF": {
+      "low": 23,
+      "avg": 34.9,
+      "high": 46,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3607,6 +4375,12 @@
       "avgHigh": 56,
       "high": 70
     },
+    "weatherF": {
+      "low": 20,
+      "avg": 41.5,
+      "high": 62,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-11-04T06:15:29-05:00"
@@ -3634,6 +4408,12 @@
       "avg": 42,
       "avgHigh": 57,
       "high": 66
+    },
+    "weatherF": {
+      "low": 28,
+      "avg": 45.5,
+      "high": 66,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -3663,6 +4443,12 @@
       "avgHigh": 60,
       "high": 66
     },
+    "weatherF": {
+      "low": 33,
+      "avg": 47.1,
+      "high": 64,
+      "obs": 23
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-11-18T06:43:13-05:00"
@@ -3690,6 +4476,12 @@
       "avg": 44,
       "avgHigh": 60,
       "high": 66
+    },
+    "weatherF": {
+      "low": 33,
+      "avg": 47.1,
+      "high": 64,
+      "obs": 23
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3719,6 +4511,12 @@
       "avgHigh": 63,
       "high": 66
     },
+    "weatherF": {
+      "low": 30,
+      "avg": 45,
+      "high": 60,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-11-18T06:43:13-05:00"
@@ -3746,6 +4544,12 @@
       "avg": 45,
       "avgHigh": 62,
       "high": 66
+    },
+    "weatherF": {
+      "low": 24,
+      "avg": 38.3,
+      "high": 56,
+      "obs": 32
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3775,6 +4579,12 @@
       "avgHigh": 59,
       "high": 66
     },
+    "weatherF": {
+      "low": 42,
+      "avg": 47.4,
+      "high": 49,
+      "obs": 64
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-11-18T06:43:13-05:00"
@@ -3802,6 +4612,12 @@
       "avg": 45,
       "avgHigh": 57,
       "high": 64
+    },
+    "weatherF": {
+      "low": 44,
+      "avg": 48,
+      "high": 54,
+      "obs": 39
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -3831,6 +4647,12 @@
       "avgHigh": 46,
       "high": 52
     },
+    "weatherF": {
+      "low": 22,
+      "avg": 30.8,
+      "high": 39,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-01T12:47:18-05:00"
@@ -3858,6 +4680,12 @@
       "avg": 35,
       "avgHigh": 44,
       "high": 49
+    },
+    "weatherF": {
+      "low": 15,
+      "avg": 26.4,
+      "high": 40,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3887,6 +4715,12 @@
       "avgHigh": 44,
       "high": 49
     },
+    "weatherF": {
+      "low": 15,
+      "avg": 26.4,
+      "high": 40,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-01T12:47:18-05:00"
@@ -3914,6 +4748,12 @@
       "avg": 32,
       "avgHigh": 42,
       "high": 48
+    },
+    "weatherF": {
+      "low": 15,
+      "avg": 28.2,
+      "high": 39,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3943,6 +4783,12 @@
       "avgHigh": 42,
       "high": 48
     },
+    "weatherF": {
+      "low": 15,
+      "avg": 28.2,
+      "high": 39,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-01T12:47:18-05:00"
@@ -3970,6 +4816,12 @@
       "avg": 31,
       "avgHigh": 40,
       "high": 43
+    },
+    "weatherF": {
+      "low": 20,
+      "avg": 34.3,
+      "high": 41,
+      "obs": 25
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -3999,6 +4851,12 @@
       "avgHigh": 40,
       "high": 43
     },
+    "weatherF": {
+      "low": 20,
+      "avg": 34.3,
+      "high": 41,
+      "obs": 25
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-01T12:47:18-05:00"
@@ -4026,6 +4884,12 @@
       "avg": 31,
       "avgHigh": 40,
       "high": 42
+    },
+    "weatherF": {
+      "low": 34,
+      "avg": 36.9,
+      "high": 42,
+      "obs": 47
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4055,6 +4919,12 @@
       "avgHigh": 39,
       "high": 42
     },
+    "weatherF": {
+      "low": 27,
+      "avg": 31.5,
+      "high": 35,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-01T12:47:18-05:00"
@@ -4082,6 +4952,12 @@
       "avg": 36,
       "avgHigh": 42,
       "high": 52
+    },
+    "weatherF": {
+      "low": 32,
+      "avg": 42.9,
+      "high": 52,
+      "obs": 26
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -4111,6 +4987,12 @@
       "avgHigh": 51,
       "high": 65
     },
+    "weatherF": {
+      "low": 38,
+      "avg": 53.4,
+      "high": 65,
+      "obs": 66
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-10T18:41:41-05:00"
@@ -4138,6 +5020,12 @@
       "avg": 43,
       "avgHigh": 54,
       "high": 65
+    },
+    "weatherF": {
+      "low": 29,
+      "avg": 40.9,
+      "high": 58,
+      "obs": 28
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4167,6 +5055,12 @@
       "avgHigh": 51,
       "high": 65
     },
+    "weatherF": {
+      "low": 23,
+      "avg": 29.5,
+      "high": 35,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-10T18:41:41-05:00"
@@ -4194,6 +5088,12 @@
       "avg": 37,
       "avgHigh": 48,
       "high": 65
+    },
+    "weatherF": {
+      "low": 18,
+      "avg": 24.9,
+      "high": 36,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -4223,6 +5123,12 @@
       "avgHigh": 43,
       "high": 58
     },
+    "weatherF": {
+      "low": 29,
+      "avg": 40,
+      "high": 49,
+      "obs": 31
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-16T06:28:55-05:00"
@@ -4250,6 +5156,12 @@
       "avg": 32,
       "avgHigh": 43,
       "high": 58
+    },
+    "weatherF": {
+      "low": 29,
+      "avg": 40,
+      "high": 49,
+      "obs": 31
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4279,6 +5191,12 @@
       "avgHigh": 44,
       "high": 62
     },
+    "weatherF": {
+      "low": 40,
+      "avg": 53.5,
+      "high": 62,
+      "obs": 34
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-16T06:28:55-05:00"
@@ -4306,6 +5224,12 @@
       "avg": 40,
       "avgHigh": 49,
       "high": 62
+    },
+    "weatherF": {
+      "low": 32,
+      "avg": 40.3,
+      "high": 47,
+      "obs": 31
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -4335,6 +5259,12 @@
       "avgHigh": 49,
       "high": 62
     },
+    "weatherF": {
+      "low": 28,
+      "avg": 32.5,
+      "high": 36,
+      "obs": 46
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-20T05:26:50-05:00"
@@ -4362,6 +5292,12 @@
       "avg": 30,
       "avgHigh": 37,
       "high": 52
+    },
+    "weatherF": {
+      "low": 8,
+      "avg": 14.8,
+      "high": 21,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4391,6 +5327,12 @@
       "avgHigh": 30,
       "high": 36
     },
+    "weatherF": {
+      "low": 17,
+      "avg": 26.4,
+      "high": 35,
+      "obs": 32
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2024-12-20T05:26:50-05:00"
@@ -4418,6 +5360,12 @@
       "avg": 33,
       "avgHigh": 43,
       "high": 55
+    },
+    "weatherF": {
+      "low": 37,
+      "avg": 45.6,
+      "high": 55,
+      "obs": 45
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4447,6 +5395,12 @@
       "avgHigh": 53,
       "high": 60
     },
+    "weatherF": {
+      "low": 35,
+      "avg": 39.8,
+      "high": 45,
+      "obs": 22
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2024-12-29T08:28:03-05:00"
@@ -4474,6 +5428,12 @@
       "avg": 44,
       "avgHigh": 50,
       "high": 60
+    },
+    "weatherF": {
+      "low": 27,
+      "avg": 34.7,
+      "high": 40,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -4503,6 +5463,12 @@
       "avgHigh": 41,
       "high": 50
     },
+    "weatherF": {
+      "low": 24,
+      "avg": 30.7,
+      "high": 36,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-01-05T08:38:25-05:00"
@@ -4530,6 +5496,12 @@
       "avg": 32,
       "avgHigh": 36,
       "high": 45
+    },
+    "weatherF": {
+      "low": 20,
+      "avg": 23.8,
+      "high": 27,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4559,6 +5531,12 @@
       "avgHigh": 33,
       "high": 40
     },
+    "weatherF": {
+      "low": 16,
+      "avg": 22.9,
+      "high": 29,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-01-05T08:38:25-05:00"
@@ -4586,6 +5564,12 @@
       "avg": 26,
       "avgHigh": 31,
       "high": 36
+    },
+    "weatherF": {
+      "low": 19,
+      "avg": 24.8,
+      "high": 31,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4615,6 +5599,12 @@
       "avgHigh": 30,
       "high": 36
     },
+    "weatherF": {
+      "low": 19,
+      "avg": 24.3,
+      "high": 29,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-01-05T08:38:25-05:00"
@@ -4642,6 +5632,12 @@
       "avg": 27,
       "avgHigh": 33,
       "high": 45
+    },
+    "weatherF": {
+      "low": 26,
+      "avg": 30.5,
+      "high": 33,
+      "obs": 49
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4671,6 +5667,12 @@
       "avgHigh": 35,
       "high": 45
     },
+    "weatherF": {
+      "low": 18,
+      "avg": 28.1,
+      "high": 39,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-01-11T07:16:02-05:00"
@@ -4698,6 +5700,12 @@
       "avg": 29,
       "avgHigh": 38,
       "high": 45
+    },
+    "weatherF": {
+      "low": 21,
+      "avg": 33.2,
+      "high": 42,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4727,6 +5735,12 @@
       "avgHigh": 38,
       "high": 45
     },
+    "weatherF": {
+      "low": 21,
+      "avg": 33.2,
+      "high": 42,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-01-11T07:16:02-05:00"
@@ -4754,6 +5768,12 @@
       "avg": 30,
       "avgHigh": 39,
       "high": 45
+    },
+    "weatherF": {
+      "low": 21,
+      "avg": 28.8,
+      "high": 35,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4783,6 +5803,12 @@
       "avgHigh": 36,
       "high": 42
     },
+    "weatherF": {
+      "low": 20,
+      "avg": 25.9,
+      "high": 33,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-01-11T07:16:02-05:00"
@@ -4810,6 +5836,12 @@
       "avg": 29,
       "avgHigh": 36,
       "high": 42
+    },
+    "weatherF": {
+      "low": 20,
+      "avg": 25.9,
+      "high": 33,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4839,6 +5871,12 @@
       "avgHigh": 37,
       "high": 42
     },
+    "weatherF": {
+      "low": 10,
+      "avg": 22.9,
+      "high": 34,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-01-11T07:16:02-05:00"
@@ -4866,6 +5904,12 @@
       "avg": 28,
       "avgHigh": 37,
       "high": 46
+    },
+    "weatherF": {
+      "low": 16,
+      "avg": 39.3,
+      "high": 46,
+      "obs": 36
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -4895,6 +5939,12 @@
       "avgHigh": 37,
       "high": 47
     },
+    "weatherF": {
+      "low": 1,
+      "avg": 13,
+      "high": 21,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-01-21T06:11:04-05:00"
@@ -4922,6 +5972,12 @@
       "avg": 24,
       "avgHigh": 33,
       "high": 47
+    },
+    "weatherF": {
+      "low": 0,
+      "avg": 12.2,
+      "high": 23,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -4951,6 +6007,12 @@
       "avgHigh": 31,
       "high": 47
     },
+    "weatherF": {
+      "low": 8,
+      "avg": 19.4,
+      "high": 32,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-01-21T06:11:04-05:00"
@@ -4978,6 +6040,12 @@
       "avg": 17,
       "avgHigh": 28,
       "high": 34
+    },
+    "weatherF": {
+      "low": 5,
+      "avg": 20.8,
+      "high": 31,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5007,6 +6075,12 @@
       "avgHigh": 32,
       "high": 42
     },
+    "weatherF": {
+      "low": 19,
+      "avg": 32.5,
+      "high": 42,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-01-21T06:11:04-05:00"
@@ -5034,6 +6108,12 @@
       "avg": 25,
       "avgHigh": 36,
       "high": 42
+    },
+    "weatherF": {
+      "low": 14,
+      "avg": 30.3,
+      "high": 41,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5063,6 +6143,12 @@
       "avgHigh": 38,
       "high": 42
     },
+    "weatherF": {
+      "low": 27,
+      "avg": 34.1,
+      "high": 40,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-01-27T06:29:49-05:00"
@@ -5090,6 +6176,12 @@
       "avg": 30,
       "avgHigh": 41,
       "high": 51
+    },
+    "weatherF": {
+      "low": 24,
+      "avg": 32.4,
+      "high": 51,
+      "obs": 36
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5119,6 +6211,12 @@
       "avgHigh": 41,
       "high": 51
     },
+    "weatherF": {
+      "low": 18,
+      "avg": 24.8,
+      "high": 30,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-01-27T06:29:49-05:00"
@@ -5146,6 +6244,12 @@
       "avg": 32,
       "avgHigh": 40,
       "high": 51
+    },
+    "weatherF": {
+      "low": 16,
+      "avg": 30.1,
+      "high": 36,
+      "obs": 42
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5175,6 +6279,12 @@
       "avgHigh": 38,
       "high": 46
     },
+    "weatherF": {
+      "low": 12,
+      "avg": 22.4,
+      "high": 31,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-01-27T06:29:49-05:00"
@@ -5202,6 +6312,12 @@
       "avg": 30,
       "avgHigh": 38,
       "high": 46
+    },
+    "weatherF": {
+      "low": 12,
+      "avg": 22.4,
+      "high": 31,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5231,6 +6347,12 @@
       "avgHigh": 38,
       "high": 45
     },
+    "weatherF": {
+      "low": 22,
+      "avg": 30,
+      "high": 37,
+      "obs": 29
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-02-05T18:31:20-05:00"
@@ -5258,6 +6380,12 @@
       "avg": 29,
       "avgHigh": 36,
       "high": 41
+    },
+    "weatherF": {
+      "low": 11,
+      "avg": 25.2,
+      "high": 36,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5287,6 +6415,12 @@
       "avgHigh": 36,
       "high": 41
     },
+    "weatherF": {
+      "low": 6,
+      "avg": 24.2,
+      "high": 33,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-02-05T18:31:20-05:00"
@@ -5314,6 +6448,12 @@
       "avg": 28,
       "avgHigh": 35,
       "high": 37
+    },
+    "weatherF": {
+      "low": 27,
+      "avg": 32.2,
+      "high": 35,
+      "obs": 30
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -5343,6 +6483,12 @@
       "avgHigh": 36,
       "high": 43
     },
+    "weatherF": {
+      "low": 26,
+      "avg": 35.3,
+      "high": 43,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-02-23T07:44:56-05:00"
@@ -5370,6 +6516,12 @@
       "avg": 30,
       "avgHigh": 39,
       "high": 46
+    },
+    "weatherF": {
+      "low": 23,
+      "avg": 37.1,
+      "high": 46,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5399,6 +6551,12 @@
       "avgHigh": 48,
       "high": 57
     },
+    "weatherF": {
+      "low": 30,
+      "avg": 43.5,
+      "high": 54,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-02-23T07:44:56-05:00"
@@ -5426,6 +6584,12 @@
       "avg": 42,
       "avgHigh": 52,
       "high": 57
+    },
+    "weatherF": {
+      "low": 33,
+      "avg": 41.5,
+      "high": 49,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -5455,6 +6619,12 @@
       "avgHigh": 53,
       "high": 57
     },
+    "weatherF": {
+      "low": 26,
+      "avg": 41.7,
+      "high": 52,
+      "obs": 26
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-03-01T15:54:36-05:00"
@@ -5482,6 +6652,12 @@
       "avg": 34,
       "avgHigh": 43,
       "high": 52
+    },
+    "weatherF": {
+      "low": 23,
+      "avg": 39.3,
+      "high": 51,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5511,6 +6687,12 @@
       "avgHigh": 47,
       "high": 59
     },
+    "weatherF": {
+      "low": 37,
+      "avg": 53.7,
+      "high": 59,
+      "obs": 42
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-03-01T15:54:36-05:00"
@@ -5538,6 +6720,12 @@
       "avg": 42,
       "avgHigh": 47,
       "high": 59
+    },
+    "weatherF": {
+      "low": 31,
+      "avg": 31.5,
+      "high": 32,
+      "obs": 2
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5567,6 +6755,12 @@
       "avgHigh": 51,
       "high": 65
     },
+    "weatherF": {
+      "low": 36,
+      "avg": 43.4,
+      "high": 50,
+      "obs": 25
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-03-01T15:54:36-05:00"
@@ -5594,6 +6788,12 @@
       "avg": 41,
       "avgHigh": 52,
       "high": 65
+    },
+    "weatherF": {
+      "low": 36,
+      "avg": 40.4,
+      "high": 49,
+      "obs": 27
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -5623,6 +6823,12 @@
       "avgHigh": 58,
       "high": 72
     },
+    "weatherF": {
+      "low": 46,
+      "avg": 58.4,
+      "high": 72,
+      "obs": 43
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-03-16T11:52:58-04:00"
@@ -5650,6 +6856,12 @@
       "avg": 50,
       "avgHigh": 60,
       "high": 72
+    },
+    "weatherF": {
+      "low": 30,
+      "avg": 42.3,
+      "high": 55,
+      "obs": 27
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5679,6 +6891,12 @@
       "avgHigh": 55,
       "high": 62
     },
+    "weatherF": {
+      "low": 41,
+      "avg": 47.1,
+      "high": 49,
+      "obs": 37
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-03-16T11:52:58-04:00"
@@ -5706,6 +6924,12 @@
       "avg": 44,
       "avgHigh": 54,
       "high": 64
+    },
+    "weatherF": {
+      "low": 30,
+      "avg": 36.7,
+      "high": 46,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -5735,6 +6959,12 @@
       "avgHigh": 52,
       "high": 64
     },
+    "weatherF": {
+      "low": 34,
+      "avg": 40.2,
+      "high": 57,
+      "obs": 48
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-03-25T06:20:23-04:00"
@@ -5762,6 +6992,12 @@
       "avg": 42,
       "avgHigh": 53,
       "high": 64
+    },
+    "weatherF": {
+      "low": 31,
+      "avg": 43.7,
+      "high": 53,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5791,6 +7027,12 @@
       "avgHigh": 54,
       "high": 62
     },
+    "weatherF": {
+      "low": 29,
+      "avg": 49.3,
+      "high": 62,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-03-25T06:20:23-04:00"
@@ -5818,6 +7060,12 @@
       "avg": 47,
       "avgHigh": 57,
       "high": 64
+    },
+    "weatherF": {
+      "low": 39,
+      "avg": 53.3,
+      "high": 59,
+      "obs": 40
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5847,6 +7095,12 @@
       "avgHigh": 56,
       "high": 67
     },
+    "weatherF": {
+      "low": 37,
+      "avg": 53.9,
+      "high": 67,
+      "obs": 44
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-03-31T21:48:02-04:00"
@@ -5874,6 +7128,12 @@
       "avg": 50,
       "avgHigh": 59,
       "high": 72
+    },
+    "weatherF": {
+      "low": 39,
+      "avg": 41.1,
+      "high": 50,
+      "obs": 37
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -5903,6 +7163,12 @@
       "avgHigh": 50,
       "high": 55
     },
+    "weatherF": {
+      "low": 29,
+      "avg": 37.9,
+      "high": 48,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-04-08T18:32:05-04:00"
@@ -5930,6 +7196,12 @@
       "avg": 40,
       "avgHigh": 49,
       "high": 55
+    },
+    "weatherF": {
+      "low": 35,
+      "avg": 40.4,
+      "high": 49,
+      "obs": 40
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -5959,6 +7231,12 @@
       "avgHigh": 48,
       "high": 55
     },
+    "weatherF": {
+      "low": 39,
+      "avg": 42.6,
+      "high": 48,
+      "obs": 43
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-04-08T18:32:05-04:00"
@@ -5986,6 +7264,12 @@
       "avg": 46,
       "avgHigh": 56,
       "high": 71
+    },
+    "weatherF": {
+      "low": 42,
+      "avg": 46.8,
+      "high": 53,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -6015,6 +7299,12 @@
       "avgHigh": 60,
       "high": 71
     },
+    "weatherF": {
+      "low": 37,
+      "avg": 49.5,
+      "high": 61,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-04-08T18:32:05-04:00"
@@ -6042,6 +7332,12 @@
       "avg": 50,
       "avgHigh": 65,
       "high": 71
+    },
+    "weatherF": {
+      "low": 28,
+      "avg": 52.4,
+      "high": 69,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -6071,6 +7367,12 @@
       "avgHigh": 68,
       "high": 85
     },
+    "weatherF": {
+      "low": 51,
+      "avg": 61.9,
+      "high": 72,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-04-20T18:01:56-04:00"
@@ -6098,6 +7400,12 @@
       "avg": 58,
       "avgHigh": 73,
       "high": 85
+    },
+    "weatherF": {
+      "low": 48,
+      "avg": 56.2,
+      "high": 77,
+      "obs": 35
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -6127,6 +7435,12 @@
       "avgHigh": 73,
       "high": 77
     },
+    "weatherF": {
+      "low": 42,
+      "avg": 60.6,
+      "high": 77,
+      "obs": 25
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-04-20T18:01:56-04:00"
@@ -6154,6 +7468,12 @@
       "avg": 61,
       "avgHigh": 73,
       "high": 83
+    },
+    "weatherF": {
+      "low": 41,
+      "avg": 64.1,
+      "high": 81,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -6183,6 +7503,12 @@
       "avgHigh": 73,
       "high": 81
     },
+    "weatherF": {
+      "low": 37,
+      "avg": 55.9,
+      "high": 73,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-04-30T21:33:21-04:00"
@@ -6210,6 +7536,12 @@
       "avg": 61,
       "avgHigh": 73,
       "high": 86
+    },
+    "weatherF": {
+      "low": 52,
+      "avg": 56.6,
+      "high": 63,
+      "obs": 51
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -6239,6 +7571,12 @@
       "avgHigh": 65,
       "high": 76
     },
+    "weatherF": {
+      "low": 50,
+      "avg": 51.9,
+      "high": 56,
+      "obs": 46
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-05-09T08:06:00-04:00"
@@ -6266,6 +7604,12 @@
       "avg": 57,
       "avgHigh": 70,
       "high": 76
+    },
+    "weatherF": {
+      "low": 45,
+      "avg": 55.6,
+      "high": 72,
+      "obs": 34
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -6295,6 +7639,12 @@
       "avgHigh": 73,
       "high": 77
     },
+    "weatherF": {
+      "low": 47,
+      "avg": 61.9,
+      "high": 77,
+      "obs": 25
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-05-14T08:13:00-04:00"
@@ -6322,6 +7672,12 @@
       "avg": 61,
       "avgHigh": 74,
       "high": 77
+    },
+    "weatherF": {
+      "low": 59,
+      "avg": 65.7,
+      "high": 74,
+      "obs": 49
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -6351,6 +7707,12 @@
       "avgHigh": 71,
       "high": 80
     },
+    "weatherF": {
+      "low": 50,
+      "avg": 53.4,
+      "high": 60,
+      "obs": 27
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-05-20T08:09:00-04:00"
@@ -6378,6 +7740,12 @@
       "avg": 55,
       "avgHigh": 60,
       "high": 72
+    },
+    "weatherF": {
+      "low": 46,
+      "avg": 48.1,
+      "high": 50,
+      "obs": 48
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -6407,6 +7775,12 @@
       "avgHigh": 57,
       "high": 62
     },
+    "weatherF": {
+      "low": 52,
+      "avg": 57.1,
+      "high": 62,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-05-25T11:58:16-04:00"
@@ -6434,6 +7808,12 @@
       "avg": 63,
       "avgHigh": 72,
       "high": 80
+    },
+    "weatherF": {
+      "low": 58,
+      "avg": 63.4,
+      "high": 68,
+      "obs": 27
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -6463,6 +7843,12 @@
       "avgHigh": 72,
       "high": 79
     },
+    "weatherF": {
+      "low": 48,
+      "avg": 57.7,
+      "high": 66,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-06-01T09:03:19-04:00"
@@ -6490,6 +7876,12 @@
       "avg": 66,
       "avgHigh": 80,
       "high": 95
+    },
+    "weatherF": {
+      "low": 59,
+      "avg": 78.3,
+      "high": 95,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -6519,6 +7911,12 @@
       "avgHigh": 72,
       "high": 84
     },
+    "weatherF": {
+      "low": 58,
+      "avg": 60.6,
+      "high": 64,
+      "obs": 63
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-06-01T09:03:19-04:00"
@@ -6546,6 +7944,12 @@
       "avg": 65,
       "avgHigh": 74,
       "high": 88
+    },
+    "weatherF": {
+      "low": 61,
+      "avg": 75.8,
+      "high": 88,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -6575,6 +7979,12 @@
       "avgHigh": 73,
       "high": 78
     },
+    "weatherF": {
+      "low": 60,
+      "avg": 68.2,
+      "high": 75,
+      "obs": 49
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-06-01T09:03:19-04:00"
@@ -6602,6 +8012,12 @@
       "avg": 71,
       "avgHigh": 82,
       "high": 93
+    },
+    "weatherF": {
+      "low": 63,
+      "avg": 75.6,
+      "high": 85,
+      "obs": 26
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -6631,6 +8047,12 @@
       "avgHigh": 95,
       "high": 101
     },
+    "weatherF": {
+      "low": 74,
+      "avg": 84.2,
+      "high": 96,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-06-24T18:25:39-04:00"
@@ -6658,6 +8080,12 @@
       "avg": 74,
       "avgHigh": 85,
       "high": 101
+    },
+    "weatherF": {
+      "low": 62,
+      "avg": 67,
+      "high": 73,
+      "obs": 40
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -6687,6 +8115,12 @@
       "avgHigh": 82,
       "high": 90
     },
+    "weatherF": {
+      "low": 58,
+      "avg": 67.3,
+      "high": 90,
+      "obs": 54
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-06-28T08:13:50-04:00"
@@ -6714,6 +8148,12 @@
       "avg": 72,
       "avgHigh": 89,
       "high": 92
+    },
+    "weatherF": {
+      "low": 54,
+      "avg": 64.4,
+      "high": 83,
+      "obs": 43
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -6743,6 +8183,12 @@
       "avgHigh": 85,
       "high": 93
     },
+    "weatherF": {
+      "low": 66,
+      "avg": 68.1,
+      "high": 70,
+      "obs": 50
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-07-03T21:20:34-04:00"
@@ -6770,6 +8216,12 @@
       "avg": 73,
       "avgHigh": 82,
       "high": 86
+    },
+    "weatherF": {
+      "low": 69,
+      "avg": 75,
+      "high": 83,
+      "obs": 33
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -6799,6 +8251,12 @@
       "avgHigh": 88,
       "high": 93
     },
+    "weatherF": {
+      "low": 73,
+      "avg": 81.1,
+      "high": 89,
+      "obs": 38
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-07-16T18:22:48-04:00"
@@ -6826,6 +8284,12 @@
       "avg": 68,
       "avgHigh": 82,
       "high": 86
+    },
+    "weatherF": {
+      "low": 53,
+      "avg": 64,
+      "high": 83,
+      "obs": 38
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -6855,6 +8319,12 @@
       "avgHigh": 86,
       "high": 96
     },
+    "weatherF": {
+      "low": 67,
+      "avg": 77.5,
+      "high": 96,
+      "obs": 34
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-07-16T18:22:48-04:00"
@@ -6882,6 +8352,12 @@
       "avg": 71,
       "avgHigh": 86,
       "high": 96
+    },
+    "weatherF": {
+      "low": 53,
+      "avg": 62.1,
+      "high": 73,
+      "obs": 38
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -6911,6 +8387,12 @@
       "avgHigh": 83,
       "high": 96
     },
+    "weatherF": {
+      "low": 46,
+      "avg": 55.6,
+      "high": 76,
+      "obs": 56
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-07-16T18:22:48-04:00"
@@ -6938,6 +8420,12 @@
       "avg": 68,
       "avgHigh": 83,
       "high": 96
+    },
+    "weatherF": {
+      "low": 46,
+      "avg": 55.6,
+      "high": 76,
+      "obs": 56
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -6967,6 +8455,12 @@
       "avgHigh": 79,
       "high": 84
     },
+    "weatherF": {
+      "low": 53,
+      "avg": 63.7,
+      "high": 84,
+      "obs": 41
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-07-16T18:22:48-04:00"
@@ -6994,6 +8488,12 @@
       "avg": 62,
       "avgHigh": 80,
       "high": 84
+    },
+    "weatherF": {
+      "low": 55,
+      "avg": 63.4,
+      "high": 81,
+      "obs": 59
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -7023,6 +8523,12 @@
       "avgHigh": 86,
       "high": 91
     },
+    "weatherF": {
+      "low": 59,
+      "avg": 69.7,
+      "high": 91,
+      "obs": 42
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-08-10T20:52:48-04:00"
@@ -7050,6 +8556,12 @@
       "avg": 73,
       "avgHigh": 90,
       "high": 92
+    },
+    "weatherF": {
+      "low": 65,
+      "avg": 74.5,
+      "high": 89,
+      "obs": 41
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -7079,6 +8591,12 @@
       "avgHigh": 87,
       "high": 92
     },
+    "weatherF": {
+      "low": 55,
+      "avg": 66.6,
+      "high": 76,
+      "obs": 41
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-08-14T07:53:00-04:00"
@@ -7106,6 +8624,12 @@
       "avg": 66,
       "avgHigh": 79,
       "high": 85
+    },
+    "weatherF": {
+      "low": 58,
+      "avg": 67.4,
+      "high": 83,
+      "obs": 51
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -7135,6 +8659,12 @@
       "avgHigh": 79,
       "high": 83
     },
+    "weatherF": {
+      "low": 42,
+      "avg": 52.9,
+      "high": 77,
+      "obs": 49
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-08-27T19:18:22-04:00"
@@ -7162,6 +8692,12 @@
       "avg": 55,
       "avgHigh": 76,
       "high": 78
+    },
+    "weatherF": {
+      "low": 44,
+      "avg": 53.6,
+      "high": 77,
+      "obs": 61
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -7191,6 +8727,12 @@
       "avgHigh": 80,
       "high": 83
     },
+    "weatherF": {
+      "low": 66,
+      "avg": 71.6,
+      "high": 83,
+      "obs": 43
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-09-05T21:03:01-04:00"
@@ -7218,6 +8760,12 @@
       "avg": 57,
       "avgHigh": 71,
       "high": 83
+    },
+    "weatherF": {
+      "low": 46,
+      "avg": 52.4,
+      "high": 67,
+      "obs": 50
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -7247,6 +8795,12 @@
       "avgHigh": 74,
       "high": 78
     },
+    "weatherF": {
+      "low": 49,
+      "avg": 56.9,
+      "high": 78,
+      "obs": 55
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-09-14T11:48:40-04:00"
@@ -7274,6 +8828,12 @@
       "avg": 55,
       "avgHigh": 74,
       "high": 78
+    },
+    "weatherF": {
+      "low": 44,
+      "avg": 52.9,
+      "high": 72,
+      "obs": 63
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -7303,6 +8863,12 @@
       "avgHigh": 75,
       "high": 81
     },
+    "weatherF": {
+      "low": 51,
+      "avg": 58.5,
+      "high": 81,
+      "obs": 59
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-09-18T21:39:16-04:00"
@@ -7330,6 +8896,12 @@
       "avg": 54,
       "avgHigh": 74,
       "high": 81
+    },
+    "weatherF": {
+      "low": 53,
+      "avg": 66.1,
+      "high": 79,
+      "obs": 31
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -7359,6 +8931,12 @@
       "avgHigh": 81,
       "high": 84
     },
+    "weatherF": {
+      "low": 58,
+      "avg": 68.1,
+      "high": 82,
+      "obs": 29
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-09-22T20:51:25-04:00"
@@ -7386,6 +8964,12 @@
       "avg": 57,
       "avgHigh": 75,
       "high": 84
+    },
+    "weatherF": {
+      "low": 32,
+      "avg": 44.5,
+      "high": 56,
+      "obs": 28
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -7415,6 +8999,12 @@
       "avgHigh": 70,
       "high": 83
     },
+    "weatherF": {
+      "low": 28,
+      "avg": 37.3,
+      "high": 61,
+      "obs": 48
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-10-09T08:08:00-04:00"
@@ -7442,6 +9032,12 @@
       "avg": 54,
       "avgHigh": 70,
       "high": 83
+    },
+    "weatherF": {
+      "low": 28,
+      "avg": 37.3,
+      "high": 61,
+      "obs": 48
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -7471,6 +9067,12 @@
       "avgHigh": 62,
       "high": 70
     },
+    "weatherF": {
+      "low": 43,
+      "avg": 52.8,
+      "high": 58,
+      "obs": 58
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-10-09T08:08:00-04:00"
@@ -7498,6 +9100,12 @@
       "avg": 53,
       "avgHigh": 59,
       "high": 67
+    },
+    "weatherF": {
+      "low": 45,
+      "avg": 52.6,
+      "high": 62,
+      "obs": 43
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -7527,6 +9135,12 @@
       "avgHigh": 58,
       "high": 62
     },
+    "weatherF": {
+      "low": 37,
+      "avg": 48.5,
+      "high": 62,
+      "obs": 26
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-10-16T20:49:04-04:00"
@@ -7554,6 +9168,12 @@
       "avg": 48,
       "avgHigh": 62,
       "high": 68
+    },
+    "weatherF": {
+      "low": 39,
+      "avg": 50.4,
+      "high": 68,
+      "obs": 39
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -7583,6 +9203,12 @@
       "avgHigh": 66,
       "high": 68
     },
+    "weatherF": {
+      "low": 49,
+      "avg": 56.4,
+      "high": 66,
+      "obs": 36
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-10-21T19:22:42-04:00"
@@ -7610,6 +9236,12 @@
       "avg": 53,
       "avgHigh": 64,
       "high": 66
+    },
+    "weatherF": {
+      "low": 34,
+      "avg": 42.9,
+      "high": 58,
+      "obs": 28
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -7639,6 +9271,12 @@
       "avgHigh": 57,
       "high": 62
     },
+    "weatherF": {
+      "low": 28,
+      "avg": 38.4,
+      "high": 52,
+      "obs": 27
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-10-21T19:22:42-04:00"
@@ -7666,6 +9304,12 @@
       "avg": 43,
       "avgHigh": 53,
       "high": 57
+    },
+    "weatherF": {
+      "low": 47,
+      "avg": 47.9,
+      "high": 50,
+      "obs": 38
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -7695,6 +9339,12 @@
       "avgHigh": 54,
       "high": 59
     },
+    "weatherF": {
+      "low": 50,
+      "avg": 56.3,
+      "high": 59,
+      "obs": 35
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-10-28T20:48:36-04:00"
@@ -7722,6 +9372,12 @@
       "avg": 49,
       "avgHigh": 57,
       "high": 59
+    },
+    "weatherF": {
+      "low": 30,
+      "avg": 44.9,
+      "high": 56,
+      "obs": 33
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -7751,6 +9407,12 @@
       "avgHigh": 56,
       "high": 58
     },
+    "weatherF": {
+      "low": 29,
+      "avg": 47.4,
+      "high": 58,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-11-04T20:49:54-05:00"
@@ -7778,6 +9440,12 @@
       "avg": 46,
       "avgHigh": 56,
       "high": 58
+    },
+    "weatherF": {
+      "low": 26,
+      "avg": 44,
+      "high": 56,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -7807,6 +9475,12 @@
       "avgHigh": 47,
       "high": 54
     },
+    "weatherF": {
+      "low": 20,
+      "avg": 31.4,
+      "high": 46,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-11-04T20:49:54-05:00"
@@ -7834,6 +9508,12 @@
       "avg": 35,
       "avgHigh": 46,
       "high": 47
+    },
+    "weatherF": {
+      "low": 22,
+      "avg": 36.6,
+      "high": 47,
+      "obs": 31
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -7863,6 +9543,12 @@
       "avgHigh": 46,
       "high": 55
     },
+    "weatherF": {
+      "low": 20,
+      "avg": 34.9,
+      "high": 43,
+      "obs": 26
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2025-11-21T09:03:18-05:00"
@@ -7890,6 +9576,12 @@
       "avg": 35,
       "avgHigh": 43,
       "high": 50
+    },
+    "weatherF": {
+      "low": 20,
+      "avg": 32.1,
+      "high": 36,
+      "obs": 36
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -7919,6 +9611,12 @@
       "avgHigh": 42,
       "high": 50
     },
+    "weatherF": {
+      "low": 25,
+      "avg": 32.3,
+      "high": 38,
+      "obs": 35
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-12-02T18:16:17-05:00"
@@ -7946,6 +9644,12 @@
       "avg": 34,
       "avgHigh": 41,
       "high": 50
+    },
+    "weatherF": {
+      "low": 18,
+      "avg": 30.3,
+      "high": 40,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -7975,6 +9679,12 @@
       "avgHigh": 37,
       "high": 43
     },
+    "weatherF": {
+      "low": 11,
+      "avg": 19,
+      "high": 26,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-12-02T18:16:17-05:00"
@@ -8002,6 +9712,12 @@
       "avg": 29,
       "avgHigh": 37,
       "high": 41
+    },
+    "weatherF": {
+      "low": 20,
+      "avg": 31.1,
+      "high": 39,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -8031,6 +9747,12 @@
       "avgHigh": 36,
       "high": 41
     },
+    "weatherF": {
+      "low": 10,
+      "avg": 23.6,
+      "high": 33,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-12-08T06:18:19-05:00"
@@ -8058,6 +9780,12 @@
       "avg": 25,
       "avgHigh": 34,
       "high": 41
+    },
+    "weatherF": {
+      "low": 6,
+      "avg": 19,
+      "high": 30,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8087,6 +9815,12 @@
       "avgHigh": 38,
       "high": 48
     },
+    "weatherF": {
+      "low": 29,
+      "avg": 40,
+      "high": 48,
+      "obs": 29
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-12-08T06:18:19-05:00"
@@ -8114,6 +9848,12 @@
       "avg": 29,
       "avgHigh": 37,
       "high": 48
+    },
+    "weatherF": {
+      "low": 21,
+      "avg": 27.6,
+      "high": 35,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8143,6 +9883,12 @@
       "avgHigh": 34,
       "high": 40
     },
+    "weatherF": {
+      "low": 13,
+      "avg": 18.6,
+      "high": 24,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-12-08T06:18:19-05:00"
@@ -8170,6 +9916,12 @@
       "avg": 28,
       "avgHigh": 34,
       "high": 40
+    },
+    "weatherF": {
+      "low": 13,
+      "avg": 18.6,
+      "high": 24,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8199,6 +9951,12 @@
       "avgHigh": 33,
       "high": 36
     },
+    "weatherF": {
+      "low": 12,
+      "avg": 26,
+      "high": 36,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-12-08T06:18:19-05:00"
@@ -8226,6 +9984,12 @@
       "avg": 29,
       "avgHigh": 38,
       "high": 48
+    },
+    "weatherF": {
+      "low": 19,
+      "avg": 35.3,
+      "high": 48,
+      "obs": 25
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -8255,6 +10019,12 @@
       "avgHigh": 45,
       "high": 60
     },
+    "weatherF": {
+      "low": 18,
+      "avg": 26.3,
+      "high": 34,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-12-21T20:00:46-05:00"
@@ -8282,6 +10052,12 @@
       "avg": 33,
       "avgHigh": 39,
       "high": 47
+    },
+    "weatherF": {
+      "low": 25,
+      "avg": 33.1,
+      "high": 39,
+      "obs": 35
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8311,6 +10087,12 @@
       "avgHigh": 34,
       "high": 47
     },
+    "weatherF": {
+      "low": 14,
+      "avg": 19.5,
+      "high": 26,
+      "obs": 48
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2025-12-21T20:00:46-05:00"
@@ -8338,6 +10120,12 @@
       "avg": 23,
       "avgHigh": 29,
       "high": 31
+    },
+    "weatherF": {
+      "low": 12,
+      "avg": 22,
+      "high": 27,
+      "obs": 58
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -8367,6 +10155,12 @@
       "avgHigh": 29,
       "high": 34
     },
+    "weatherF": {
+      "low": 26,
+      "avg": 29,
+      "high": 34,
+      "obs": 70
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-01-05T20:57:22-05:00"
@@ -8394,6 +10188,12 @@
       "avg": 26,
       "avgHigh": 31,
       "high": 36
+    },
+    "weatherF": {
+      "low": 32,
+      "avg": 33.4,
+      "high": 36,
+      "obs": 92
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8423,6 +10223,12 @@
       "avgHigh": 35,
       "high": 47
     },
+    "weatherF": {
+      "low": 22,
+      "avg": 30.5,
+      "high": 47,
+      "obs": 72
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-01-05T20:57:22-05:00"
@@ -8450,6 +10256,12 @@
       "avg": 29,
       "avgHigh": 38,
       "high": 47
+    },
+    "weatherF": {
+      "low": 19,
+      "avg": 34.3,
+      "high": 52,
+      "obs": 67
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8479,6 +10291,12 @@
       "avgHigh": 44,
       "high": 52
     },
+    "weatherF": {
+      "low": 33,
+      "avg": 41.5,
+      "high": 52,
+      "obs": 32
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-01-05T20:57:22-05:00"
@@ -8506,6 +10324,12 @@
       "avg": 36,
       "avgHigh": 47,
       "high": 52
+    },
+    "weatherF": {
+      "low": 26,
+      "avg": 31.8,
+      "high": 39,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -8535,6 +10359,12 @@
       "avgHigh": 46,
       "high": 52
     },
+    "weatherF": {
+      "low": 40,
+      "avg": 44.8,
+      "high": 51,
+      "obs": 29
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-01-13T20:18:39-05:00"
@@ -8562,6 +10392,12 @@
       "avg": 36,
       "avgHigh": 44,
       "high": 52
+    },
+    "weatherF": {
+      "low": 19,
+      "avg": 25.1,
+      "high": 31,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -8591,6 +10427,12 @@
       "avgHigh": 33,
       "high": 39
     },
+    "weatherF": {
+      "low": 12,
+      "avg": 19.1,
+      "high": 25,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-01-20T07:16:59-05:00"
@@ -8618,6 +10460,12 @@
       "avg": 27,
       "avgHigh": 35,
       "high": 45
+    },
+    "weatherF": {
+      "low": 24,
+      "avg": 36.7,
+      "high": 45,
+      "obs": 24
     },
     "closesTrip": true,
     "milesMissing": false,
@@ -8647,6 +10495,12 @@
       "avgHigh": 30,
       "high": 45
     },
+    "weatherF": {
+      "low": 4,
+      "avg": 9.2,
+      "high": 15,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-01-23T20:02:34-05:00"
@@ -8674,6 +10528,12 @@
       "avg": 21,
       "avgHigh": 30,
       "high": 45
+    },
+    "weatherF": {
+      "low": 13,
+      "avg": 16.9,
+      "high": 28,
+      "obs": 60
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8703,6 +10563,12 @@
       "avgHigh": 26,
       "high": 34
     },
+    "weatherF": {
+      "low": 7,
+      "avg": 15.5,
+      "high": 22,
+      "obs": 30
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-01-26T18:30:33-05:00"
@@ -8730,6 +10596,12 @@
       "avg": 14,
       "avgHigh": 25,
       "high": 29
+    },
+    "weatherF": {
+      "low": -7,
+      "avg": 10.9,
+      "high": 24,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8759,6 +10631,12 @@
       "avgHigh": 22,
       "high": 28
     },
+    "weatherF": {
+      "low": -3,
+      "avg": 9.9,
+      "high": 16,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-01-26T18:30:33-05:00"
@@ -8786,6 +10664,12 @@
       "avg": 12,
       "avgHigh": 24,
       "high": 34
+    },
+    "weatherF": {
+      "low": 3,
+      "avg": 18.4,
+      "high": 34,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8815,6 +10699,12 @@
       "avgHigh": 26,
       "high": 36
     },
+    "weatherF": {
+      "low": -5,
+      "avg": 13.5,
+      "high": 36,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-01-26T18:30:33-05:00"
@@ -8842,6 +10732,12 @@
       "avg": 14,
       "avgHigh": 29,
       "high": 36
+    },
+    "weatherF": {
+      "low": 4,
+      "avg": 18.8,
+      "high": 31,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8871,6 +10767,12 @@
       "avgHigh": 31,
       "high": 36
     },
+    "weatherF": {
+      "low": -3,
+      "avg": 13,
+      "high": 33,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-01-26T18:30:33-05:00"
@@ -8898,6 +10800,12 @@
       "avg": 17,
       "avgHigh": 31,
       "high": 36
+    },
+    "weatherF": {
+      "low": 6,
+      "avg": 21.4,
+      "high": 26,
+      "obs": 54
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8927,6 +10835,12 @@
       "avgHigh": 28,
       "high": 33
     },
+    "weatherF": {
+      "low": 8,
+      "avg": 19.5,
+      "high": 31,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-02-06T19:29:29-05:00"
@@ -8954,6 +10868,12 @@
       "avg": 18,
       "avgHigh": 28,
       "high": 36
+    },
+    "weatherF": {
+      "low": -2,
+      "avg": 23.7,
+      "high": 36,
+      "obs": 36
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -8983,6 +10903,12 @@
       "avgHigh": 30,
       "high": 40
     },
+    "weatherF": {
+      "low": 28,
+      "avg": 33.3,
+      "high": 40,
+      "obs": 32
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-02-06T19:29:29-05:00"
@@ -9010,6 +10936,12 @@
       "avg": 23,
       "avgHigh": 32,
       "high": 40
+    },
+    "weatherF": {
+      "low": 24,
+      "avg": 28.6,
+      "high": 36,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -9039,6 +10971,12 @@
       "avgHigh": 36,
       "high": 40
     },
+    "weatherF": {
+      "low": 1,
+      "avg": 22.5,
+      "high": 39,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-02-06T19:29:29-05:00"
@@ -9066,6 +11004,12 @@
       "avg": 24,
       "avgHigh": 36,
       "high": 39
+    },
+    "weatherF": {
+      "low": 18,
+      "avg": 28.7,
+      "high": 36,
+      "obs": 26
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -9095,6 +11039,12 @@
       "avgHigh": 36,
       "high": 44
     },
+    "weatherF": {
+      "low": 13,
+      "avg": 25.6,
+      "high": 44,
+      "obs": 44
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-02-06T19:29:29-05:00"
@@ -9122,6 +11072,12 @@
       "avg": 27,
       "avgHigh": 38,
       "high": 44
+    },
+    "weatherF": {
+      "low": 5,
+      "avg": 27.5,
+      "high": 43,
+      "obs": 24
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -9151,6 +11107,12 @@
       "avgHigh": 40,
       "high": 50
     },
+    "weatherF": {
+      "low": 4,
+      "avg": 18.3,
+      "high": 28,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-02-06T19:29:29-05:00"
@@ -9178,6 +11140,12 @@
       "avg": 26,
       "avgHigh": 38,
       "high": 50
+    },
+    "weatherF": {
+      "low": 2,
+      "avg": 26.6,
+      "high": 33,
+      "obs": 42
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -9207,6 +11175,12 @@
       "avgHigh": 39,
       "high": 55
     },
+    "weatherF": {
+      "low": 22,
+      "avg": 28.9,
+      "high": 41,
+      "obs": 48
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-03-03T07:31:08-05:00"
@@ -9234,6 +11208,12 @@
       "avg": 37,
       "avgHigh": 46,
       "high": 55
+    },
+    "weatherF": {
+      "low": 49,
+      "avg": 49,
+      "high": 49,
+      "obs": 2
     },
     "closesTrip": false,
     "milesMissing": false,
@@ -9263,6 +11243,12 @@
       "avgHigh": 60,
       "high": 74
     },
+    "weatherF": {
+      "low": 37,
+      "avg": 45.2,
+      "high": 59,
+      "obs": 25
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-03T07:31:08-05:00"
@@ -9291,6 +11277,12 @@
       "avgHigh": 60,
       "high": 74
     },
+    "weatherF": {
+      "low": 24,
+      "avg": 34.6,
+      "high": 41,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-03-13T08:04:39-04:00"
@@ -9313,6 +11305,7 @@
     "miles": 272.6,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-13T08:04:39-04:00"
@@ -9335,6 +11328,7 @@
     "miles": 0,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-03-18T07:07:12-04:00"
@@ -9357,6 +11351,7 @@
     "miles": 281,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-18T07:07:12-04:00"
@@ -9379,6 +11374,7 @@
     "miles": 147.1,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-23T07:26:14-04:00"
@@ -9401,6 +11397,7 @@
     "miles": 0,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-03-24T07:20:06-04:00"
@@ -9423,6 +11420,7 @@
     "miles": 268.6,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-24T07:20:06-04:00"
@@ -9445,6 +11443,7 @@
     "miles": 199.6,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-30T07:28:01-04:00"
@@ -9467,6 +11466,7 @@
     "miles": 180.5,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-01T07:32:13-04:00"
@@ -9489,6 +11489,7 @@
     "miles": 202.4,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-06T07:20:22-04:00"
@@ -9511,6 +11512,7 @@
     "miles": 197.6,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-08T07:38:40-04:00"
@@ -9533,6 +11535,7 @@
     "miles": 185.8,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-10T07:22:35-04:00"
@@ -9555,6 +11558,7 @@
     "miles": 212.6,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-14T07:25:41-04:00"
@@ -9577,6 +11581,7 @@
     "miles": 0,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-04-16T09:33:53-04:00"
@@ -9599,6 +11604,7 @@
     "miles": 305.1,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-16T09:33:53-04:00"
@@ -9621,6 +11627,7 @@
     "miles": 175.9,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-22T07:15:09-04:00"
@@ -9643,6 +11650,7 @@
     "miles": 0,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-04-24T07:30:00-04:00"
@@ -9665,6 +11673,7 @@
     "miles": 186.2,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-24T07:30:00-04:00"
@@ -9687,6 +11696,7 @@
     "miles": 377.6,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-04T07:35:58-04:00"
@@ -9709,6 +11719,7 @@
     "miles": 0,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-05-06T08:13:10-04:00"
@@ -9731,6 +11742,7 @@
     "miles": 357.1,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-06T08:13:10-04:00"
@@ -9753,6 +11765,7 @@
     "miles": 145.2,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-11T07:38:19-04:00"
@@ -9775,6 +11788,7 @@
     "miles": 179.1,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-13T07:27:25-04:00"
@@ -9797,6 +11811,7 @@
     "miles": 239.1,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-18T08:10:34-04:00"
@@ -9819,6 +11834,7 @@
     "miles": 268.4,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-21T07:40:04-04:00"
@@ -9841,6 +11857,7 @@
     "miles": 229.3,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-27T07:22:04-04:00"
@@ -9863,6 +11880,7 @@
     "miles": 177.8,
     "socPercent": null,
     "tempF": null,
+    "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-29T07:32:44-04:00"

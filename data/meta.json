@@ -23,6 +23,12 @@
     "miles": 42657.1
   },
   "avgMiPerKwh": 3.171,
+  "weather": {
+    "days": 773,
+    "tripsFromWeather": 116,
+    "tripsFromSheet": 0,
+    "tripsNoTemp": 20
+  },
   "validation": {
     "tripsChecked": 136,
     "mismatches": [],

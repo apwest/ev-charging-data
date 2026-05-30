@@ -83,6 +83,30 @@ const raw = readFileSync(CSV_PATH, 'utf8');
 const lines = raw.split(/\r?\n/).filter((l) => l.trim() !== '');
 const rows = lines.slice(1).map((l) => l.split(',')); // drop header
 
+// Optional daily weather (data/weather.json from build-weather.mjs). When present,
+// trips use the average over their actual date span; otherwise we fall back to the
+// sheet's embedded per-session temps.
+let weatherDays = {};
+try {
+	weatherDays = JSON.parse(readFileSync(join(OUT_DIR, 'weather.json'), 'utf8')).days ?? {};
+} catch {
+	// no weather file yet
+}
+
+const mean = (arr) => arr.reduce((a, b) => a + b, 0) / arr.length;
+
+function datesInRange(startYmd, endYmd) {
+	const out = [];
+	if (!startYmd) return out;
+	let d = new Date(`${startYmd}T00:00:00Z`);
+	const end = new Date(`${endYmd || startYmd}T00:00:00Z`);
+	while (d <= end) {
+		out.push(d.toISOString().slice(0, 10));
+		d = new Date(d.getTime() + 86400000);
+	}
+	return out;
+}
+
 // --- build sessions --------------------------------------------------------
 
 const sessions = rows.map((c, i) => {
@@ -117,7 +141,8 @@ const sessions = rows.map((c, i) => {
     costUsd: num(c[8]) ?? 0,
     miles, // whole-trip miles on closing rows, 0 on top-ups
     socPercent: num(c[16]),
-    tempF: parseTemps(c.slice(17, 22)),
+    tempF: parseTemps(c.slice(17, 22)), // sheet's embedded 5-day window (legacy/fallback)
+    weatherF: weatherDays[(finishTime ?? '').slice(0, 10)] ?? null, // that day's actual weather
     closesTrip,
     milesMissing,
     // sheet's own figures + marker, kept only for validation
@@ -198,6 +223,28 @@ if (current) {
 function finalizeTrip(t) {
   const energy = round(t.energyKwh, 4);
   const miPerKwh = !t.open && energy > 0 && t.miles > 0 ? round(t.miles / energy, 3) : null;
+
+  // Temperature over the trip's actual date span, from daily weather; fall back to
+  // the sheet's embedded per-session temps where weather coverage is missing.
+  let avgTempF = null;
+  let minTempF = null;
+  let maxTempF = null;
+  let tempSource = null;
+  const span = datesInRange(
+    (t.startTime ?? '').slice(0, 10),
+    (t.endTime ?? t.startTime ?? '').slice(0, 10)
+  );
+  const wDays = span.map((d) => weatherDays[d]).filter(Boolean);
+  if (wDays.length) {
+    avgTempF = round(mean(wDays.map((d) => d.avg)), 1);
+    minTempF = Math.min(...wDays.map((d) => d.low));
+    maxTempF = Math.max(...wDays.map((d) => d.high));
+    tempSource = 'weather';
+  } else if (t.temps.length) {
+    avgTempF = round(mean(t.temps), 1);
+    tempSource = 'sheet';
+  }
+
   const trip = {
     id: t.id,
     vehicleId: t.vehicleId,
@@ -211,7 +258,10 @@ function finalizeTrip(t) {
     miPerKwh,
     centsPerMile: t.miles > 0 ? round((t.costUsd / t.miles) * 100, 2) : null,
     networks: [...t.networks],
-    avgTempF: t.temps.length ? round(t.temps.reduce((a, b) => a + b, 0) / t.temps.length, 1) : null,
+    avgTempF,
+    minTempF,
+    maxTempF,
+    tempSource, // 'weather' | 'sheet' | null
     isPaid: t.costUsd > 0,
     open: t.open, // trailing trip still accumulating (no drive logged yet)
     milesMissing: !!t.milesMissing, // drove, but miles weren't recorded ('?' rows)
@@ -272,6 +322,12 @@ const meta = {
   avgMiPerKwh: closedTrips.length
     ? round(closedTrips.reduce((a, t) => a + t.miPerKwh, 0) / closedTrips.length, 3)
     : null,
+  weather: {
+    days: Object.keys(weatherDays).length,
+    tripsFromWeather: trips.filter((t) => t.tempSource === 'weather').length,
+    tripsFromSheet: trips.filter((t) => t.tempSource === 'sheet').length,
+    tripsNoTemp: trips.filter((t) => t.tempSource == null).length,
+  },
   validation: { tripsChecked: trips.length, mismatches, outOfOrderRows: outOfOrder },
   generatedAtNote: 'stamp at commit time; Date.now() intentionally not used here',
 };
@@ -289,6 +345,7 @@ console.log(`range: ${meta.dateRange.first} -> ${meta.dateRange.last}`);
 console.log(`networks: ${meta.networks.join(', ')}`);
 console.log(`totals: ${meta.totals.energyKwh} kWh, $${meta.totals.costUsd}, ${meta.totals.miles} mi`);
 console.log(`fleet avg efficiency (clean closed trips): ${meta.avgMiPerKwh} mi/kWh`);
+console.log(`weather: ${meta.weather.days} days · trip temps from weather: ${meta.weather.tripsFromWeather}, from sheet: ${meta.weather.tripsFromSheet}, none: ${meta.weather.tripsNoTemp}`);
 console.log(`\nvalidation vs sheet's own Energy/Trip + Mi/kWh/Trip columns:`);
 if (!mismatches.length) {
   console.log('  ✓ all derived trips match the sheet within tolerance');

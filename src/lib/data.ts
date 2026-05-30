@@ -5,13 +5,15 @@ import chargesJson from '../../data/charges.json';
 import tripsJson from '../../data/trips.json';
 import vehiclesJson from '../../data/vehicles.json';
 import metaJson from '../../data/meta.json';
+import weatherJson from '../../data/weather.json';
 
-import type { Session, Trip, Vehicle, Meta } from './types';
+import type { Session, Trip, Vehicle, Meta, WeatherData } from './types';
 
 export const sessions = chargesJson as Session[];
 export const trips = tripsJson as Trip[];
 export const vehicles = vehiclesJson as Vehicle[];
 export const meta = metaJson as Meta;
+export const weather = weatherJson as WeatherData;
 
 /** Trips usable for efficiency analysis: closed, with miles, and not flagged suspect. */
 export const cleanTrips = trips.filter(
