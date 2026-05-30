@@ -1,3 +1,6 @@
 # Python deps for scripts/get_chargepoint_data.py (ChargePoint → Google Sheet)
-python-chargepoint>=1.3
+# Pin to the synchronous 1.x line: 2.x switched to async (aiohttp) and the
+# constructor requires a running event loop, which breaks our usage
+# (cli._session.post / cli._global_config.endpoints.mapcache are 1.x internals).
+python-chargepoint>=1.3,<2
 gspread>=6.0
