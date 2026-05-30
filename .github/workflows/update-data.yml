@@ -9,8 +9,8 @@ name: Update data
 # Starts manual-only; uncomment the schedule once a manual run is verified green.
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '0 11 * * *' # ~6-7am ET; adjust to taste
+  schedule:
+    - cron: '0 11 * * *' # daily ~6-7am ET; adjust to taste
 
 permissions:
   contents: write # push the data commit
