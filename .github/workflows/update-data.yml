@@ -38,6 +38,22 @@ jobs:
 
       - run: npm ci
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sync ChargePoint sessions into the Sheet
+        # Appends new ChargePoint sessions so they're in the Sheet before we pull it.
+        # continue-on-error: a ChargePoint/API hiccup shouldn't block the daily deploy.
+        continue-on-error: true
+        env:
+          CHARGEPOINT_USER: ${{ secrets.CHARGEPOINT_USER }}
+          CHARGEPOINT_PASSWORD: ${{ secrets.CHARGEPOINT_PASSWORD }}
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+        run: |
+          pip install -r scripts/requirements.txt
+          python scripts/get_chargepoint_data.py
+
       - name: Pull Google Sheet as CSV
         env:
           SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
