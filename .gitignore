@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# build output (SvelteKit)
+.svelte-kit/
+build/
+dist/
+
+# secrets / local config
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+*.log

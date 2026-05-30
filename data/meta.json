@@ -1,0 +1,39 @@
+{
+  "generatedFrom": "EV Charging Data - EV Charging.csv",
+  "vehicleId": "mache-2023",
+  "counts": {
+    "sessions": 358,
+    "trips": 136,
+    "openTrips": 0,
+    "milesMissingTrips": 1,
+    "suspectTrips": 1
+  },
+  "dateRange": {
+    "first": "2024-02-09",
+    "last": "2026-05-29"
+  },
+  "networks": [
+    "Blink",
+    "Charge Point",
+    "Electrify America"
+  ],
+  "totals": {
+    "energyKwh": 13822.6,
+    "costUsd": 803.44,
+    "miles": 42657.1
+  },
+  "avgMiPerKwh": 3.171,
+  "validation": {
+    "tripsChecked": 136,
+    "mismatches": [],
+    "outOfOrderRows": [
+      {
+        "row": 313,
+        "time": "2026-01-27T07:38:28-05:00",
+        "afterRow": 312,
+        "afterTime": "2026-01-28T18:55:24-05:00"
+      }
+    ]
+  },
+  "generatedAtNote": "stamp at commit time; Date.now() intentionally not used here"
+}

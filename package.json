@@ -1,0 +1,10 @@
+{
+  "name": "ev-charging-data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dashboard for Ford Mustang Mach-E charging data",
+  "scripts": {
+    "convert": "node scripts/convert.mjs"
+  }
+}

@@ -1,0 +1,3370 @@
+[
+  {
+    "id": "2024-02-09T07:39:11-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-02-09T07:39:11-05:00",
+    "endTime": "2024-02-09T12:49:00-05:00",
+    "sessionIds": [
+      "2024-02-09T07:39:11-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 32.7729,
+    "costUsd": 6.55,
+    "miles": 93.1,
+    "miPerKwh": 2.841,
+    "centsPerMile": 7.04,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 35,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-02-14T07:33:43-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-02-14T07:33:43-05:00",
+    "endTime": "2024-02-14T13:22:31-05:00",
+    "sessionIds": [
+      "2024-02-14T07:33:43-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 46.8284,
+    "costUsd": 9.37,
+    "miles": 123.4,
+    "miPerKwh": 2.635,
+    "centsPerMile": 7.59,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 38,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-02-15T06:46:51-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-02-15T06:46:51-05:00",
+    "endTime": "2024-02-15T11:44:21-05:00",
+    "sessionIds": [
+      "2024-02-15T06:46:51-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 43.8892,
+    "costUsd": 8.78,
+    "miles": 104.4,
+    "miPerKwh": 2.379,
+    "centsPerMile": 8.41,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 36,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-02-26T07:35:10-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-02-26T07:35:10-05:00",
+    "endTime": "2024-02-26T14:08:48-05:00",
+    "sessionIds": [
+      "2024-02-26T07:35:10-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 34.3552,
+    "costUsd": 6.87,
+    "miles": 92.4,
+    "miPerKwh": 2.69,
+    "centsPerMile": 7.44,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 36,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-02-27T07:43:21-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-02-27T07:43:21-05:00",
+    "endTime": "2024-02-27T11:58:45-05:00",
+    "sessionIds": [
+      "2024-02-27T07:43:21-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 36.3424,
+    "costUsd": 7.27,
+    "miles": 105.6,
+    "miPerKwh": 2.906,
+    "centsPerMile": 6.88,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 38,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-02-29T07:35:30-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-02-29T07:35:30-05:00",
+    "endTime": "2024-02-29T16:43:37-05:00",
+    "sessionIds": [
+      "2024-02-29T07:35:30-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 66.6488,
+    "costUsd": 13.22,
+    "miles": 167.3,
+    "miPerKwh": 2.51,
+    "centsPerMile": 7.9,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 40,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-01T07:33:00-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-01T07:33:00-05:00",
+    "endTime": "2024-03-01T11:14:25-05:00",
+    "sessionIds": [
+      "2024-03-01T07:33:00-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 27.3417,
+    "costUsd": 5.47,
+    "miles": 77.6,
+    "miPerKwh": 2.838,
+    "centsPerMile": 7.05,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 41,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-04T08:01:43-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-04T08:01:43-05:00",
+    "endTime": "2024-03-04T17:39:31-05:00",
+    "sessionIds": [
+      "2024-03-04T08:01:43-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 56.235,
+    "costUsd": 11.25,
+    "miles": 158.3,
+    "miPerKwh": 2.815,
+    "centsPerMile": 7.11,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 41,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-06T07:53:26-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-06T07:53:26-05:00",
+    "endTime": "2024-03-06T16:18:05-05:00",
+    "sessionIds": [
+      "2024-03-06T07:53:26-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 51.3704,
+    "costUsd": 9.97,
+    "miles": 162.9,
+    "miPerKwh": 3.171,
+    "centsPerMile": 6.12,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 46,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-07T07:37:16-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-07T07:37:16-05:00",
+    "endTime": "2024-03-07T11:16:17-05:00",
+    "sessionIds": [
+      "2024-03-07T07:37:16-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 28.9431,
+    "costUsd": 5.79,
+    "miles": 91.5,
+    "miPerKwh": 3.161,
+    "centsPerMile": 6.33,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 46,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-11T07:54:21-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-11T07:54:21-04:00",
+    "endTime": "2024-03-11T13:54:57-04:00",
+    "sessionIds": [
+      "2024-03-11T07:54:21-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 53.1837,
+    "costUsd": 10.64,
+    "miles": 154.5,
+    "miPerKwh": 2.905,
+    "centsPerMile": 6.89,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 42,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-12T07:41:27-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-12T07:41:27-04:00",
+    "endTime": "2024-03-12T12:16:22-04:00",
+    "sessionIds": [
+      "2024-03-12T07:41:27-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 30.1442,
+    "costUsd": 6.03,
+    "miles": 86.6,
+    "miPerKwh": 2.873,
+    "centsPerMile": 6.96,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 42,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-13T18:47:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-13T18:47:00-04:00",
+    "endTime": "2024-03-14T16:00:00-04:00",
+    "sessionIds": [
+      "2024-03-13T18:47:00-04:00",
+      "2024-03-14T08:00:00-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 53.8535,
+    "costUsd": 10.21,
+    "miles": 164.1,
+    "miPerKwh": 3.047,
+    "centsPerMile": 6.22,
+    "networks": [
+      "Charge Point",
+      "Blink"
+    ],
+    "avgTempF": 44,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-15T07:45:44-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-15T07:45:44-04:00",
+    "endTime": "2024-03-15T13:56:40-04:00",
+    "sessionIds": [
+      "2024-03-15T07:45:44-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 24.6305,
+    "costUsd": 4.93,
+    "miles": 76.4,
+    "miPerKwh": 3.102,
+    "centsPerMile": 6.45,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 45,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-18T07:49:44-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-18T07:49:44-04:00",
+    "endTime": "2024-03-18T16:35:26-04:00",
+    "sessionIds": [
+      "2024-03-18T07:49:44-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 47.2121,
+    "costUsd": 9.42,
+    "miles": 137.3,
+    "miPerKwh": 2.908,
+    "centsPerMile": 6.86,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 47,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-20T07:40:05-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-20T07:40:05-04:00",
+    "endTime": "2024-03-20T18:05:23-04:00",
+    "sessionIds": [
+      "2024-03-20T07:40:05-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 55.3704,
+    "costUsd": 11.07,
+    "miles": 171.9,
+    "miPerKwh": 3.105,
+    "centsPerMile": 6.44,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 45,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-20T18:40:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-20T18:40:00-04:00",
+    "endTime": "2024-03-21T11:07:05-04:00",
+    "sessionIds": [
+      "2024-03-20T18:40:00-04:00",
+      "2024-03-21T07:28:45-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 27.8976,
+    "costUsd": 4.85,
+    "miles": 85.8,
+    "miPerKwh": 3.076,
+    "centsPerMile": 5.65,
+    "networks": [
+      "Charge Point",
+      "Blink"
+    ],
+    "avgTempF": 44,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-25T07:49:23-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-25T07:49:23-04:00",
+    "endTime": "2024-03-25T13:20:38-04:00",
+    "sessionIds": [
+      "2024-03-25T07:49:23-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 45.7583,
+    "costUsd": 9.15,
+    "miles": 134,
+    "miPerKwh": 2.928,
+    "centsPerMile": 6.83,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 37,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-27T07:18:32-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-27T07:18:32-04:00",
+    "endTime": "2024-03-27T18:32:49-04:00",
+    "sessionIds": [
+      "2024-03-27T07:18:32-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 55.8391,
+    "costUsd": 11.17,
+    "miles": 164.9,
+    "miPerKwh": 2.953,
+    "centsPerMile": 6.77,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 40,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-03-29T07:56:33-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-03-29T07:56:33-04:00",
+    "endTime": "2024-03-29T15:01:05-04:00",
+    "sessionIds": [
+      "2024-03-29T07:56:33-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 54.9383,
+    "costUsd": 10.99,
+    "miles": 161.6,
+    "miPerKwh": 2.941,
+    "centsPerMile": 6.8,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 44,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-02T07:48:32-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-02T07:48:32-04:00",
+    "endTime": "2024-04-02T15:34:35-04:00",
+    "sessionIds": [
+      "2024-04-02T07:48:32-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 59.5941,
+    "costUsd": 11.92,
+    "miles": 192.9,
+    "miPerKwh": 3.237,
+    "centsPerMile": 6.18,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 47,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-04T08:01:57-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-04T08:01:57-04:00",
+    "endTime": "2024-04-04T17:19:39-04:00",
+    "sessionIds": [
+      "2024-04-04T08:01:57-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 58.9813,
+    "costUsd": 11.8,
+    "miles": 167.4,
+    "miPerKwh": 2.838,
+    "centsPerMile": 7.05,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 45,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-08T07:44:22-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-08T07:44:22-04:00",
+    "endTime": "2024-04-08T13:34:34-04:00",
+    "sessionIds": [
+      "2024-04-08T07:44:22-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 49.3835,
+    "costUsd": 9.88,
+    "miles": 130.5,
+    "miPerKwh": 2.643,
+    "centsPerMile": 7.57,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 43,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-10T07:49:46-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-10T07:49:46-04:00",
+    "endTime": "2024-04-10T13:37:19-04:00",
+    "sessionIds": [
+      "2024-04-10T07:49:46-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 51.5503,
+    "costUsd": 10.31,
+    "miles": 163.5,
+    "miPerKwh": 3.172,
+    "centsPerMile": 6.31,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 49,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-10T18:22:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-10T18:22:00-04:00",
+    "endTime": "2024-04-12T17:21:30-04:00",
+    "sessionIds": [
+      "2024-04-10T18:22:00-04:00",
+      "2024-04-12T07:42:06-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 52.5128,
+    "costUsd": 9.7,
+    "miles": 175.5,
+    "miPerKwh": 3.342,
+    "centsPerMile": 5.53,
+    "networks": [
+      "Charge Point",
+      "Blink"
+    ],
+    "avgTempF": 51.5,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-16T07:49:32-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-16T07:49:32-04:00",
+    "endTime": "2024-04-16T15:04:42-04:00",
+    "sessionIds": [
+      "2024-04-16T07:49:32-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 55.5697,
+    "costUsd": 11.11,
+    "miles": 174.8,
+    "miPerKwh": 3.146,
+    "centsPerMile": 6.36,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 57,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-18T07:36:38-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-18T07:36:38-04:00",
+    "endTime": "2024-04-18T14:10:02-04:00",
+    "sessionIds": [
+      "2024-04-18T07:36:38-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 44.2512,
+    "costUsd": 8.85,
+    "miles": 153.1,
+    "miPerKwh": 3.46,
+    "centsPerMile": 5.78,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 55,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-22T07:46:56-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-22T07:46:56-04:00",
+    "endTime": "2024-04-22T12:21:19-04:00",
+    "sessionIds": [
+      "2024-04-22T07:46:56-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 37.257,
+    "costUsd": 7.45,
+    "miles": 115.7,
+    "miPerKwh": 3.105,
+    "centsPerMile": 6.44,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 50,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-24T07:37:43-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-24T07:37:43-04:00",
+    "endTime": "2024-04-24T13:16:09-04:00",
+    "sessionIds": [
+      "2024-04-24T07:37:43-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 47.4215,
+    "costUsd": 9.48,
+    "miles": 154.8,
+    "miPerKwh": 3.264,
+    "centsPerMile": 6.12,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 49,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-26T07:35:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-26T07:35:00-04:00",
+    "endTime": "2024-04-26T08:06:00-04:00",
+    "sessionIds": [
+      "2024-04-26T07:35:00-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 50.394,
+    "costUsd": 0,
+    "miles": null,
+    "miPerKwh": null,
+    "centsPerMile": null,
+    "networks": [
+      "Electrify America"
+    ],
+    "avgTempF": 46,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": true,
+    "suspect": false
+  },
+  {
+    "id": "2024-04-29T07:43:19-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-04-29T07:43:19-04:00",
+    "endTime": "2024-04-29T15:15:39-04:00",
+    "sessionIds": [
+      "2024-04-29T07:43:19-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 49.0824,
+    "costUsd": 9.82,
+    "miles": 131.2,
+    "miPerKwh": 2.673,
+    "centsPerMile": 7.48,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 52,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-05-06T07:32:59-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-05-06T07:32:59-04:00",
+    "endTime": "2024-05-06T12:39:47-04:00",
+    "sessionIds": [
+      "2024-05-06T07:32:59-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 45.5118,
+    "costUsd": 9.1,
+    "miles": 159.5,
+    "miPerKwh": 3.505,
+    "centsPerMile": 5.71,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 53,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-05-07T16:28:24-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-05-07T16:28:24-04:00",
+    "endTime": "2024-05-12T20:35:23-04:00",
+    "sessionIds": [
+      "2024-05-07T16:28:24-04:00",
+      "2024-05-09T21:25:58-04:00",
+      "2024-05-12T12:40:03-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 121.2606,
+    "costUsd": 0,
+    "miles": 416.7,
+    "miPerKwh": 3.436,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 54.7,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-05-14T20:37:42-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-05-14T20:37:42-04:00",
+    "endTime": "2024-05-15T06:37:15-04:00",
+    "sessionIds": [
+      "2024-05-14T20:37:42-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 49.2315,
+    "costUsd": 0,
+    "miles": 167.5,
+    "miPerKwh": 3.402,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 57,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-05-18T07:33:03-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-05-18T07:33:03-04:00",
+    "endTime": "2024-05-18T17:18:12-04:00",
+    "sessionIds": [
+      "2024-05-18T07:33:03-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 55.5898,
+    "costUsd": 0,
+    "miles": 200,
+    "miPerKwh": 3.598,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 61,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-05-21T20:42:01-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-05-21T20:42:01-04:00",
+    "endTime": "2024-05-22T06:28:40-04:00",
+    "sessionIds": [
+      "2024-05-21T20:42:01-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 55.7408,
+    "costUsd": 0,
+    "miles": 191.4,
+    "miPerKwh": 3.434,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 63,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-05-26T08:10:04-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-05-26T08:10:04-04:00",
+    "endTime": "2024-05-26T17:48:48-04:00",
+    "sessionIds": [
+      "2024-05-26T08:10:04-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 54.4282,
+    "costUsd": 0,
+    "miles": 199.3,
+    "miPerKwh": 3.662,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 69,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-05-30T16:50:15-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-05-30T16:50:15-04:00",
+    "endTime": "2024-06-02T16:39:27-04:00",
+    "sessionIds": [
+      "2024-05-30T16:50:15-04:00",
+      "2024-05-31T16:37:42-04:00",
+      "2024-06-02T07:42:00-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 96.1873,
+    "costUsd": 0,
+    "miles": 340.4,
+    "miPerKwh": 3.539,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 66,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-06-05T18:18:28-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-06-05T18:18:28-04:00",
+    "endTime": "2024-06-06T05:35:27-04:00",
+    "sessionIds": [
+      "2024-06-05T18:18:28-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 66.6349,
+    "costUsd": 0,
+    "miles": 241.6,
+    "miPerKwh": 3.626,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 69,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-06-08T09:32:50-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-06-08T09:32:50-04:00",
+    "endTime": "2024-06-12T05:50:58-04:00",
+    "sessionIds": [
+      "2024-06-08T09:32:50-04:00",
+      "2024-06-11T18:05:35-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 94.3361,
+    "costUsd": 0,
+    "miles": 340.4,
+    "miPerKwh": 3.608,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 68.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-06-14T08:10:14-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-06-14T08:10:14-04:00",
+    "endTime": "2024-06-15T11:42:02-04:00",
+    "sessionIds": [
+      "2024-06-14T08:10:14-04:00",
+      "2024-06-15T08:25:27-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 45.4347,
+    "costUsd": 0,
+    "miles": 168,
+    "miPerKwh": 3.698,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 68,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-07-03T07:35:02-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-07-03T07:35:02-04:00",
+    "endTime": "2024-07-04T19:07:58-04:00",
+    "sessionIds": [
+      "2024-07-03T07:35:02-04:00",
+      "2024-07-03T08:48:56-04:00",
+      "2024-07-04T11:43:36-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 66.307,
+    "costUsd": 0,
+    "miles": 196.7,
+    "miPerKwh": 2.967,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 70.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-07-09T18:53:13-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-07-09T18:53:13-04:00",
+    "endTime": "2024-07-13T07:07:37-04:00",
+    "sessionIds": [
+      "2024-07-09T18:53:13-04:00",
+      "2024-07-10T17:40:45-04:00",
+      "2024-07-11T18:05:19-04:00",
+      "2024-07-12T18:14:15-04:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 107.3554,
+    "costUsd": 0,
+    "miles": 396.5,
+    "miPerKwh": 3.693,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 79.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-07-13T12:58:33-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-07-13T12:58:33-04:00",
+    "endTime": "2024-07-18T07:19:24-04:00",
+    "sessionIds": [
+      "2024-07-13T12:58:33-04:00",
+      "2024-07-15T18:32:38-04:00",
+      "2024-07-16T19:02:25-04:00",
+      "2024-07-17T21:18:43-04:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 132.0415,
+    "costUsd": 0,
+    "miles": 449,
+    "miPerKwh": 3.4,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 80,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-07-20T07:48:03-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-07-20T07:48:03-04:00",
+    "endTime": "2024-07-20T16:06:41-04:00",
+    "sessionIds": [
+      "2024-07-20T07:48:03-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 48.2985,
+    "costUsd": 0,
+    "miles": 175.6,
+    "miPerKwh": 3.636,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 77,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-07-23T17:26:24-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-07-23T17:26:24-04:00",
+    "endTime": "2024-07-26T13:53:30-04:00",
+    "sessionIds": [
+      "2024-07-23T17:26:24-04:00",
+      "2024-07-24T17:39:46-04:00",
+      "2024-07-26T08:51:59-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 83.0443,
+    "costUsd": 0,
+    "miles": 308.6,
+    "miPerKwh": 3.716,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 73,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-07-29T18:39:30-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-07-29T18:39:30-04:00",
+    "endTime": "2024-08-03T07:14:22-04:00",
+    "sessionIds": [
+      "2024-07-29T18:39:30-04:00",
+      "2024-07-31T20:30:12-04:00",
+      "2024-08-02T17:26:05-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 141.7616,
+    "costUsd": 0,
+    "miles": 503.4,
+    "miPerKwh": 3.551,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 75,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-08-05T18:16:33-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-08-05T18:16:33-04:00",
+    "endTime": "2024-08-07T05:49:59-04:00",
+    "sessionIds": [
+      "2024-08-05T18:16:33-04:00",
+      "2024-08-06T19:17:06-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 74.1754,
+    "costUsd": 0,
+    "miles": 247.4,
+    "miPerKwh": 3.335,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 76.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-08-07T17:21:01-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-08-07T17:21:01-04:00",
+    "endTime": "2024-08-15T05:49:21-04:00",
+    "sessionIds": [
+      "2024-08-07T17:21:01-04:00",
+      "2024-08-11T08:42:45-04:00",
+      "2024-08-13T17:48:06-04:00",
+      "2024-08-14T21:15:41-04:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 124.2277,
+    "costUsd": 0,
+    "miles": 441.8,
+    "miPerKwh": 3.556,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 70.8,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-08-17T08:55:48-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-08-17T08:55:48-04:00",
+    "endTime": "2024-08-21T05:41:56-04:00",
+    "sessionIds": [
+      "2024-08-17T08:55:48-04:00",
+      "2024-08-19T17:45:10-04:00",
+      "2024-08-20T18:12:44-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 110.2518,
+    "costUsd": 0,
+    "miles": 388.1,
+    "miPerKwh": 3.52,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 67,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-08-23T08:28:04-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-08-23T08:28:04-04:00",
+    "endTime": "2024-08-23T17:43:20-04:00",
+    "sessionIds": [
+      "2024-08-23T08:28:04-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 52.0232,
+    "costUsd": 0,
+    "miles": 186.6,
+    "miPerKwh": 3.587,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 64,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-08-28T17:44:13-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-08-28T17:44:13-04:00",
+    "endTime": "2024-09-04T06:32:13-04:00",
+    "sessionIds": [
+      "2024-08-28T17:44:13-04:00",
+      "2024-09-03T19:14:02-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 118.4411,
+    "costUsd": 0,
+    "miles": 437.1,
+    "miPerKwh": 3.69,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 66.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-09-07T09:21:03-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-09-07T09:21:03-04:00",
+    "endTime": "2024-09-07T19:09:16-04:00",
+    "sessionIds": [
+      "2024-09-07T09:21:03-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 51.132,
+    "costUsd": 0,
+    "miles": 188.8,
+    "miPerKwh": 3.692,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 61,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-09-10T17:45:39-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-09-10T17:45:39-04:00",
+    "endTime": "2024-09-12T06:33:07-04:00",
+    "sessionIds": [
+      "2024-09-10T17:45:39-04:00",
+      "2024-09-11T18:00:09-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 76.7778,
+    "costUsd": 0,
+    "miles": 280,
+    "miPerKwh": 3.647,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 60.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-09-14T08:45:08-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-09-14T08:45:08-04:00",
+    "endTime": "2024-09-29T11:58:27-04:00",
+    "sessionIds": [
+      "2024-09-14T08:45:08-04:00",
+      "2024-09-16T18:04:50-04:00",
+      "2024-09-18T17:42:28-04:00",
+      "2024-09-21T07:07:06-04:00",
+      "2024-09-27T16:37:34-04:00",
+      "2024-09-28T08:22:34-04:00",
+      "2024-09-29T09:28:56-04:00"
+    ],
+    "sessionCount": 7,
+    "energyKwh": 193.5355,
+    "costUsd": 0,
+    "miles": 699.6,
+    "miPerKwh": 3.615,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 61.6,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-10-01T17:39:23-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-10-01T17:39:23-04:00",
+    "endTime": "2024-10-05T16:11:45-04:00",
+    "sessionIds": [
+      "2024-10-01T17:39:23-04:00",
+      "2024-10-02T16:08:06-04:00",
+      "2024-10-03T17:53:01-04:00",
+      "2024-10-05T09:13:23-04:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 105.1888,
+    "costUsd": 0,
+    "miles": 378.5,
+    "miPerKwh": 3.598,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 56,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-10-07T17:43:23-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-10-07T17:43:23-04:00",
+    "endTime": "2024-10-12T21:00:49-04:00",
+    "sessionIds": [
+      "2024-10-07T17:43:23-04:00",
+      "2024-10-09T05:35:32-04:00",
+      "2024-10-09T18:10:13-04:00",
+      "2024-10-10T18:43:20-04:00",
+      "2024-10-12T10:23:07-04:00"
+    ],
+    "sessionCount": 5,
+    "energyKwh": 105.2102,
+    "costUsd": 0,
+    "miles": 373.7,
+    "miPerKwh": 3.552,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 51.6,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-10-14T16:57:16-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-10-14T16:57:16-04:00",
+    "endTime": "2024-10-22T20:04:48-04:00",
+    "sessionIds": [
+      "2024-10-14T16:57:16-04:00",
+      "2024-10-15T05:52:50-04:00",
+      "2024-10-15T18:43:16-04:00",
+      "2024-10-16T06:14:49-04:00",
+      "2024-10-17T06:22:52-04:00",
+      "2024-10-17T17:03:50-04:00",
+      "2024-10-18T16:52:38-04:00",
+      "2024-10-19T11:15:30-04:00",
+      "2024-10-21T18:04:32-04:00",
+      "2024-10-22T17:43:52-04:00"
+    ],
+    "sessionCount": 10,
+    "energyKwh": 145.939,
+    "costUsd": 0,
+    "miles": 477.7,
+    "miPerKwh": 3.273,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 46.6,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-10-23T17:57:02-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-10-23T17:57:02-04:00",
+    "endTime": "2024-10-27T13:10:41-04:00",
+    "sessionIds": [
+      "2024-10-23T17:57:02-04:00",
+      "2024-10-24T18:14:12-04:00",
+      "2024-10-25T17:06:22-04:00",
+      "2024-10-27T08:12:13-04:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 85.4549,
+    "costUsd": 0,
+    "miles": 308,
+    "miPerKwh": 3.604,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 52.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-10-28T06:27:11-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-10-28T06:27:11-04:00",
+    "endTime": "2024-11-01T18:31:52-04:00",
+    "sessionIds": [
+      "2024-10-28T06:27:11-04:00",
+      "2024-10-29T06:24:29-04:00",
+      "2024-10-29T17:21:43-04:00",
+      "2024-10-30T17:56:41-04:00",
+      "2024-11-01T09:35:59-04:00"
+    ],
+    "sessionCount": 5,
+    "energyKwh": 102.7162,
+    "costUsd": 0,
+    "miles": 346.6,
+    "miPerKwh": 3.374,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 49.2,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-11-04T06:15:29-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-11-04T06:15:29-05:00",
+    "endTime": "2024-11-17T13:52:17-05:00",
+    "sessionIds": [
+      "2024-11-04T06:15:29-05:00",
+      "2024-11-05T06:25:19-05:00",
+      "2024-11-05T17:31:44-05:00",
+      "2024-11-06T17:56:57-05:00",
+      "2024-11-09T07:16:29-05:00",
+      "2024-11-11T17:23:25-05:00",
+      "2024-11-12T18:43:54-05:00",
+      "2024-11-13T06:29:20-05:00",
+      "2024-11-13T17:58:41-05:00",
+      "2024-11-14T06:35:26-05:00",
+      "2024-11-15T13:40:09-05:00",
+      "2024-11-17T10:01:31-05:00"
+    ],
+    "sessionCount": 12,
+    "energyKwh": 226.6819,
+    "costUsd": 0,
+    "miles": 730.6,
+    "miPerKwh": 3.223,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 48.7,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-11-18T06:43:13-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-11-18T06:43:13-05:00",
+    "endTime": "2024-11-22T06:03:00-05:00",
+    "sessionIds": [
+      "2024-11-18T06:43:13-05:00",
+      "2024-11-18T16:02:39-05:00",
+      "2024-11-19T18:42:31-05:00",
+      "2024-11-20T06:32:41-05:00",
+      "2024-11-21T05:41:42-05:00",
+      "2024-11-21T18:56:42-05:00"
+    ],
+    "sessionCount": 6,
+    "energyKwh": 113.2409,
+    "costUsd": 0,
+    "miles": 361.6,
+    "miPerKwh": 3.193,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 44.8,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-12-01T12:47:18-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-12-01T12:47:18-05:00",
+    "endTime": "2024-12-08T12:16:36-05:00",
+    "sessionIds": [
+      "2024-12-01T12:47:18-05:00",
+      "2024-12-02T06:08:15-05:00",
+      "2024-12-02T17:57:27-05:00",
+      "2024-12-03T06:25:18-05:00",
+      "2024-12-03T16:56:11-05:00",
+      "2024-12-04T06:00:18-05:00",
+      "2024-12-04T17:56:29-05:00",
+      "2024-12-05T06:39:02-05:00",
+      "2024-12-05T20:51:43-05:00",
+      "2024-12-08T07:41:28-05:00"
+    ],
+    "sessionCount": 10,
+    "energyKwh": 183.0024,
+    "costUsd": 0,
+    "miles": 494.3,
+    "miPerKwh": 2.701,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 33,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-12-10T18:41:41-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-12-10T18:41:41-05:00",
+    "endTime": "2024-12-14T11:03:00-05:00",
+    "sessionIds": [
+      "2024-12-10T18:41:41-05:00",
+      "2024-12-12T18:42:55-05:00",
+      "2024-12-13T07:32:44-05:00",
+      "2024-12-14T07:15:54-05:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 136.0232,
+    "costUsd": 0,
+    "miles": 354.4,
+    "miPerKwh": 2.605,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 40.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-12-16T06:28:55-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-12-16T06:28:55-05:00",
+    "endTime": "2024-12-19T06:37:30-05:00",
+    "sessionIds": [
+      "2024-12-16T06:28:55-05:00",
+      "2024-12-16T17:26:35-05:00",
+      "2024-12-17T18:51:19-05:00",
+      "2024-12-18T17:59:22-05:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 97.062,
+    "costUsd": 0,
+    "miles": 282.5,
+    "miPerKwh": 2.911,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 34.8,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-12-20T05:26:50-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-12-20T05:26:50-05:00",
+    "endTime": "2024-12-24T14:21:05-05:00",
+    "sessionIds": [
+      "2024-12-20T05:26:50-05:00",
+      "2024-12-22T06:07:18-05:00",
+      "2024-12-24T07:30:47-05:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 72.3629,
+    "costUsd": 0,
+    "miles": 177.3,
+    "miPerKwh": 2.45,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 31.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2024-12-29T08:28:03-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2024-12-29T08:28:03-05:00",
+    "endTime": "2025-01-03T06:51:37-05:00",
+    "sessionIds": [
+      "2024-12-29T08:28:03-05:00",
+      "2025-01-02T06:47:51-05:00",
+      "2025-01-02T20:47:27-05:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 82.7241,
+    "costUsd": 0,
+    "miles": 205.9,
+    "miPerKwh": 2.489,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 41,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-01-05T08:38:25-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-01-05T08:38:25-05:00",
+    "endTime": "2025-01-09T06:45:45-05:00",
+    "sessionIds": [
+      "2025-01-05T08:38:25-05:00",
+      "2025-01-06T06:47:01-05:00",
+      "2025-01-06T20:59:22-05:00",
+      "2025-01-08T06:23:25-05:00",
+      "2025-01-08T18:03:14-05:00"
+    ],
+    "sessionCount": 5,
+    "energyKwh": 154.351,
+    "costUsd": 0,
+    "miles": 367.9,
+    "miPerKwh": 2.384,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 29.4,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-01-11T07:16:02-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-01-11T07:16:02-05:00",
+    "endTime": "2025-01-18T17:48:36-05:00",
+    "sessionIds": [
+      "2025-01-11T07:16:02-05:00",
+      "2025-01-12T13:10:11-05:00",
+      "2025-01-13T05:55:10-05:00",
+      "2025-01-13T17:54:12-05:00",
+      "2025-01-14T05:50:22-05:00",
+      "2025-01-14T20:48:38-05:00",
+      "2025-01-15T17:57:54-05:00",
+      "2025-01-16T06:29:28-05:00",
+      "2025-01-18T06:52:24-05:00"
+    ],
+    "sessionCount": 9,
+    "energyKwh": 221.1812,
+    "costUsd": 0,
+    "miles": 502.5,
+    "miPerKwh": 2.272,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 28.6,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-01-21T06:11:04-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-01-21T06:11:04-05:00",
+    "endTime": "2025-01-26T17:51:34-05:00",
+    "sessionIds": [
+      "2025-01-21T06:11:04-05:00",
+      "2025-01-21T18:43:08-05:00",
+      "2025-01-22T20:18:54-05:00",
+      "2025-01-25T07:09:41-05:00",
+      "2025-01-26T12:19:18-05:00"
+    ],
+    "sessionCount": 5,
+    "energyKwh": 191.8524,
+    "costUsd": 0,
+    "miles": 369,
+    "miPerKwh": 1.923,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 22,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-01-27T06:29:49-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-01-27T06:29:49-05:00",
+    "endTime": "2025-02-05T06:58:02-05:00",
+    "sessionIds": [
+      "2025-01-27T06:29:49-05:00",
+      "2025-01-27T19:03:04-05:00",
+      "2025-01-29T06:20:16-05:00",
+      "2025-01-29T18:02:05-05:00",
+      "2025-02-01T07:17:46-05:00",
+      "2025-02-04T18:50:23-05:00"
+    ],
+    "sessionCount": 6,
+    "energyKwh": 209.9452,
+    "costUsd": 0,
+    "miles": 515.5,
+    "miPerKwh": 2.455,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 29.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-02-05T18:31:20-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-02-05T18:31:20-05:00",
+    "endTime": "2025-02-12T14:44:05-05:00",
+    "sessionIds": [
+      "2025-02-05T18:31:20-05:00",
+      "2025-02-08T10:19:35-05:00",
+      "2025-02-10T06:19:30-05:00",
+      "2025-02-10T20:49:18-05:00",
+      "2025-02-12T07:40:34-05:00"
+    ],
+    "sessionCount": 5,
+    "energyKwh": 169.9795,
+    "costUsd": 10.57,
+    "miles": 403.8,
+    "miPerKwh": 2.376,
+    "centsPerMile": 2.62,
+    "networks": [
+      "Charge Point",
+      "Blink"
+    ],
+    "avgTempF": 29.2,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-02-23T07:44:56-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-02-23T07:44:56-05:00",
+    "endTime": "2025-02-28T07:07:42-05:00",
+    "sessionIds": [
+      "2025-02-23T07:44:56-05:00",
+      "2025-02-24T18:22:08-05:00",
+      "2025-02-25T21:26:45-05:00",
+      "2025-02-27T20:54:03-05:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 165.3794,
+    "costUsd": 0,
+    "miles": 497.1,
+    "miPerKwh": 3.006,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 34.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-03-01T15:54:36-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-03-01T15:54:36-05:00",
+    "endTime": "2025-03-13T06:49:08-04:00",
+    "sessionIds": [
+      "2025-03-01T15:54:36-05:00",
+      "2025-03-03T20:54:24-05:00",
+      "2025-03-05T17:56:56-05:00",
+      "2025-03-09T09:42:54-04:00",
+      "2025-03-11T23:20:43-04:00",
+      "2025-03-12T21:26:23-04:00"
+    ],
+    "sessionCount": 6,
+    "energyKwh": 274.0676,
+    "costUsd": 0,
+    "miles": 788.9,
+    "miPerKwh": 2.878,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 40,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-03-16T11:52:58-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-03-16T11:52:58-04:00",
+    "endTime": "2025-03-23T07:43:50-04:00",
+    "sessionIds": [
+      "2025-03-16T11:52:58-04:00",
+      "2025-03-18T18:53:26-04:00",
+      "2025-03-20T20:50:21-04:00",
+      "2025-03-22T21:43:00-04:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 189.9761,
+    "costUsd": 0,
+    "miles": 592.3,
+    "miPerKwh": 3.118,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 47,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-03-25T06:20:23-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-03-25T06:20:23-04:00",
+    "endTime": "2025-03-28T07:16:34-04:00",
+    "sessionIds": [
+      "2025-03-25T06:20:23-04:00",
+      "2025-03-25T18:40:12-04:00",
+      "2025-03-27T21:11:26-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 119.9384,
+    "costUsd": 0,
+    "miles": 376.4,
+    "miPerKwh": 3.138,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 42.7,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-03-31T21:48:02-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-03-31T21:48:02-04:00",
+    "endTime": "2025-04-07T06:40:23-04:00",
+    "sessionIds": [
+      "2025-03-31T21:48:02-04:00",
+      "2025-04-02T18:07:11-04:00",
+      "2025-04-06T22:12:13-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 154.5928,
+    "costUsd": 0,
+    "miles": 503.8,
+    "miPerKwh": 3.259,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 48.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-04-08T18:32:05-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-04-08T18:32:05-04:00",
+    "endTime": "2025-04-18T07:35:45-04:00",
+    "sessionIds": [
+      "2025-04-08T18:32:05-04:00",
+      "2025-04-10T21:36:51-04:00",
+      "2025-04-13T11:53:19-04:00",
+      "2025-04-15T21:14:07-04:00",
+      "2025-04-17T06:19:50-04:00",
+      "2025-04-17T21:27:26-04:00"
+    ],
+    "sessionCount": 6,
+    "energyKwh": 276.6567,
+    "costUsd": 0,
+    "miles": 850.2,
+    "miPerKwh": 3.073,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 44.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-04-20T18:01:56-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-04-20T18:01:56-04:00",
+    "endTime": "2025-04-29T06:58:50-04:00",
+    "sessionIds": [
+      "2025-04-20T18:01:56-04:00",
+      "2025-04-21T21:21:05-04:00",
+      "2025-04-23T21:56:57-04:00",
+      "2025-04-28T20:52:58-04:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 175.3638,
+    "costUsd": 0,
+    "miles": 544.6,
+    "miPerKwh": 3.106,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 58,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-04-30T21:33:21-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-04-30T21:33:21-04:00",
+    "endTime": "2025-05-06T06:29:56-04:00",
+    "sessionIds": [
+      "2025-04-30T21:33:21-04:00",
+      "2025-05-05T19:32:56-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 112.0967,
+    "costUsd": 0,
+    "miles": 408,
+    "miPerKwh": 3.64,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 60.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-05-09T08:06:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-05-09T08:06:00-04:00",
+    "endTime": "2025-05-11T19:15:30-04:00",
+    "sessionIds": [
+      "2025-05-09T08:06:00-04:00",
+      "2025-05-11T08:06:47-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 78.2379,
+    "costUsd": 0,
+    "miles": 252,
+    "miPerKwh": 3.221,
+    "centsPerMile": 0,
+    "networks": [
+      "Electrify America",
+      "Charge Point"
+    ],
+    "avgTempF": 56.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-05-14T08:13:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-05-14T08:13:00-04:00",
+    "endTime": "2025-05-15T06:42:05-04:00",
+    "sessionIds": [
+      "2025-05-14T08:13:00-04:00",
+      "2025-05-14T18:22:01-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 75.1255,
+    "costUsd": 0,
+    "miles": 270.2,
+    "miPerKwh": 3.597,
+    "centsPerMile": 0,
+    "networks": [
+      "Electrify America",
+      "Charge Point"
+    ],
+    "avgTempF": 60,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-05-20T08:09:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-05-20T08:09:00-04:00",
+    "endTime": "2025-05-22T06:35:59-04:00",
+    "sessionIds": [
+      "2025-05-20T08:09:00-04:00",
+      "2025-05-21T19:36:29-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 106.5517,
+    "costUsd": 13.44,
+    "miles": 381.7,
+    "miPerKwh": 3.582,
+    "centsPerMile": 3.52,
+    "networks": [
+      "Blink",
+      "Charge Point"
+    ],
+    "avgTempF": 59,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-05-25T11:58:16-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-05-25T11:58:16-04:00",
+    "endTime": "2025-05-29T06:31:05-04:00",
+    "sessionIds": [
+      "2025-05-25T11:58:16-04:00",
+      "2025-05-28T20:35:05-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 100.5718,
+    "costUsd": 0,
+    "miles": 330.3,
+    "miPerKwh": 3.284,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 57.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-06-01T09:03:19-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-06-01T09:03:19-04:00",
+    "endTime": "2025-06-17T06:31:44-04:00",
+    "sessionIds": [
+      "2025-06-01T09:03:19-04:00",
+      "2025-06-04T19:39:33-04:00",
+      "2025-06-09T20:54:47-04:00",
+      "2025-06-11T20:21:25-04:00",
+      "2025-06-16T18:26:50-04:00"
+    ],
+    "sessionCount": 5,
+    "energyKwh": 288.1167,
+    "costUsd": 0,
+    "miles": 1067.8,
+    "miPerKwh": 3.706,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 64.6,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-06-19T18:51:58-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-06-19T18:51:58-04:00",
+    "endTime": "2025-06-20T07:43:44-04:00",
+    "sessionIds": [
+      "2025-06-19T18:51:58-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 70.1925,
+    "costUsd": 0,
+    "miles": 261.9,
+    "miPerKwh": 3.731,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 71,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-06-24T18:25:39-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-06-24T18:25:39-04:00",
+    "endTime": "2025-06-25T06:49:09-04:00",
+    "sessionIds": [
+      "2025-06-24T18:25:39-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 69.9808,
+    "costUsd": 0,
+    "miles": 243.9,
+    "miPerKwh": 3.485,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 79,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-06-28T08:13:50-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-06-28T08:13:50-04:00",
+    "endTime": "2025-06-30T06:39:54-04:00",
+    "sessionIds": [
+      "2025-06-28T08:13:50-04:00",
+      "2025-06-29T19:01:18-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 66.1252,
+    "costUsd": 0,
+    "miles": 241.9,
+    "miPerKwh": 3.658,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 71.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-07-03T21:20:34-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-07-03T21:20:34-04:00",
+    "endTime": "2025-07-14T06:33:27-04:00",
+    "sessionIds": [
+      "2025-07-03T21:20:34-04:00",
+      "2025-07-09T18:17:38-04:00",
+      "2025-07-13T20:19:19-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 170.4461,
+    "costUsd": 0,
+    "miles": 618.5,
+    "miPerKwh": 3.629,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 73.7,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-07-16T18:22:48-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-07-16T18:22:48-04:00",
+    "endTime": "2025-08-04T06:30:50-04:00",
+    "sessionIds": [
+      "2025-07-16T18:22:48-04:00",
+      "2025-07-22T20:19:17-04:00",
+      "2025-07-28T18:58:31-04:00",
+      "2025-08-01T10:49:07-04:00",
+      "2025-08-02T07:10:09-04:00",
+      "2025-08-02T13:21:21-04:00",
+      "2025-08-03T17:24:07-04:00"
+    ],
+    "sessionCount": 7,
+    "energyKwh": 344.4729,
+    "costUsd": 0,
+    "miles": 1255.4,
+    "miPerKwh": 3.644,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 69.7,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-08-06T18:29:50-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-08-06T18:29:50-04:00",
+    "endTime": "2025-08-07T06:36:27-04:00",
+    "sessionIds": [
+      "2025-08-06T18:29:50-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 66.9087,
+    "costUsd": 0,
+    "miles": 253.7,
+    "miPerKwh": 3.792,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 62,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-08-10T20:52:48-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-08-10T20:52:48-04:00",
+    "endTime": "2025-08-11T06:39:27-04:00",
+    "sessionIds": [
+      "2025-08-10T20:52:48-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 41.3299,
+    "costUsd": 0,
+    "miles": 149.7,
+    "miPerKwh": 3.622,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 64,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-08-14T07:53:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-08-14T07:53:00-04:00",
+    "endTime": "2025-08-25T06:32:17-04:00",
+    "sessionIds": [
+      "2025-08-14T07:53:00-04:00",
+      "2025-08-15T08:11:59-04:00",
+      "2025-08-24T17:53:44-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 139.2144,
+    "costUsd": 0,
+    "miles": 491.7,
+    "miPerKwh": 3.532,
+    "centsPerMile": 0,
+    "networks": [
+      "Electrify America",
+      "Charge Point"
+    ],
+    "avgTempF": 70.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-08-27T19:18:22-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-08-27T19:18:22-04:00",
+    "endTime": "2025-09-03T06:32:16-04:00",
+    "sessionIds": [
+      "2025-08-27T19:18:22-04:00",
+      "2025-09-02T21:35:37-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 117.9066,
+    "costUsd": 0,
+    "miles": 441.5,
+    "miPerKwh": 3.744,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 58,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-09-05T21:03:01-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-09-05T21:03:01-04:00",
+    "endTime": "2025-09-06T09:28:51-04:00",
+    "sessionIds": [
+      "2025-09-05T21:03:01-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 70.5618,
+    "costUsd": 0,
+    "miles": 253.5,
+    "miPerKwh": 3.593,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 61,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-09-09T20:51:16-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-09-09T20:51:16-04:00",
+    "endTime": "2025-09-10T06:38:50-04:00",
+    "sessionIds": [
+      "2025-09-09T20:51:16-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 53.7769,
+    "costUsd": 0,
+    "miles": 201.1,
+    "miPerKwh": 3.74,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 57,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-09-14T11:48:40-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-09-14T11:48:40-04:00",
+    "endTime": "2025-09-17T06:34:44-04:00",
+    "sessionIds": [
+      "2025-09-14T11:48:40-04:00",
+      "2025-09-16T20:59:07-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 106.25,
+    "costUsd": 0,
+    "miles": 376.6,
+    "miPerKwh": 3.544,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 54.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-09-18T21:39:16-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-09-18T21:39:16-04:00",
+    "endTime": "2025-09-19T06:44:20-04:00",
+    "sessionIds": [
+      "2025-09-18T21:39:16-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 48.4643,
+    "costUsd": 0,
+    "miles": 178.7,
+    "miPerKwh": 3.687,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 58,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-09-22T20:51:25-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-09-22T20:51:25-04:00",
+    "endTime": "2025-10-07T06:02:03-04:00",
+    "sessionIds": [
+      "2025-09-22T20:51:25-04:00",
+      "2025-10-06T20:09:02-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 110.3922,
+    "costUsd": 0,
+    "miles": 403.1,
+    "miPerKwh": 3.652,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 54.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-10-09T08:08:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-10-09T08:08:00-04:00",
+    "endTime": "2025-10-15T06:38:57-04:00",
+    "sessionIds": [
+      "2025-10-09T08:08:00-04:00",
+      "2025-10-09T20:42:51-04:00",
+      "2025-10-10T06:44:06-04:00",
+      "2025-10-12T12:25:47-04:00",
+      "2025-10-14T20:47:26-04:00"
+    ],
+    "sessionCount": 5,
+    "energyKwh": 165.2736,
+    "costUsd": 0,
+    "miles": 572.1,
+    "miPerKwh": 3.462,
+    "centsPerMile": 0,
+    "networks": [
+      "Electrify America",
+      "Charge Point"
+    ],
+    "avgTempF": 53.6,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-10-16T20:49:04-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-10-16T20:49:04-04:00",
+    "endTime": "2025-10-19T21:19:25-04:00",
+    "sessionIds": [
+      "2025-10-16T20:49:04-04:00",
+      "2025-10-19T13:14:55-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 89.7628,
+    "costUsd": 0,
+    "miles": 316.7,
+    "miPerKwh": 3.528,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 50,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-10-21T19:22:42-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-10-21T19:22:42-04:00",
+    "endTime": "2025-10-27T06:23:34-04:00",
+    "sessionIds": [
+      "2025-10-21T19:22:42-04:00",
+      "2025-10-23T20:51:03-04:00",
+      "2025-10-26T18:27:37-04:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 157.0078,
+    "costUsd": 0,
+    "miles": 541.2,
+    "miPerKwh": 3.447,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 50,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-10-28T20:48:36-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-10-28T20:48:36-04:00",
+    "endTime": "2025-11-03T06:26:15-05:00",
+    "sessionIds": [
+      "2025-10-28T20:48:36-04:00",
+      "2025-10-30T17:45:32-04:00",
+      "2025-11-02T18:12:22-05:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 159.7402,
+    "costUsd": 0,
+    "miles": 506.5,
+    "miPerKwh": 3.171,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 46.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-11-04T20:49:54-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-11-04T20:49:54-05:00",
+    "endTime": "2025-11-20T06:24:57-05:00",
+    "sessionIds": [
+      "2025-11-04T20:49:54-05:00",
+      "2025-11-06T20:47:08-05:00",
+      "2025-11-19T20:08:01-05:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 157.6628,
+    "costUsd": 0,
+    "miles": 467.5,
+    "miPerKwh": 2.965,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 42.7,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-11-21T09:03:18-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-11-21T09:03:18-05:00",
+    "endTime": "2025-12-01T06:21:45-05:00",
+    "sessionIds": [
+      "2025-11-21T09:03:18-05:00",
+      "2025-11-30T21:41:00-05:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 78.5084,
+    "costUsd": 8.47,
+    "miles": 224.6,
+    "miPerKwh": 2.861,
+    "centsPerMile": 3.77,
+    "networks": [
+      "Blink",
+      "Charge Point"
+    ],
+    "avgTempF": 36.5,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-12-02T18:16:17-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-12-02T18:16:17-05:00",
+    "endTime": "2025-12-07T08:03:45-05:00",
+    "sessionIds": [
+      "2025-12-02T18:16:17-05:00",
+      "2025-12-02T20:54:33-05:00",
+      "2025-12-04T06:19:37-05:00",
+      "2025-12-04T17:44:23-05:00",
+      "2025-12-06T20:05:05-05:00"
+    ],
+    "sessionCount": 5,
+    "energyKwh": 174.9724,
+    "costUsd": 0,
+    "miles": 428.8,
+    "miPerKwh": 2.451,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 32.6,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-12-08T06:18:19-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-12-08T06:18:19-05:00",
+    "endTime": "2025-12-18T06:28:24-05:00",
+    "sessionIds": [
+      "2025-12-08T06:18:19-05:00",
+      "2025-12-08T20:59:48-05:00",
+      "2025-12-09T20:46:41-05:00",
+      "2025-12-11T18:50:20-05:00",
+      "2025-12-15T06:22:18-05:00",
+      "2025-12-15T15:11:29-05:00",
+      "2025-12-15T20:54:08-05:00",
+      "2025-12-17T19:55:43-05:00"
+    ],
+    "sessionCount": 8,
+    "energyKwh": 286.7121,
+    "costUsd": 4.89,
+    "miles": 643.1,
+    "miPerKwh": 2.243,
+    "centsPerMile": 0.76,
+    "networks": [
+      "Charge Point",
+      "Blink"
+    ],
+    "avgTempF": 27.6,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2025-12-21T20:00:46-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2025-12-21T20:00:46-05:00",
+    "endTime": "2026-01-05T06:23:37-05:00",
+    "sessionIds": [
+      "2025-12-21T20:00:46-05:00",
+      "2025-12-24T08:08:24-05:00",
+      "2026-01-02T08:26:09-05:00",
+      "2026-01-04T21:07:39-05:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 171.1997,
+    "costUsd": 0,
+    "miles": 372.3,
+    "miPerKwh": 2.175,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 30.3,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-01-05T20:57:22-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-01-05T20:57:22-05:00",
+    "endTime": "2026-01-12T06:24:24-05:00",
+    "sessionIds": [
+      "2026-01-05T20:57:22-05:00",
+      "2026-01-07T07:28:00-05:00",
+      "2026-01-07T20:17:04-05:00",
+      "2026-01-09T07:17:12-05:00",
+      "2026-01-10T09:06:32-05:00",
+      "2026-01-11T18:43:28-05:00"
+    ],
+    "sessionCount": 6,
+    "energyKwh": 224.7687,
+    "costUsd": 3.98,
+    "miles": 553.4,
+    "miPerKwh": 2.462,
+    "centsPerMile": 0.72,
+    "networks": [
+      "Charge Point",
+      "Electrify America",
+      "Blink"
+    ],
+    "avgTempF": 29.5,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-01-13T20:18:39-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-01-13T20:18:39-05:00",
+    "endTime": "2026-01-16T07:45:40-05:00",
+    "sessionIds": [
+      "2026-01-13T20:18:39-05:00",
+      "2026-01-15T20:08:11-05:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 119.098,
+    "costUsd": 0,
+    "miles": 334.5,
+    "miPerKwh": 2.809,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 37.5,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-01-20T07:16:59-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-01-20T07:16:59-05:00",
+    "endTime": "2026-01-22T06:37:42-05:00",
+    "sessionIds": [
+      "2026-01-20T07:16:59-05:00",
+      "2026-01-21T18:42:26-05:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 114.0711,
+    "costUsd": 9.89,
+    "miles": 206.8,
+    "miPerKwh": 1.813,
+    "centsPerMile": 4.78,
+    "networks": [
+      "Blink",
+      "Charge Point"
+    ],
+    "avgTempF": 27.5,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-01-23T20:02:34-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-01-23T20:02:34-05:00",
+    "endTime": "2026-01-24T06:55:52-05:00",
+    "sessionIds": [
+      "2026-01-23T20:02:34-05:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 49.4796,
+    "costUsd": 0,
+    "miles": 109.4,
+    "miPerKwh": 2.211,
+    "centsPerMile": 0,
+    "networks": [
+      "Charge Point"
+    ],
+    "avgTempF": 22,
+    "isPaid": false,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-01-26T18:30:33-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-01-26T18:30:33-05:00",
+    "endTime": "2026-02-05T06:27:46-05:00",
+    "sessionIds": [
+      "2026-01-26T18:30:33-05:00",
+      "2026-01-27T07:38:28-05:00",
+      "2026-01-28T18:55:24-05:00",
+      "2026-01-29T20:57:10-05:00",
+      "2026-02-01T19:36:51-05:00",
+      "2026-02-03T07:29:37-05:00",
+      "2026-02-04T06:18:10-05:00",
+      "2026-02-04T19:56:12-05:00"
+    ],
+    "sessionCount": 8,
+    "energyKwh": 345.2096,
+    "costUsd": 23.07,
+    "miles": 685.8,
+    "miPerKwh": 1.987,
+    "centsPerMile": 3.36,
+    "networks": [
+      "Charge Point",
+      "Blink"
+    ],
+    "avgTempF": 14.8,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-02-06T19:29:29-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-02-06T19:29:29-05:00",
+    "endTime": "2026-03-02T12:03:42-05:00",
+    "sessionIds": [
+      "2026-02-06T19:29:29-05:00",
+      "2026-02-09T07:28:27-05:00",
+      "2026-02-10T07:26:53-05:00",
+      "2026-02-11T07:29:36-05:00",
+      "2026-02-12T07:47:53-05:00",
+      "2026-02-13T07:09:12-05:00",
+      "2026-02-16T07:06:56-05:00",
+      "2026-02-26T07:40:13-05:00",
+      "2026-02-27T07:15:39-05:00",
+      "2026-03-02T07:21:32-05:00"
+    ],
+    "sessionCount": 10,
+    "energyKwh": 443.2134,
+    "costUsd": 107.95,
+    "miles": 1066.1,
+    "miPerKwh": 2.405,
+    "centsPerMile": 10.13,
+    "networks": [
+      "Charge Point",
+      "Blink"
+    ],
+    "avgTempF": 22.7,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-03-03T07:31:08-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-03-03T07:31:08-05:00",
+    "endTime": "2026-03-11T14:01:14-04:00",
+    "sessionIds": [
+      "2026-03-03T07:31:08-05:00",
+      "2026-03-05T07:19:17-05:00",
+      "2026-03-08T10:00:43-04:00",
+      "2026-03-11T07:58:29-04:00"
+    ],
+    "sessionCount": 4,
+    "energyKwh": 200.3528,
+    "costUsd": 52.79,
+    "miles": 558.4,
+    "miPerKwh": 2.787,
+    "centsPerMile": 9.45,
+    "networks": [
+      "Blink",
+      "Charge Point"
+    ],
+    "avgTempF": 33.8,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-03-13T08:04:39-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-03-13T08:04:39-04:00",
+    "endTime": "2026-03-16T14:06:26-04:00",
+    "sessionIds": [
+      "2026-03-13T08:04:39-04:00",
+      "2026-03-16T08:14:38-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 91.9552,
+    "costUsd": 19.37,
+    "miles": 272.6,
+    "miPerKwh": 2.964,
+    "centsPerMile": 7.11,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 44,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-03-18T07:07:12-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-03-18T07:07:12-04:00",
+    "endTime": "2026-03-19T11:28:07-04:00",
+    "sessionIds": [
+      "2026-03-18T07:07:12-04:00",
+      "2026-03-19T07:10:44-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 99.0008,
+    "costUsd": 20.78,
+    "miles": 281,
+    "miPerKwh": 2.838,
+    "centsPerMile": 7.4,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-03-23T07:26:14-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-03-23T07:26:14-04:00",
+    "endTime": "2026-03-23T13:30:08-04:00",
+    "sessionIds": [
+      "2026-03-23T07:26:14-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 51.0591,
+    "costUsd": 10.7,
+    "miles": 147.1,
+    "miPerKwh": 2.881,
+    "centsPerMile": 7.27,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-03-24T07:20:06-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-03-24T07:20:06-04:00",
+    "endTime": "2026-03-26T15:04:19-04:00",
+    "sessionIds": [
+      "2026-03-24T07:20:06-04:00",
+      "2026-03-26T07:57:31-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 90.7294,
+    "costUsd": 19.12,
+    "miles": 268.6,
+    "miPerKwh": 2.96,
+    "centsPerMile": 7.12,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-03-30T07:28:01-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-03-30T07:28:01-04:00",
+    "endTime": "2026-03-30T15:04:58-04:00",
+    "sessionIds": [
+      "2026-03-30T07:28:01-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 60.6188,
+    "costUsd": 12.61,
+    "miles": 199.6,
+    "miPerKwh": 3.293,
+    "centsPerMile": 6.32,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-04-01T07:32:13-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-04-01T07:32:13-04:00",
+    "endTime": "2026-04-01T14:29:46-04:00",
+    "sessionIds": [
+      "2026-04-01T07:32:13-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 52.4107,
+    "costUsd": 10.97,
+    "miles": 180.5,
+    "miPerKwh": 3.444,
+    "centsPerMile": 6.08,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-04-06T07:20:22-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-04-06T07:20:22-04:00",
+    "endTime": "2026-04-06T14:47:20-04:00",
+    "sessionIds": [
+      "2026-04-06T07:20:22-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 66.0937,
+    "costUsd": 13.71,
+    "miles": 202.4,
+    "miPerKwh": 3.062,
+    "centsPerMile": 6.77,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-04-08T07:38:40-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-04-08T07:38:40-04:00",
+    "endTime": "2026-04-08T15:41:20-04:00",
+    "sessionIds": [
+      "2026-04-08T07:38:40-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 66.186,
+    "costUsd": 13.73,
+    "miles": 197.6,
+    "miPerKwh": 2.986,
+    "centsPerMile": 6.95,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-04-10T07:22:35-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-04-10T07:22:35-04:00",
+    "endTime": "2026-04-10T14:30:51-04:00",
+    "sessionIds": [
+      "2026-04-10T07:22:35-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 61.7761,
+    "costUsd": 12.85,
+    "miles": 185.8,
+    "miPerKwh": 3.008,
+    "centsPerMile": 6.92,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-04-14T07:25:41-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-04-14T07:25:41-04:00",
+    "endTime": "2026-04-14T14:45:38-04:00",
+    "sessionIds": [
+      "2026-04-14T07:25:41-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 62.1387,
+    "costUsd": 12.92,
+    "miles": 212.6,
+    "miPerKwh": 3.421,
+    "centsPerMile": 6.08,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-04-16T09:33:53-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-04-16T09:33:53-04:00",
+    "endTime": "2026-04-20T12:15:24-04:00",
+    "sessionIds": [
+      "2026-04-16T09:33:53-04:00",
+      "2026-04-20T07:17:03-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 88.6219,
+    "costUsd": 18.71,
+    "miles": 305.1,
+    "miPerKwh": 3.443,
+    "centsPerMile": 6.13,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-04-22T07:15:09-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-04-22T07:15:09-04:00",
+    "endTime": "2026-04-22T13:03:17-04:00",
+    "sessionIds": [
+      "2026-04-22T07:15:09-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 54.2054,
+    "costUsd": 11.33,
+    "miles": 175.9,
+    "miPerKwh": 3.245,
+    "centsPerMile": 6.44,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-04-24T07:30:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-04-24T07:30:00-04:00",
+    "endTime": "2026-04-24T13:04:38-04:00",
+    "sessionIds": [
+      "2026-04-24T07:30:00-04:00",
+      "2026-04-24T07:57:39-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 59.5451,
+    "costUsd": 6.28,
+    "miles": 186.2,
+    "miPerKwh": 3.127,
+    "centsPerMile": 3.37,
+    "networks": [
+      "Electrify America",
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-05-04T07:35:58-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-05-04T07:35:58-04:00",
+    "endTime": "2026-05-04T13:42:10-04:00",
+    "sessionIds": [
+      "2026-05-04T07:35:58-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 56.2804,
+    "costUsd": 11.75,
+    "miles": 377.6,
+    "miPerKwh": 6.709,
+    "centsPerMile": 3.11,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": true
+  },
+  {
+    "id": "2026-05-06T08:13:10-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-05-06T08:13:10-04:00",
+    "endTime": "2026-05-08T13:40:47-04:00",
+    "sessionIds": [
+      "2026-05-06T08:13:10-04:00",
+      "2026-05-08T07:20:56-04:00"
+    ],
+    "sessionCount": 2,
+    "energyKwh": 99.6723,
+    "costUsd": 20.92,
+    "miles": 357.1,
+    "miPerKwh": 3.583,
+    "centsPerMile": 5.86,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-05-11T07:38:19-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-05-11T07:38:19-04:00",
+    "endTime": "2026-05-11T12:44:41-04:00",
+    "sessionIds": [
+      "2026-05-11T07:38:19-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 42.7135,
+    "costUsd": 9.03,
+    "miles": 145.2,
+    "miPerKwh": 3.399,
+    "centsPerMile": 6.22,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-05-13T07:27:25-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-05-13T07:27:25-04:00",
+    "endTime": "2026-05-13T14:54:53-04:00",
+    "sessionIds": [
+      "2026-05-13T07:27:25-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 48.8421,
+    "costUsd": 10.26,
+    "miles": 179.1,
+    "miPerKwh": 3.667,
+    "centsPerMile": 5.73,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-05-18T08:10:34-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-05-18T08:10:34-04:00",
+    "endTime": "2026-05-18T15:34:16-04:00",
+    "sessionIds": [
+      "2026-05-18T08:10:34-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 67.5413,
+    "costUsd": 14,
+    "miles": 239.1,
+    "miPerKwh": 3.54,
+    "centsPerMile": 5.86,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-05-21T07:40:04-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-05-21T07:40:04-04:00",
+    "endTime": "2026-05-21T15:05:29-04:00",
+    "sessionIds": [
+      "2026-05-21T07:40:04-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 69.6111,
+    "costUsd": 14.41,
+    "miles": 268.4,
+    "miPerKwh": 3.856,
+    "centsPerMile": 5.37,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-05-27T07:22:04-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-05-27T07:22:04-04:00",
+    "endTime": "2026-05-27T14:32:49-04:00",
+    "sessionIds": [
+      "2026-05-27T07:22:04-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 60.8431,
+    "costUsd": 12.66,
+    "miles": 229.3,
+    "miPerKwh": 3.769,
+    "centsPerMile": 5.52,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-05-29T07:32:44-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-05-29T07:32:44-04:00",
+    "endTime": "2026-05-29T16:01:33-04:00",
+    "sessionIds": [
+      "2026-05-29T07:32:44-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 46.8561,
+    "costUsd": 9.86,
+    "miles": 177.8,
+    "miPerKwh": 3.795,
+    "centsPerMile": 5.55,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "mache-2023",
+    "name": "Mustang Mach-E",
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "year": 2023,
+    "trim": null,
+    "batteryKwhUsable": null,
+    "epaRangeMiles": null,
+    "active": true
+  }
+]
