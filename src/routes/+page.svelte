@@ -3,6 +3,7 @@
 	import EfficiencyVsTemp from '$lib/components/EfficiencyVsTemp.svelte';
 	import MonthlyEnergyByNetwork from '$lib/components/MonthlyEnergyByNetwork.svelte';
 	import MonthlySpend from '$lib/components/MonthlySpend.svelte';
+	import CostPerMile from '$lib/components/CostPerMile.svelte';
 	import EfficiencyOverTime from '$lib/components/EfficiencyOverTime.svelte';
 	import NetworkBreakdown from '$lib/components/NetworkBreakdown.svelte';
 
@@ -40,9 +41,10 @@
 
 	<section class="charts">
 		<div class="span-2"><EfficiencyVsTemp /></div>
+		<div class="span-2"><EfficiencyOverTime /></div>
 		<div class="span-2"><MonthlyEnergyByNetwork /></div>
 		<div class="span-2"><MonthlySpend /></div>
-		<div><EfficiencyOverTime /></div>
+		<div><CostPerMile /></div>
 		<div><NetworkBreakdown /></div>
 	</section>
 </main>

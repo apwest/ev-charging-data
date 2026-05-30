@@ -12,6 +12,7 @@
 		LinearScale,
 		CategoryScale,
 		TimeScale,
+		Filler,
 		Tooltip,
 		Legend,
 		Title
@@ -31,6 +32,7 @@
 		LinearScale,
 		CategoryScale,
 		TimeScale,
+		Filler,
 		Tooltip,
 		Legend,
 		Title

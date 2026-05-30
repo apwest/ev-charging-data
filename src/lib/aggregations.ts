@@ -1,5 +1,5 @@
 // Derived aggregations for the dashboard charts, computed from the imported datasets.
-import { sessions, cleanTrips } from './data';
+import { sessions, cleanTrips, weather } from './data';
 
 export const NETWORKS = ['Charge Point', 'Blink', 'Electrify America'] as const;
 
@@ -124,6 +124,78 @@ export function efficiencyByMonth(): MonthEfficiency[] {
 			month: mk,
 			avgMiPerKwh: b ? round(b.sum / b.n, 3) : null,
 			tripCount: b?.n ?? 0
+		};
+	});
+}
+
+const mean = (a: number[]) => (a.length ? a.reduce((x, y) => x + y, 0) / a.length : null);
+
+export interface MonthWeather {
+	month: string;
+	avgLow: number | null;
+	avg: number | null;
+	avgHigh: number | null;
+}
+
+/** Monthly temperature summary from daily weather: mean of daily lows / avgs / highs. */
+export function weatherByMonth(): Map<string, MonthWeather> {
+	const map = new Map<string, { low: number[]; avg: number[]; high: number[] }>();
+	for (const [date, d] of Object.entries(weather.days)) {
+		const mk = date.slice(0, 7);
+		let b = map.get(mk);
+		if (!b) {
+			b = { low: [], avg: [], high: [] };
+			map.set(mk, b);
+		}
+		b.low.push(d.low);
+		b.avg.push(d.avg);
+		b.high.push(d.high);
+	}
+	const out = new Map<string, MonthWeather>();
+	for (const [mk, b] of map) {
+		const lo = mean(b.low);
+		const av = mean(b.avg);
+		const hi = mean(b.high);
+		out.set(mk, {
+			month: mk,
+			avgLow: lo == null ? null : round(lo, 1),
+			avg: av == null ? null : round(av, 1),
+			avgHigh: hi == null ? null : round(hi, 1)
+		});
+	}
+	return out;
+}
+
+export interface MonthCostPerMile {
+	month: string;
+	centsPerMile: number | null;
+	costUsd: number;
+	miles: number;
+}
+
+/** Monthly cost per mile = summed trip cost ÷ summed trip miles (clean trips). */
+export function costPerMileByMonth(): MonthCostPerMile[] {
+	const map = new Map<string, { cost: number; miles: number }>();
+	for (const t of cleanTrips) {
+		const mk = monthKey(t.endTime ?? t.startTime);
+		if (!mk || t.miles == null) continue;
+		let b = map.get(mk);
+		if (!b) {
+			b = { cost: 0, miles: 0 };
+			map.set(mk, b);
+		}
+		b.cost += t.costUsd;
+		b.miles += t.miles;
+	}
+	const keys = [...map.keys()].sort();
+	if (!keys.length) return [];
+	return monthRange(keys[0], keys.at(-1)!).map((mk) => {
+		const b = map.get(mk);
+		return {
+			month: mk,
+			centsPerMile: b && b.miles > 0 ? round((b.cost / b.miles) * 100, 2) : b ? 0 : null,
+			costUsd: b ? round(b.cost, 2) : 0,
+			miles: b ? round(b.miles, 1) : 0
 		};
 	});
 }

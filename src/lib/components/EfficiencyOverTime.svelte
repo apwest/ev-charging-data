@@ -1,40 +1,87 @@
 <script lang="ts">
 	import Chart from './Chart.svelte';
 	import Card from './Card.svelte';
-	import { efficiencyByMonth, monthLabel } from '$lib/aggregations';
+	import { efficiencyByMonth, weatherByMonth, monthLabel } from '$lib/aggregations';
 	import type { ChartConfiguration } from 'chart.js';
 
 	const months = efficiencyByMonth();
+	const wx = weatherByMonth();
 
-	const data: ChartConfiguration['data'] = {
-		labels: months.map((m) => monthLabel(m.month)),
+	const labels = months.map((m) => monthLabel(m.month));
+	const avgHigh = months.map((m) => wx.get(m.month)?.avgHigh ?? null);
+	const avgLow = months.map((m) => wx.get(m.month)?.avgLow ?? null);
+
+	const data: ChartConfiguration<'line'>['data'] = {
+		labels,
 		datasets: [
+			// Shaded temperature band (avg daily low → avg daily high), behind the line.
 			{
-				type: 'line',
+				label: 'Temp range (°F)',
+				data: avgHigh,
+				yAxisID: 'yTemp',
+				borderColor: 'rgba(245, 158, 11, 0.35)',
+				backgroundColor: 'rgba(245, 158, 11, 0.12)',
+				borderWidth: 1,
+				pointRadius: 0,
+				fill: '+1',
+				spanGaps: true,
+				order: 1
+			},
+			{
+				label: '_low',
+				data: avgLow,
+				yAxisID: 'yTemp',
+				borderColor: 'rgba(245, 158, 11, 0.35)',
+				borderWidth: 1,
+				pointRadius: 0,
+				fill: false,
+				spanGaps: true,
+				order: 1
+			},
+			// Efficiency line, drawn on top.
+			{
 				label: 'Avg efficiency',
 				data: months.map((m) => m.avgMiPerKwh),
+				yAxisID: 'y',
 				borderColor: '#0d9488',
 				backgroundColor: '#0d9488',
 				borderWidth: 2,
 				pointRadius: 2,
 				spanGaps: true,
-				tension: 0.3
+				tension: 0.3,
+				order: 0
 			}
 		]
 	};
 
-	const options: ChartConfiguration['options'] = {
+	const options: ChartConfiguration<'line'>['options'] = {
 		responsive: true,
 		maintainAspectRatio: false,
+		interaction: { mode: 'index', intersect: false },
 		scales: {
 			x: { ticks: { maxRotation: 90, autoSkip: true } },
-			y: { title: { display: true, text: 'mi/kWh' } }
+			y: { position: 'left', title: { display: true, text: 'mi/kWh' } },
+			yTemp: {
+				position: 'right',
+				title: { display: true, text: '°F' },
+				grid: { drawOnChartArea: false }
+			}
 		},
 		plugins: {
-			legend: { display: false },
+			legend: {
+				display: true,
+				labels: { filter: (item) => !item.text.startsWith('_') }
+			},
 			tooltip: {
 				callbacks: {
-					label: (ctx) => (ctx.parsed.y == null ? 'no trips' : `${ctx.parsed.y.toFixed(2)} mi/kWh`)
+					label: (ctx) => {
+						if (ctx.parsed.y == null) return '';
+						if (ctx.dataset.yAxisID === 'yTemp') {
+							const which = ctx.dataset.label === '_low' ? 'avg low' : 'avg high';
+							return `${which}: ${ctx.parsed.y}°F`;
+						}
+						return `${ctx.parsed.y.toFixed(2)} mi/kWh`;
+					}
 				}
 			}
 		}
@@ -43,7 +90,7 @@
 
 <Card
 	title="Efficiency Over Time"
-	subtitle="Monthly average trip efficiency — note the seasonal dip"
+	subtitle="Monthly avg efficiency vs. the temperature band — efficiency dips when it's cold"
 	height={320}
 >
 	<Chart type="line" {data} {options} />
