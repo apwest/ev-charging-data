@@ -1,23 +1,33 @@
 name: Update data
 
-# Phase 3a: pull the Google Sheet, refresh weather, regenerate JSON, commit if changed.
-# Starts as manual-only (workflow_dispatch). Once the secrets below are set and a manual
-# run is green, uncomment the schedule to run daily.
+# Phase 3a: pull the Google Sheet, refresh weather, regenerate JSON, commit changes,
+# then build + deploy from this same working tree.
+#
+# We deploy here directly (rather than letting the commit trigger deploy.yml) because
+# pushes made with the default GITHUB_TOKEN do NOT trigger other workflows.
+#
+# Starts manual-only; uncomment the schedule once a manual run is verified green.
 on:
   workflow_dispatch:
   # schedule:
   #   - cron: '0 11 * * *' # ~6-7am ET; adjust to taste
 
 permissions:
-  contents: write # push the data commit (which triggers the deploy workflow)
+  contents: write # push the data commit
+  pages: write # deploy to Pages
+  id-token: write
 
+# Share the Pages concurrency group with deploy.yml so the two never publish at once.
 concurrency:
-  group: update-data
+  group: pages
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -29,7 +39,6 @@ jobs:
       - run: npm ci
 
       - name: Pull Google Sheet as CSV
-        # SHEET_CSV_URL = the "Publish to web → CSV" link for the EV Charging tab.
         env:
           SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
         run: |
@@ -54,5 +63,21 @@ jobs:
           else
             git commit -m "data: daily update ($(date -u +%Y-%m-%d))"
             git push
-            echo "Pushed data update; deploy workflow will publish it."
+            echo "Committed data update."
           fi
+
+      # Build + deploy from the working tree we just updated.
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site
+        env:
+          BASE_PATH: '/${{ github.event.repository.name }}'
+        run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
