@@ -38,8 +38,16 @@ const cacheFiles = readdirSync(DATA_DIR)
 	.sort();
 
 if (!cacheFiles.length) {
-	console.error('No data/weather-*.json cache files found. Run the fetcher first.');
-	process.exit(1);
+	// No new raw cache to aggregate. If we already have a committed weather.json,
+	// that's fine (nothing to do); only error if there's nothing at all.
+	try {
+		readFileSync(join(DATA_DIR, 'weather.json'), 'utf8');
+		console.log('No new weather-*.json cache; weather.json left unchanged.');
+		process.exit(0);
+	} catch {
+		console.error('No data/weather-*.json cache and no weather.json. Run the fetcher first.');
+		process.exit(1);
+	}
 }
 
 // date -> { min, max, sum, count }
