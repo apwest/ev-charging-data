@@ -3240,9 +3240,9 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": 35.6,
+    "avgTempF": 41.1,
     "minTempF": 24,
-    "maxTempF": 43,
+    "maxTempF": 62,
     "tempSource": "weather",
     "isPaid": true,
     "open": false,
@@ -3267,10 +3267,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 31.1,
+    "minTempF": 24,
+    "maxTempF": 39,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3293,10 +3293,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 36,
+    "minTempF": 33,
+    "maxTempF": 40,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3320,10 +3320,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 42.6,
+    "minTempF": 27,
+    "maxTempF": 63,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3346,10 +3346,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 52.1,
+    "minTempF": 38,
+    "maxTempF": 67,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3372,10 +3372,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 49.4,
+    "minTempF": 41,
+    "maxTempF": 76,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3398,10 +3398,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 43.8,
+    "minTempF": 30,
+    "maxTempF": 51,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3424,10 +3424,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 35.9,
+    "minTempF": 29,
+    "maxTempF": 45,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3450,10 +3450,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 53.1,
+    "minTempF": 36,
+    "maxTempF": 68,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3476,10 +3476,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 66,
+    "minTempF": 51,
+    "maxTempF": 84,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3503,10 +3503,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 45.8,
+    "minTempF": 27,
+    "maxTempF": 67,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3529,10 +3529,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 43.2,
+    "minTempF": 34,
+    "maxTempF": 46,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3557,10 +3557,10 @@
       "Electrify America",
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 41,
+    "minTempF": 28,
+    "maxTempF": 57,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3577,20 +3577,20 @@
     "sessionCount": 1,
     "energyKwh": 56.2804,
     "costUsd": 11.75,
-    "miles": 377.6,
-    "miPerKwh": 6.709,
-    "centsPerMile": 3.11,
+    "miles": 191.4,
+    "miPerKwh": 3.401,
+    "centsPerMile": 6.14,
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 58.3,
+    "minTempF": 42,
+    "maxTempF": 71,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
-    "suspect": true
+    "suspect": false
   },
   {
     "id": "2026-05-06T08:13:10-04:00",
@@ -3610,10 +3610,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 55.7,
+    "minTempF": 35,
+    "maxTempF": 70,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3636,10 +3636,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 56.2,
+    "minTempF": 42,
+    "maxTempF": 62,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3662,10 +3662,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 52.9,
+    "minTempF": 41,
+    "maxTempF": 67,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3688,10 +3688,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 73.3,
+    "minTempF": 52,
+    "maxTempF": 85,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3714,10 +3714,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 64.3,
+    "minTempF": 50,
+    "maxTempF": 71,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3740,10 +3740,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 72.4,
+    "minTempF": 59,
+    "maxTempF": 84,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,
@@ -3766,10 +3766,10 @@
     "networks": [
       "Blink"
     ],
-    "avgTempF": null,
-    "minTempF": null,
-    "maxTempF": null,
-    "tempSource": null,
+    "avgTempF": 59.8,
+    "minTempF": 45,
+    "maxTempF": 70,
+    "tempSource": "weather",
     "isPaid": true,
     "open": false,
     "milesMissing": false,

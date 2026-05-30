@@ -11305,7 +11305,12 @@
     "miles": 272.6,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 38,
+      "avg": 53.7,
+      "high": 62,
+      "obs": 55
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-13T08:04:39-04:00"
@@ -11328,7 +11333,12 @@
     "miles": 0,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 24,
+      "avg": 29.3,
+      "high": 36,
+      "obs": 24
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-03-18T07:07:12-04:00"
@@ -11351,7 +11361,12 @@
     "miles": 281,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 24,
+      "avg": 32.8,
+      "high": 39,
+      "obs": 26
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-18T07:07:12-04:00"
@@ -11374,7 +11389,12 @@
     "miles": 147.1,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 33,
+      "avg": 36,
+      "high": 40,
+      "obs": 33
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-23T07:26:14-04:00"
@@ -11397,7 +11417,12 @@
     "miles": 0,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 32,
+      "avg": 35.8,
+      "high": 47,
+      "obs": 37
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-03-24T07:20:06-04:00"
@@ -11420,7 +11445,12 @@
     "miles": 268.6,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 41,
+      "avg": 50.7,
+      "high": 63,
+      "obs": 26
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-24T07:20:06-04:00"
@@ -11443,7 +11473,12 @@
     "miles": 199.6,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 38,
+      "avg": 52.1,
+      "high": 67,
+      "obs": 24
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-03-30T07:28:01-04:00"
@@ -11466,7 +11501,12 @@
     "miles": 180.5,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 41,
+      "avg": 49.4,
+      "high": 76,
+      "obs": 37
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-01T07:32:13-04:00"
@@ -11489,7 +11529,12 @@
     "miles": 202.4,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 30,
+      "avg": 43.8,
+      "high": 51,
+      "obs": 17
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-06T07:20:22-04:00"
@@ -11512,7 +11557,12 @@
     "miles": 197.6,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 29,
+      "avg": 35.9,
+      "high": 45,
+      "obs": 22
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-08T07:38:40-04:00"
@@ -11535,7 +11585,12 @@
     "miles": 185.8,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 36,
+      "avg": 53.1,
+      "high": 68,
+      "obs": 17
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-10T07:22:35-04:00"
@@ -11558,7 +11613,12 @@
     "miles": 212.6,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 51,
+      "avg": 66,
+      "high": 84,
+      "obs": 21
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-14T07:25:41-04:00"
@@ -11581,7 +11641,12 @@
     "miles": 0,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 48,
+      "avg": 52.4,
+      "high": 67,
+      "obs": 38
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-04-16T09:33:53-04:00"
@@ -11604,7 +11669,12 @@
     "miles": 305.1,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 27,
+      "avg": 34.6,
+      "high": 51,
+      "obs": 44
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-16T09:33:53-04:00"
@@ -11627,7 +11697,12 @@
     "miles": 175.9,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 34,
+      "avg": 43.2,
+      "high": 46,
+      "obs": 25
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-22T07:15:09-04:00"
@@ -11650,7 +11725,12 @@
     "miles": 0,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 28,
+      "avg": 41,
+      "high": 57,
+      "obs": 25
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-04-24T07:30:00-04:00"
@@ -11673,7 +11753,12 @@
     "miles": 186.2,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 28,
+      "avg": 41,
+      "high": 57,
+      "obs": 25
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-04-24T07:30:00-04:00"
@@ -11693,10 +11778,15 @@
     "durationSec": 21710,
     "energyKwh": 56.2804,
     "costUsd": 11.75,
-    "miles": 377.6,
+    "miles": 191.4,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 42,
+      "avg": 58.3,
+      "high": 71,
+      "obs": 18
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-04T07:35:58-04:00"
@@ -11719,7 +11809,12 @@
     "miles": 0,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 57,
+      "avg": 61,
+      "high": 70,
+      "obs": 27
+    },
     "closesTrip": false,
     "milesMissing": false,
     "tripId": "2026-05-06T08:13:10-04:00"
@@ -11742,7 +11837,12 @@
     "miles": 357.1,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 35,
+      "avg": 48.4,
+      "high": 63,
+      "obs": 17
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-06T08:13:10-04:00"
@@ -11765,7 +11865,12 @@
     "miles": 145.2,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 42,
+      "avg": 56.2,
+      "high": 62,
+      "obs": 19
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-11T07:38:19-04:00"
@@ -11788,7 +11893,12 @@
     "miles": 179.1,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 41,
+      "avg": 52.9,
+      "high": 67,
+      "obs": 18
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-13T07:27:25-04:00"
@@ -11811,7 +11921,12 @@
     "miles": 239.1,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 52,
+      "avg": 73.3,
+      "high": 85,
+      "obs": 16
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-18T08:10:34-04:00"
@@ -11834,7 +11949,12 @@
     "miles": 268.4,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 50,
+      "avg": 64.3,
+      "high": 71,
+      "obs": 19
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-21T07:40:04-04:00"
@@ -11857,7 +11977,12 @@
     "miles": 229.3,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 59,
+      "avg": 72.4,
+      "high": 84,
+      "obs": 22
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-27T07:22:04-04:00"
@@ -11880,7 +12005,12 @@
     "miles": 177.8,
     "socPercent": null,
     "tempF": null,
-    "weatherF": null,
+    "weatherF": {
+      "low": 45,
+      "avg": 59.8,
+      "high": 70,
+      "obs": 21
+    },
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-05-29T07:32:44-04:00"
