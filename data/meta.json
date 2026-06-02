@@ -2,15 +2,15 @@
   "generatedFrom": "EV Charging Data - EV Charging.csv",
   "vehicleId": "mache-2023",
   "counts": {
-    "sessions": 358,
-    "trips": 136,
-    "openTrips": 0,
+    "sessions": 359,
+    "trips": 137,
+    "openTrips": 1,
     "milesMissingTrips": 1,
     "suspectTrips": 0
   },
   "dateRange": {
     "first": "2024-02-09",
-    "last": "2026-05-29"
+    "last": "2026-06-01"
   },
   "networks": [
     "Blink",
@@ -24,13 +24,13 @@
   },
   "avgMiPerKwh": 3.172,
   "weather": {
-    "days": 852,
-    "tripsFromWeather": 136,
+    "days": 853,
+    "tripsFromWeather": 137,
     "tripsFromSheet": 0,
     "tripsNoTemp": 0
   },
   "validation": {
-    "tripsChecked": 136,
+    "tripsChecked": 137,
     "mismatches": [],
     "outOfOrderRows": []
   },
