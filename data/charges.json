@@ -12016,7 +12016,7 @@
     "tripId": "2026-05-29T07:32:44-04:00"
   },
   {
-    "id": "2026-06-01T07:45:49-04:00",
+    "id": "2026-06-01T07:46:15-04:00",
     "vehicleId": "mache-2023",
     "date": "2026-06-01",
     "network": "Blink",
@@ -12025,12 +12025,12 @@
       "kw": 16.64,
       "current": "AC"
     },
-    "startTime": "2026-06-01T07:45:49-04:00",
-    "finishTime": "2026-06-01T07:45:52-04:00",
-    "durationSec": 3,
-    "energyKwh": 0,
-    "costUsd": 0,
-    "miles": 0,
+    "startTime": "2026-06-01T07:46:15-04:00",
+    "finishTime": "2026-06-01T13:45:20-04:00",
+    "durationSec": 16796,
+    "energyKwh": 43.4434,
+    "costUsd": 9.18,
+    "miles": 149,
     "socPercent": null,
     "tempF": null,
     "weatherF": {
@@ -12039,8 +12039,8 @@
       "high": 61,
       "obs": 55
     },
-    "closesTrip": false,
+    "closesTrip": true,
     "milesMissing": false,
-    "tripId": "2026-06-01T07:45:49-04:00"
+    "tripId": "2026-06-01T07:46:15-04:00"
   }
 ]
