@@ -21,6 +21,7 @@ Miles is left 0 (you add it in the Sheet later); convert.mjs recomputes the rest
 
 import json
 import os
+import re
 import sys
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -33,6 +34,12 @@ from python_chargepoint import ChargePoint
 TZ = ZoneInfo("America/New_York")
 DEFAULT_SPREADSHEET_ID = "1k_YdjVTuWUZXMTtPN7s57KS6wmW955t2UnIw_BDHae0"
 SESSION_PAGE_SIZE = 60
+
+# Columns L:P hold per-row / per-trip formulas (marker, count, Energy/Trip,
+# Mi/kWh/Trip, Month) that Sheets does NOT extend to appended rows. We copy them
+# down after appending, mirroring the Apps Script (Blink/EA) path.
+FORMULA_FIRST_COL = 11  # 0-based column L
+FORMULA_NUM_COLS = 5    # L:P
 
 
 def fmt_timestamp(ms):
@@ -62,6 +69,55 @@ def session_row(s):
         0.0,  # Miles — filled in the Sheet later
         0.0,  # Avg. Cost (¢/mi) — recomputed downstream
     ]
+
+
+def last_formula_row(ws, from_row):
+    """Sheet row number of the last row at/above from_row whose marker cell
+    (col L) holds a formula. Mirrors the Apps Script guard so a blank run or a
+    manual "?" override (a static value) can't make the fill-down copy nothing."""
+    if from_row < 2:
+        return None
+    col_l = ws.get(
+        f"L2:L{from_row}",
+        value_render_option=gspread.utils.ValueRenderOption.formula,
+    )
+    for i in range(len(col_l) - 1, -1, -1):
+        cell = col_l[i][0] if col_l[i] else ""
+        if isinstance(cell, str) and cell.startswith("="):
+            return i + 2
+    return None
+
+
+def fill_down_trip_formulas(ws, first_row, last_row):
+    """Copy the L:P formulas down into newly appended rows (first_row..last_row).
+    Uses the Sheets API copyPaste with PASTE_FORMULA, the exact equivalent of the
+    Apps Script copyTo: a 1-row source tiled over the destination, relative
+    references shifting per row."""
+    src_row = last_formula_row(ws, first_row - 1)
+    if src_row is None:
+        return
+    ws.spreadsheet.batch_update({
+        "requests": [{
+            "copyPaste": {
+                "source": {
+                    "sheetId": ws.id,
+                    "startRowIndex": src_row - 1,
+                    "endRowIndex": src_row,
+                    "startColumnIndex": FORMULA_FIRST_COL,
+                    "endColumnIndex": FORMULA_FIRST_COL + FORMULA_NUM_COLS,
+                },
+                "destination": {
+                    "sheetId": ws.id,
+                    "startRowIndex": first_row - 1,
+                    "endRowIndex": last_row,
+                    "startColumnIndex": FORMULA_FIRST_COL,
+                    "endColumnIndex": FORMULA_FIRST_COL + FORMULA_NUM_COLS,
+                },
+                "pasteType": "PASTE_FORMULA",
+                "pasteOrientation": "NORMAL",
+            }
+        }]
+    })
 
 
 def require_env(name):
@@ -108,7 +164,13 @@ def main():
         new_rows.append(row)
 
     if new_rows:
-        ws.append_rows(new_rows, value_input_option="USER_ENTERED")
+        result = ws.append_rows(new_rows, value_input_option="USER_ENTERED")
+        # updatedRange looks like "'EV Charging'!A363:K365" — pull the row span
+        # so we can fill the L:P formulas down into exactly those new rows.
+        updated_range = result["updates"]["updatedRange"]
+        m = re.search(r"![A-Z]+(\d+):[A-Z]+(\d+)", updated_range)
+        if m:
+            fill_down_trip_formulas(ws, int(m.group(1)), int(m.group(2)))
         print(f"[✓] Appended {len(new_rows)} new ChargePoint session(s):")
         for r in new_rows:
             print("    " + ", ".join(str(x) for x in r))

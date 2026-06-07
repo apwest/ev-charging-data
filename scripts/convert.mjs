@@ -115,15 +115,16 @@ const sessions = rows.map((c, i) => {
   const marker = (c[11] ?? '').trim(); // '+', '-', '?' or ''
   const miles = num(c[9]) ?? 0;
 
-  // Whether a session closes its trip (a drive happened):
-  //   '-'  closed, miles recorded
-  //   '?'  closed, but miles were forgotten -> trip closes with miles unknown
-  //   '+'  top-up, no drive yet -> does not close
-  //   ''   unmaintained recent row -> fall back to miles > 0
-  let closesTrip;
+  // Trip boundaries are driven by the Miles column: a session that records
+  // miles (> 0) closes its trip. The +/-/? marker is an OPTIONAL manual
+  // override, needed only for the one case miles can't express on its own:
+  //   '-' or '?' on a zero-mile row -> a drive happened but miles weren't
+  //   logged, so the trip still closes (with miles unknown).
+  // The marker can only *promote* a zero-mile row to a close; it never blocks
+  // a row that has miles. This keeps grouping correct whether or not the
+  // sheet's formula columns (L-P) were populated on a row.
+  let closesTrip = miles > 0;
   if (marker === '-' || marker === '?') closesTrip = true;
-  else if (marker === '+') closesTrip = false;
-  else closesTrip = miles > 0;
   const milesMissing = closesTrip && !(miles > 0); // drove, but miles not logged
 
   return {

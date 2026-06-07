@@ -42,11 +42,42 @@ function extractChargingData(threads, extractor, sheet) {
     var data = extractor(thread);
     if (data != null) {
       sheet.appendRow(data);
+      fillDownTripFormulas(sheet, sheet.getLastRow());
       thread.markRead();
       thread.moveToArchive();
       console.log(data);
     }
   }
+}
+
+// Columns L:P hold per-row / per-trip formulas (marker, count, Energy/Trip,
+// Mi/kWh/Trip, Month). Sheets does NOT extend these to rows added via
+// appendRow(), which writes only A:K, so new rows arrive with L:P blank. Copy
+// the formulas down from the nearest populated row above; relative references
+// shift to the new row automatically (PASTE_FORMULA). convert.mjs no longer
+// depends on these columns (it derives trip boundaries from the Miles column),
+// but keeping them filled preserves the in-sheet views and the +/- marker.
+var FORMULA_FIRST_COL = 12; // column L
+var FORMULA_NUM_COLS = 5;   // L:P
+
+function fillDownTripFormulas(sheet, row) {
+  var srcRow = lastFormulaRow(sheet, row - 1);
+  if (srcRow == null) return; // no formula row to copy from yet
+  sheet.getRange(srcRow, FORMULA_FIRST_COL, 1, FORMULA_NUM_COLS).copyTo(
+    sheet.getRange(row, FORMULA_FIRST_COL, 1, FORMULA_NUM_COLS),
+    SpreadsheetApp.CopyPasteType.PASTE_FORMULA,
+    false
+  );
+}
+
+// Walk upward from fromRow to the last row whose marker cell (col L) actually
+// holds a formula, so a run of blank rows (or a manual "?" override, which is a
+// static value) can't make the fill-down copy nothing and cascade blanks.
+function lastFormulaRow(sheet, fromRow) {
+  for (var r = fromRow; r >= 2; r--) {
+    if (sheet.getRange(r, FORMULA_FIRST_COL).getFormula() !== '') return r;
+  }
+  return null;
 }
 
 function extractBlinkChargingDataFromEmails() {
