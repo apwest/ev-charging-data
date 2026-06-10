@@ -7,6 +7,7 @@
 	import CostPerMile from '$lib/components/CostPerMile.svelte';
 	import EfficiencyOverTime from '$lib/components/EfficiencyOverTime.svelte';
 	import NetworkBreakdown from '$lib/components/NetworkBreakdown.svelte';
+	import { theme, toggleTheme } from '$lib/theme.svelte';
 
 	const vehicle = vehicles[0];
 	const fmt = new Intl.NumberFormat('en-US');
@@ -31,8 +32,18 @@
 
 <main>
 	<header class="page-head">
-		<h1>{vehicle?.year} {vehicle?.name}</h1>
-		<p>Charging data · {meta.dateRange.first} → {meta.dateRange.last}</p>
+		<div class="titles">
+			<h1>{vehicle?.year} {vehicle?.name}</h1>
+			<p>Charging data · {meta.dateRange.first} → {meta.dateRange.last}</p>
+		</div>
+		<button
+			class="theme-toggle"
+			onclick={toggleTheme}
+			aria-label="Switch to {theme.current === 'dark' ? 'light' : 'dark'} mode"
+			title="Switch to {theme.current === 'dark' ? 'light' : 'dark'} mode"
+		>
+			{theme.current === 'dark' ? '☀️' : '🌙'}
+		</button>
 	</header>
 
 	<section class="stats">
@@ -56,21 +67,16 @@
 </main>
 
 <style>
-	:global(body) {
-		margin: 0;
-		background: #f8fafc;
-		color: #111827;
-		font-family:
-			system-ui,
-			-apple-system,
-			'Segoe UI',
-			Roboto,
-			sans-serif;
-	}
 	main {
 		max-width: 960px;
 		margin: 0 auto;
 		padding: 2rem 1.25rem 4rem;
+	}
+	.page-head {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 1rem;
 	}
 	.page-head h1 {
 		margin: 0;
@@ -78,7 +84,27 @@
 	}
 	.page-head p {
 		margin: 0.25rem 0 0;
-		color: #6b7280;
+		color: var(--muted);
+	}
+	.theme-toggle {
+		flex: none;
+		width: 2.4rem;
+		height: 2.4rem;
+		padding: 0;
+		border: 1px solid var(--border);
+		background: var(--surface);
+		color: var(--text);
+		border-radius: 10px;
+		font-size: 1.1rem;
+		line-height: 1;
+		cursor: pointer;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		transition: border-color 0.2s ease;
+	}
+	.theme-toggle:hover {
+		border-color: var(--accent);
 	}
 	.stats {
 		display: grid;
@@ -87,8 +113,8 @@
 		margin: 1.5rem 0;
 	}
 	.stat {
-		background: #fff;
-		border: 1px solid #e5e7eb;
+		background: var(--surface);
+		border: 1px solid var(--border);
 		border-radius: 12px;
 		padding: 0.85rem 1rem;
 		display: flex;
@@ -99,14 +125,14 @@
 		font-weight: 600;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
-		color: #6b7280;
+		color: var(--muted);
 	}
 	/* value on its own line, centered */
 	.stat-value {
 		text-align: center;
 		font-size: 1.9rem;
 		font-weight: 700;
-		color: #111827;
+		color: var(--text);
 		line-height: 1.1;
 		margin: 0.2rem 0 0.05rem;
 	}
@@ -115,7 +141,7 @@
 		align-self: flex-end;
 		font-size: 0.8rem;
 		font-weight: 500;
-		color: #6b7280;
+		color: var(--muted);
 	}
 	.charts {
 		display: grid;

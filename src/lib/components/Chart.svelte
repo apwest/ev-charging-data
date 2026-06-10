@@ -18,6 +18,7 @@
 		Title
 	} from 'chart.js';
 	import type { ChartConfiguration, ChartType } from 'chart.js';
+	import { theme } from '$lib/theme.svelte';
 
 	// Register once for the chart types used across the dashboard.
 	Chart.register(
@@ -51,7 +52,12 @@
 	let canvas: HTMLCanvasElement;
 
 	// Chart.js is browser-only; $effect runs client-side after the canvas mounts.
+	// Reading theme.current makes this effect re-run on toggle, recreating the
+	// chart with theme-appropriate colors (Chart.js bakes colors at construction).
 	$effect(() => {
+		const dark = theme.current === 'dark';
+		Chart.defaults.color = dark ? '#cbd5e1' : '#374151';
+		Chart.defaults.borderColor = dark ? 'rgba(148, 163, 184, 0.18)' : 'rgba(17, 24, 39, 0.1)';
 		const chart = new Chart(canvas, { type, data, options });
 		return () => chart.destroy();
 	});

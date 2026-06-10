@@ -26,8 +26,8 @@
 
 <style>
 	.card {
-		background: #fff;
-		border: 1px solid #e5e7eb;
+		background: var(--surface);
+		border: 1px solid var(--border);
 		border-radius: 12px;
 		padding: 1.25rem;
 	}
@@ -37,7 +37,7 @@
 	}
 	header p {
 		margin: 0.25rem 0 0;
-		color: #6b7280;
+		color: var(--muted);
 		font-size: 0.85rem;
 	}
 	.chart {
