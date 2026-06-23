@@ -2,15 +2,15 @@
   "generatedFrom": "EV Charging Data - EV Charging.csv",
   "vehicleId": "mache-2023",
   "counts": {
-    "sessions": 365,
+    "sessions": 366,
     "trips": 143,
-    "openTrips": 1,
+    "openTrips": 0,
     "milesMissingTrips": 1,
     "suspectTrips": 0
   },
   "dateRange": {
     "first": "2024-02-09",
-    "last": "2026-06-17"
+    "last": "2026-06-22"
   },
   "networks": [
     "Blink",
@@ -18,13 +18,13 @@
     "Electrify America"
   ],
   "totals": {
-    "energyKwh": 14156.6,
-    "costUsd": 873.67,
-    "miles": 43539.5
+    "energyKwh": 14212.4,
+    "costUsd": 885.32,
+    "miles": 43931.6
   },
-  "avgMiPerKwh": 3.196,
+  "avgMiPerKwh": 3.201,
   "weather": {
-    "days": 873,
+    "days": 874,
     "tripsFromWeather": 143,
     "tripsFromSheet": 0,
     "tripsNoTemp": 0
