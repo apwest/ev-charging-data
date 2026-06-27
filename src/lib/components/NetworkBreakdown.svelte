@@ -2,12 +2,13 @@
 	import Chart from './Chart.svelte';
 	import Card from './Card.svelte';
 	import { byNetwork, networkColor } from '$lib/aggregations';
+	import { ranged } from '$lib/range.svelte';
 	import type { ChartConfiguration } from 'chart.js';
 
-	const totals = byNetwork();
-	const totalKwh = totals.reduce((a, t) => a + t.energyKwh, 0);
+	const totals = $derived(byNetwork(ranged.sessions));
+	const totalKwh = $derived(totals.reduce((a, t) => a + t.energyKwh, 0));
 
-	const data: ChartConfiguration<'doughnut'>['data'] = {
+	const data: ChartConfiguration<'doughnut'>['data'] = $derived({
 		labels: totals.map((t) => t.network),
 		datasets: [
 			{
@@ -16,7 +17,7 @@
 				borderWidth: 0
 			}
 		]
-	};
+	});
 
 	const options: ChartConfiguration<'doughnut'>['options'] = {
 		responsive: true,

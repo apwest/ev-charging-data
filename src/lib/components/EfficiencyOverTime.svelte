@@ -2,16 +2,17 @@
 	import Chart from './Chart.svelte';
 	import Card from './Card.svelte';
 	import { efficiencyByMonth, weatherByMonth, monthLabel } from '$lib/aggregations';
+	import { ranged } from '$lib/range.svelte';
 	import type { ChartConfiguration } from 'chart.js';
 
-	const months = efficiencyByMonth();
-	const wx = weatherByMonth();
+	const wx = weatherByMonth(); // full weather lookup map; charts read only the months they show
 
-	const labels = months.map((m) => monthLabel(m.month));
-	const avgHigh = months.map((m) => wx.get(m.month)?.avgHigh ?? null);
-	const avgLow = months.map((m) => wx.get(m.month)?.avgLow ?? null);
+	const months = $derived(efficiencyByMonth(ranged.cleanTrips));
+	const labels = $derived(months.map((m) => monthLabel(m.month)));
+	const avgHigh = $derived(months.map((m) => wx.get(m.month)?.avgHigh ?? null));
+	const avgLow = $derived(months.map((m) => wx.get(m.month)?.avgLow ?? null));
 
-	const data: ChartConfiguration<'line'>['data'] = {
+	const data: ChartConfiguration<'line'>['data'] = $derived({
 		labels,
 		datasets: [
 			// Shaded temperature band (avg daily low → avg daily high), behind the line.
@@ -52,7 +53,7 @@
 				order: 0
 			}
 		]
-	};
+	});
 
 	const options: ChartConfiguration<'line'>['options'] = {
 		responsive: true,
