@@ -8,6 +8,7 @@
 	import CostPerMile from '$lib/components/CostPerMile.svelte';
 	import EfficiencyOverTime from '$lib/components/EfficiencyOverTime.svelte';
 	import NetworkBreakdown from '$lib/components/NetworkBreakdown.svelte';
+	import TripTimeline from '$lib/components/TripTimeline.svelte';
 	import RangeFilter from '$lib/components/RangeFilter.svelte';
 	import { theme, toggleTheme } from '$lib/theme.svelte';
 
@@ -67,6 +68,7 @@
 	</section>
 
 	<section class="charts">
+		<div class="span-2"><TripTimeline /></div>
 		<div class="span-2"><EfficiencyVsTemp /></div>
 		<div class="span-2"><EfficiencyOverTime /></div>
 		<div class="span-2"><MonthlyEnergyByNetwork /></div>
