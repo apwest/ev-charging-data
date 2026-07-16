@@ -4157,9 +4157,9 @@
     "networks": [
       "Electrify America"
     ],
-    "avgTempF": 76.1,
-    "minTempF": 73,
-    "maxTempF": 78,
+    "avgTempF": 77.7,
+    "minTempF": 67,
+    "maxTempF": 84,
     "tempSource": "weather",
     "isPaid": false,
     "open": true,
