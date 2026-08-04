@@ -4271,5 +4271,31 @@
     "open": false,
     "milesMissing": false,
     "suspect": false
+  },
+  {
+    "id": "2026-08-04T07:40:00-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-08-04T07:40:00-04:00",
+    "endTime": "2026-08-04T07:47:00-04:00",
+    "sessionIds": [
+      "2026-08-04T07:40:00-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 13.056,
+    "costUsd": 0,
+    "miles": null,
+    "miPerKwh": null,
+    "centsPerMile": null,
+    "networks": [
+      "Electrify America"
+    ],
+    "avgTempF": 59.4,
+    "minTempF": 57,
+    "maxTempF": 69,
+    "tempSource": "weather",
+    "isPaid": false,
+    "open": true,
+    "milesMissing": false,
+    "suspect": false
   }
 ]

@@ -12603,5 +12603,34 @@
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-07-31T07:20:57-04:00"
+  },
+  {
+    "id": "2026-08-04T07:40:00-04:00",
+    "vehicleId": "mache-2023",
+    "date": "2026-08-04",
+    "network": "Electrify America",
+    "stationId": "unknown",
+    "power": {
+      "kw": null,
+      "current": null,
+      "raw": "unknown"
+    },
+    "startTime": "2026-08-04T07:40:00-04:00",
+    "finishTime": "2026-08-04T07:47:00-04:00",
+    "durationSec": 420,
+    "energyKwh": 13.056,
+    "costUsd": 0,
+    "miles": 0,
+    "socPercent": null,
+    "tempF": null,
+    "weatherF": {
+      "low": 57,
+      "avg": 59.4,
+      "high": 69,
+      "obs": 24
+    },
+    "closesTrip": false,
+    "milesMissing": false,
+    "tripId": "2026-08-04T07:40:00-04:00"
   }
 ]
