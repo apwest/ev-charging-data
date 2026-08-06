@@ -4276,25 +4276,27 @@
     "id": "2026-08-04T07:40:00-04:00",
     "vehicleId": "mache-2023",
     "startTime": "2026-08-04T07:40:00-04:00",
-    "endTime": "2026-08-04T07:47:00-04:00",
+    "endTime": "2026-08-05T14:12:20-04:00",
     "sessionIds": [
-      "2026-08-04T07:40:00-04:00"
+      "2026-08-04T07:40:00-04:00",
+      "2026-08-05T07:20:04-04:00"
     ],
-    "sessionCount": 1,
-    "energyKwh": 13.056,
-    "costUsd": 0,
-    "miles": null,
-    "miPerKwh": null,
-    "centsPerMile": null,
+    "sessionCount": 2,
+    "energyKwh": 69.0567,
+    "costUsd": 11.69,
+    "miles": 258.6,
+    "miPerKwh": 3.745,
+    "centsPerMile": 4.52,
     "networks": [
-      "Electrify America"
+      "Electrify America",
+      "Blink"
     ],
-    "avgTempF": 66.7,
-    "minTempF": 57,
+    "avgTempF": 66.5,
+    "minTempF": 55,
     "maxTempF": 86,
     "tempSource": "weather",
-    "isPaid": false,
-    "open": true,
+    "isPaid": true,
+    "open": false,
     "milesMissing": false,
     "suspect": false
   }
