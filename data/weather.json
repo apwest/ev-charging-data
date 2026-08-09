@@ -4,10 +4,10 @@
     "source": "weather.com v1 historical observations (cached)",
     "units": "fahrenheit",
     "timezone": "America/New_York",
-    "dayCount": 920,
+    "dayCount": 921,
     "range": {
       "first": "2024-02-01",
-      "last": "2026-08-08"
+      "last": "2026-08-09"
     },
     "builtFromFiles": 1
   },
@@ -5528,9 +5528,15 @@
     },
     "2026-08-08": {
       "low": 72,
-      "avg": 74.5,
-      "high": 78,
-      "obs": 6
+      "avg": 80.6,
+      "high": 90,
+      "obs": 24
+    },
+    "2026-08-09": {
+      "low": 67,
+      "avg": 70.9,
+      "high": 73,
+      "obs": 7
     }
   }
 }
