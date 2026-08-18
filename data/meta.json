@@ -24,7 +24,7 @@
   },
   "avgMiPerKwh": 3.25,
   "weather": {
-    "days": 929,
+    "days": 930,
     "tripsFromWeather": 159,
     "tripsFromSheet": 0,
     "tripsNoTemp": 0
