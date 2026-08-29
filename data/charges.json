@@ -12849,9 +12849,9 @@
     "tempF": null,
     "weatherF": {
       "low": 66,
-      "avg": 74.6,
+      "avg": 74.7,
       "high": 84,
-      "obs": 25
+      "obs": 32
     },
     "closesTrip": true,
     "milesMissing": false,
