@@ -4639,5 +4639,31 @@
     "open": false,
     "milesMissing": false,
     "suspect": false
+  },
+  {
+    "id": "2026-09-29T07:14:24-04:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-09-29T07:14:24-04:00",
+    "endTime": "2026-09-29T13:59:27-04:00",
+    "sessionIds": [
+      "2026-09-29T07:14:24-04:00"
+    ],
+    "sessionCount": 1,
+    "energyKwh": 57.8796,
+    "costUsd": 12.07,
+    "miles": 205.2,
+    "miPerKwh": 3.545,
+    "centsPerMile": 5.88,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": 60,
+    "minTempF": 55,
+    "maxTempF": 65,
+    "tempSource": "weather",
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
   }
 ]
