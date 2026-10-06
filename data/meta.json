@@ -2,15 +2,15 @@
   "generatedFrom": "EV Charging Data - EV Charging.csv",
   "vehicleId": "mache-2023",
   "counts": {
-    "sessions": 398,
-    "trips": 171,
+    "sessions": 400,
+    "trips": 172,
     "openTrips": 0,
     "milesMissingTrips": 1,
     "suspectTrips": 0
   },
   "dateRange": {
     "first": "2024-02-09",
-    "last": "2026-10-01"
+    "last": "2026-10-05"
   },
   "networks": [
     "Blink",
@@ -18,21 +18,41 @@
     "Electrify America"
   ],
   "totals": {
-    "energyKwh": 15850.2,
-    "costUsd": 1222.87,
-    "miles": 50101.7
+    "energyKwh": 15903.6,
+    "costUsd": 1234.53,
+    "miles": 50309.4
   },
-  "avgMiPerKwh": 3.294,
+  "avgMiPerKwh": 3.297,
   "weather": {
-    "days": 977,
-    "tripsFromWeather": 171,
+    "days": 979,
+    "tripsFromWeather": 172,
     "tripsFromSheet": 0,
     "tripsNoTemp": 0
   },
   "validation": {
-    "tripsChecked": 171,
-    "mismatches": [],
-    "outOfOrderRows": []
+    "tripsChecked": 172,
+    "mismatches": [
+      {
+        "row": 400,
+        "kind": "energy",
+        "computed": 53.426,
+        "sheet": 32.152
+      },
+      {
+        "row": 400,
+        "kind": "miPerKwh",
+        "computed": 3.888,
+        "sheet": 6.459940284
+      }
+    ],
+    "outOfOrderRows": [
+      {
+        "row": 401,
+        "time": "2026-10-05T07:35:24-04:00",
+        "afterRow": 400,
+        "afterTime": "2026-10-05T12:26:11-04:00"
+      }
+    ]
   },
   "generatedAtNote": "stamp at commit time; Date.now() intentionally not used here"
 }
