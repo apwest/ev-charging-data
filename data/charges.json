@@ -13220,5 +13220,33 @@
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-10-07T07:25:01-04:00"
+  },
+  {
+    "id": "2026-10-09T07:27:48-04:00",
+    "vehicleId": "mache-2023",
+    "date": "2026-10-09",
+    "network": "Blink",
+    "stationId": "BAE800231",
+    "power": {
+      "kw": 16.64,
+      "current": "AC"
+    },
+    "startTime": "2026-10-09T07:27:48-04:00",
+    "finishTime": "2026-10-09T15:26:53-04:00",
+    "durationSec": 17773,
+    "energyKwh": 46.3851,
+    "costUsd": 9.77,
+    "miles": 179.7,
+    "socPercent": null,
+    "tempF": null,
+    "weatherF": {
+      "low": 49,
+      "avg": 59.1,
+      "high": 68,
+      "obs": 12
+    },
+    "closesTrip": true,
+    "milesMissing": false,
+    "tripId": "2026-10-09T07:27:48-04:00"
   }
 ]
