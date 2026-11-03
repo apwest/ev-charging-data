@@ -13378,5 +13378,51 @@
     "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-10-26T07:18:15-04:00"
+  },
+  {
+    "id": "2026-11-03T07:16:45-05:00",
+    "vehicleId": "mache-2023",
+    "date": "2026-11-03",
+    "network": "Blink",
+    "stationId": "BAE800380",
+    "power": {
+      "kw": 16.64,
+      "current": "AC"
+    },
+    "startTime": "2026-11-03T07:16:45-05:00",
+    "finishTime": "2026-11-03T09:36:29-05:00",
+    "durationSec": 8324,
+    "energyKwh": 21.8494,
+    "costUsd": 4.86,
+    "miles": 0,
+    "socPercent": null,
+    "tempF": null,
+    "weatherF": null,
+    "closesTrip": false,
+    "milesMissing": false,
+    "tripId": "2026-11-03T07:16:45-05:00"
+  },
+  {
+    "id": "2026-11-03T07:16:45-05:00",
+    "vehicleId": "mache-2023",
+    "date": "2026-11-03",
+    "network": "Blink",
+    "stationId": "BAE800380",
+    "power": {
+      "kw": 16.64,
+      "current": "AC"
+    },
+    "startTime": "2026-11-03T07:16:45-05:00",
+    "finishTime": "2026-11-03T09:36:29-05:00",
+    "durationSec": 8324,
+    "energyKwh": 21.8494,
+    "costUsd": 4.86,
+    "miles": 0,
+    "socPercent": null,
+    "tempF": null,
+    "weatherF": null,
+    "closesTrip": false,
+    "milesMissing": false,
+    "tripId": "2026-11-03T07:16:45-05:00"
   }
 ]
