@@ -2,7 +2,7 @@
   "generatedFrom": "EV Charging Data - EV Charging.csv",
   "vehicleId": "mache-2023",
   "counts": {
-    "sessions": 409,
+    "sessions": 410,
     "trips": 180,
     "openTrips": 1,
     "milesMissingTrips": 1,
@@ -18,8 +18,8 @@
     "Electrify America"
   ],
   "totals": {
-    "energyKwh": 16307.4,
-    "costUsd": 1319.7,
+    "energyKwh": 16329.2,
+    "costUsd": 1324.56,
     "miles": 51659.8
   },
   "avgMiPerKwh": 3.315,

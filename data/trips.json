@@ -4908,11 +4908,12 @@
     "endTime": "2026-11-03T09:36:29-05:00",
     "sessionIds": [
       "2026-11-03T07:16:45-05:00",
+      "2026-11-03T07:16:45-05:00",
       "2026-11-03T07:16:45-05:00"
     ],
-    "sessionCount": 2,
-    "energyKwh": 43.6988,
-    "costUsd": 9.72,
+    "sessionCount": 3,
+    "energyKwh": 65.5482,
+    "costUsd": 14.58,
     "miles": null,
     "miPerKwh": null,
     "centsPerMile": null,
