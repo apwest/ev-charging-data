@@ -4934,17 +4934,18 @@
     "id": "2026-11-09T07:04:17-05:00",
     "vehicleId": "mache-2023",
     "startTime": "2026-11-09T07:04:17-05:00",
-    "endTime": "2026-11-09T08:35:38-05:00",
+    "endTime": "2026-11-10T16:36:32-05:00",
     "sessionIds": [
       "2026-11-09T07:04:17-05:00",
-      "2026-11-09T07:04:17-05:00"
+      "2026-11-09T07:04:17-05:00",
+      "2026-11-10T07:13:08-05:00"
     ],
-    "sessionCount": 2,
-    "energyKwh": 28.4962,
-    "costUsd": 6.68,
-    "miles": null,
-    "miPerKwh": null,
-    "centsPerMile": null,
+    "sessionCount": 3,
+    "energyKwh": 72.0184,
+    "costUsd": 15.87,
+    "miles": 312,
+    "miPerKwh": 4.332,
+    "centsPerMile": 5.09,
     "networks": [
       "Blink"
     ],
@@ -4953,7 +4954,7 @@
     "maxTempF": null,
     "tempSource": null,
     "isPaid": true,
-    "open": true,
+    "open": false,
     "milesMissing": false,
     "suspect": false
   }
