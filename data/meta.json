@@ -3,7 +3,7 @@
   "vehicleId": "mache-2023",
   "counts": {
     "sessions": 416,
-    "trips": 183,
+    "trips": 184,
     "openTrips": 0,
     "milesMissingTrips": 1,
     "suspectTrips": 0
@@ -18,19 +18,19 @@
     "Electrify America"
   ],
   "totals": {
-    "energyKwh": 16563.8,
-    "costUsd": 1374.41,
-    "miles": 52539.3
+    "energyKwh": 16580.9,
+    "costUsd": 1377.83,
+    "miles": 52705.4
   },
-  "avgMiPerKwh": 3.312,
+  "avgMiPerKwh": 3.315,
   "weather": {
     "days": 994,
     "tripsFromWeather": 177,
     "tripsFromSheet": 0,
-    "tripsNoTemp": 6
+    "tripsNoTemp": 7
   },
   "validation": {
-    "tripsChecked": 183,
+    "tripsChecked": 184,
     "mismatches": [
       {
         "row": 400,
@@ -55,6 +55,30 @@
         "kind": "miPerKwh",
         "computed": 3.837,
         "sheet": 2.673449862
+      },
+      {
+        "row": 410,
+        "kind": "energy",
+        "computed": 69.3248,
+        "sheet": 47.4754
+      },
+      {
+        "row": 410,
+        "kind": "miPerKwh",
+        "computed": 2.396,
+        "sheet": 3.49865404
+      },
+      {
+        "row": 412,
+        "kind": "energy",
+        "computed": 48.9552,
+        "sheet": 70.8046
+      },
+      {
+        "row": 412,
+        "kind": "miPerKwh",
+        "computed": 3.814,
+        "sheet": 2.63683433
       }
     ],
     "outOfOrderRows": [
@@ -63,6 +87,12 @@
         "time": "2026-10-05T07:35:24-04:00",
         "afterRow": 400,
         "afterTime": "2026-10-05T12:26:11-04:00"
+      },
+      {
+        "row": 411,
+        "time": "2026-11-03T07:16:45-05:00",
+        "afterRow": 410,
+        "afterTime": "2026-11-03T10:50:31-05:00"
       }
     ]
   },

@@ -4905,19 +4905,44 @@
     "id": "2026-11-03T07:16:45-05:00",
     "vehicleId": "mache-2023",
     "startTime": "2026-11-03T07:16:45-05:00",
-    "endTime": "2026-11-05T14:02:12-05:00",
+    "endTime": "2026-11-03T17:03:25-05:00",
     "sessionIds": [
       "2026-11-03T07:16:45-05:00",
       "2026-11-03T07:16:45-05:00",
-      "2026-11-03T07:16:45-05:00",
+      "2026-11-03T10:50:31-05:00"
+    ],
+    "sessionCount": 3,
+    "energyKwh": 69.3248,
+    "costUsd": 15.34,
+    "miles": 166.1,
+    "miPerKwh": 2.396,
+    "centsPerMile": 9.24,
+    "networks": [
+      "Blink"
+    ],
+    "avgTempF": null,
+    "minTempF": null,
+    "maxTempF": null,
+    "tempSource": null,
+    "isPaid": true,
+    "open": false,
+    "milesMissing": false,
+    "suspect": false
+  },
+  {
+    "id": "2026-11-05T07:27:00-05:00",
+    "vehicleId": "mache-2023",
+    "startTime": "2026-11-05T07:27:00-05:00",
+    "endTime": "2026-11-05T14:02:12-05:00",
+    "sessionIds": [
       "2026-11-05T07:27:00-05:00"
     ],
-    "sessionCount": 4,
-    "energyKwh": 114.5034,
-    "costUsd": 24.86,
+    "sessionCount": 1,
+    "energyKwh": 48.9552,
+    "costUsd": 10.28,
     "miles": 186.7,
-    "miPerKwh": 1.631,
-    "centsPerMile": 13.32,
+    "miPerKwh": 3.814,
+    "centsPerMile": 5.51,
     "networks": [
       "Blink"
     ],
@@ -4937,15 +4962,15 @@
     "endTime": "2026-11-10T16:36:32-05:00",
     "sessionIds": [
       "2026-11-09T07:04:17-05:00",
-      "2026-11-09T07:04:17-05:00",
+      "2026-11-09T11:02:04-05:00",
       "2026-11-10T07:13:08-05:00"
     ],
     "sessionCount": 3,
-    "energyKwh": 72.0184,
-    "costUsd": 15.87,
+    "energyKwh": 85.3325,
+    "costUsd": 18.53,
     "miles": 312,
-    "miPerKwh": 4.332,
-    "centsPerMile": 5.09,
+    "miPerKwh": 3.656,
+    "centsPerMile": 5.94,
     "networks": [
       "Blink"
     ],

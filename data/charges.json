@@ -13426,7 +13426,7 @@
     "tripId": "2026-11-03T07:16:45-05:00"
   },
   {
-    "id": "2026-11-03T07:16:45-05:00",
+    "id": "2026-11-03T10:50:31-05:00",
     "vehicleId": "mache-2023",
     "date": "2026-11-03",
     "network": "Blink",
@@ -13435,16 +13435,16 @@
       "kw": 16.64,
       "current": "AC"
     },
-    "startTime": "2026-11-03T07:16:45-05:00",
-    "finishTime": "2026-11-03T09:36:29-05:00",
-    "durationSec": 8324,
-    "energyKwh": 21.8494,
-    "costUsd": 4.86,
-    "miles": 0,
+    "startTime": "2026-11-03T10:50:31-05:00",
+    "finishTime": "2026-11-03T17:03:25-05:00",
+    "durationSec": 22374,
+    "energyKwh": 25.626,
+    "costUsd": 5.62,
+    "miles": 166.1,
     "socPercent": null,
     "tempF": null,
     "weatherF": null,
-    "closesTrip": false,
+    "closesTrip": true,
     "milesMissing": false,
     "tripId": "2026-11-03T07:16:45-05:00"
   },
@@ -13469,7 +13469,7 @@
     "weatherF": null,
     "closesTrip": true,
     "milesMissing": false,
-    "tripId": "2026-11-03T07:16:45-05:00"
+    "tripId": "2026-11-05T07:27:00-05:00"
   },
   {
     "id": "2026-11-09T07:04:17-05:00",
@@ -13495,7 +13495,7 @@
     "tripId": "2026-11-09T07:04:17-05:00"
   },
   {
-    "id": "2026-11-09T07:04:17-05:00",
+    "id": "2026-11-09T11:02:04-05:00",
     "vehicleId": "mache-2023",
     "date": "2026-11-09",
     "network": "Blink",
@@ -13504,11 +13504,11 @@
       "kw": 16.64,
       "current": "AC"
     },
-    "startTime": "2026-11-09T07:04:17-05:00",
-    "finishTime": "2026-11-09T08:35:38-05:00",
-    "durationSec": 5481,
-    "energyKwh": 14.2481,
-    "costUsd": 3.34,
+    "startTime": "2026-11-09T11:02:04-05:00",
+    "finishTime": "2026-11-09T13:58:51-05:00",
+    "durationSec": 10607,
+    "energyKwh": 27.5622,
+    "costUsd": 6,
     "miles": 0,
     "socPercent": null,
     "tempF": null,
