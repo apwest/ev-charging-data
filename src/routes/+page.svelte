@@ -1,12 +1,15 @@
 <script lang="ts">
 	import { meta, vehicles } from '$lib/data';
-	import { overallCentsPerMile } from '$lib/aggregations';
+	import { summary } from '$lib/aggregations';
+	import { ranged } from '$lib/range.svelte';
 	import EfficiencyVsTemp from '$lib/components/EfficiencyVsTemp.svelte';
 	import MonthlyEnergyByNetwork from '$lib/components/MonthlyEnergyByNetwork.svelte';
 	import MonthlySpend from '$lib/components/MonthlySpend.svelte';
 	import CostPerMile from '$lib/components/CostPerMile.svelte';
 	import EfficiencyOverTime from '$lib/components/EfficiencyOverTime.svelte';
 	import NetworkBreakdown from '$lib/components/NetworkBreakdown.svelte';
+	import TripTimeline from '$lib/components/TripTimeline.svelte';
+	import RangeFilter from '$lib/components/RangeFilter.svelte';
 	import { theme, toggleTheme } from '$lib/theme.svelte';
 
 	const vehicle = vehicles[0];
@@ -14,16 +17,20 @@
 
 	type Stat = { label: string; value: string; unit?: string };
 
-	const cpm = overallCentsPerMile();
-	const stats: Stat[] = [
-		{ label: 'Sessions', value: fmt.format(meta.counts.sessions) },
-		{ label: 'Trips', value: fmt.format(meta.counts.trips) },
-		{ label: 'Energy', value: fmt.format(Math.round(meta.totals.energyKwh)), unit: 'kWh' },
-		{ label: 'Miles', value: fmt.format(Math.round(meta.totals.miles)), unit: 'mi' },
-		{ label: 'Total cost', value: fmt.format(Math.round(meta.totals.costUsd)), unit: 'US$' },
-		{ label: 'Avg efficiency', value: meta.avgMiPerKwh?.toFixed(2) ?? '—', unit: 'mi/kWh' },
-		{ label: 'Avg cost/mile', value: cpm != null ? cpm.toFixed(2) : '—', unit: '¢/mi' }
-	];
+	const s = $derived(summary(ranged.sessions, ranged.trips, ranged.cleanTrips));
+	const stats: Stat[] = $derived([
+		{ label: 'Sessions', value: fmt.format(s.sessions) },
+		{ label: 'Trips', value: fmt.format(s.trips) },
+		{ label: 'Energy', value: fmt.format(Math.round(s.energyKwh)), unit: 'kWh' },
+		{ label: 'Miles', value: fmt.format(Math.round(s.miles)), unit: 'mi' },
+		{ label: 'Total cost', value: fmt.format(Math.round(s.costUsd)), unit: 'US$' },
+		{ label: 'Avg efficiency', value: s.avgMiPerKwh?.toFixed(2) ?? '—', unit: 'mi/kWh' },
+		{
+			label: 'Avg cost/mile',
+			value: s.centsPerMile != null ? s.centsPerMile.toFixed(2) : '—',
+			unit: '¢/mi'
+		}
+	]);
 </script>
 
 <svelte:head>
@@ -46,6 +53,10 @@
 		</button>
 	</header>
 
+	<div class="range-bar">
+		<RangeFilter />
+	</div>
+
 	<section class="stats">
 		{#each stats as s (s.label)}
 			<div class="stat">
@@ -57,6 +68,7 @@
 	</section>
 
 	<section class="charts">
+		<div class="span-2"><TripTimeline /></div>
 		<div class="span-2"><EfficiencyVsTemp /></div>
 		<div class="span-2"><EfficiencyOverTime /></div>
 		<div class="span-2"><MonthlyEnergyByNetwork /></div>
@@ -105,6 +117,9 @@
 	}
 	.theme-toggle:hover {
 		border-color: var(--accent);
+	}
+	.range-bar {
+		margin-top: 1.25rem;
 	}
 	.stats {
 		display: grid;

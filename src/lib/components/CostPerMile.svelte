@@ -2,12 +2,13 @@
 	import Chart from './Chart.svelte';
 	import Card from './Card.svelte';
 	import { costPerMileByMonth, overallCentsPerMile, monthLabel } from '$lib/aggregations';
+	import { ranged } from '$lib/range.svelte';
 	import type { ChartConfiguration } from 'chart.js';
 
-	const months = costPerMileByMonth();
-	const overall = overallCentsPerMile() ?? 0;
+	const months = $derived(costPerMileByMonth(ranged.cleanTrips));
+	const overall = $derived(overallCentsPerMile(ranged.cleanTrips) ?? 0);
 
-	const data: ChartConfiguration<'line'>['data'] = {
+	const data: ChartConfiguration<'line'>['data'] = $derived({
 		labels: months.map((m) => monthLabel(m.month)),
 		datasets: [
 			{
@@ -22,7 +23,7 @@
 				tension: 0.3
 			}
 		]
-	};
+	});
 
 	const options: ChartConfiguration<'line'>['options'] = {
 		responsive: true,

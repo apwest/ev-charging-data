@@ -2,12 +2,14 @@
 	import Chart from './Chart.svelte';
 	import Card from './Card.svelte';
 	import { sessionsByMonth, monthLabel, NETWORKS, networkColor } from '$lib/aggregations';
+	import { ranged } from '$lib/range.svelte';
 	import type { ChartConfiguration } from 'chart.js';
 
-	const months = sessionsByMonth();
 	const round = (n: number) => Math.round(n * 10) / 10;
 
-	const data: ChartConfiguration['data'] = {
+	const months = $derived(sessionsByMonth(ranged.sessions));
+
+	const data: ChartConfiguration['data'] = $derived({
 		labels: months.map((m) => monthLabel(m.month)),
 		datasets: NETWORKS.map((n) => ({
 			label: n,
@@ -15,7 +17,7 @@
 			backgroundColor: networkColor(n),
 			stack: 'energy'
 		}))
-	};
+	});
 
 	const options: ChartConfiguration['options'] = {
 		responsive: true,
@@ -31,6 +33,10 @@
 	};
 </script>
 
-<Card title="Energy by Network, Monthly" subtitle="Charging volume and network mix over time" height={320}>
+<Card
+	title="Energy by Network, Monthly"
+	subtitle="Charging volume and network mix over time"
+	height={320}
+>
 	<Chart type="bar" {data} {options} />
 </Card>

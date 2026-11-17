@@ -2,16 +2,19 @@
 	import Chart from './Chart.svelte';
 	import Card from './Card.svelte';
 	import { sessionsByMonth, monthLabel } from '$lib/aggregations';
+	import { ranged } from '$lib/range.svelte';
 	import type { ChartConfiguration } from 'chart.js';
 
-	const months = sessionsByMonth();
 	const round2 = (n: number) => Math.round(n * 100) / 100;
 
-	let running = 0;
-	const cumulative = months.map((m) => round2((running += m.costUsd)));
-	const total = running;
+	const months = $derived(sessionsByMonth(ranged.sessions));
+	const cumulative = $derived.by(() => {
+		let running = 0;
+		return months.map((m) => round2((running += m.costUsd)));
+	});
+	const total = $derived(cumulative.at(-1) ?? 0);
 
-	const data: ChartConfiguration['data'] = {
+	const data: ChartConfiguration['data'] = $derived({
 		labels: months.map((m) => monthLabel(m.month)),
 		datasets: [
 			{
@@ -32,7 +35,7 @@
 				yAxisID: 'y1'
 			}
 		]
-	};
+	});
 
 	const dollars = (v: unknown) => `$${Number(v).toLocaleString()}`;
 	const options: ChartConfiguration['options'] = {
@@ -55,6 +58,10 @@
 	};
 </script>
 
-<Card title="Spend Over Time" subtitle="${total.toLocaleString()} total · most charging is free" height={320}>
+<Card
+	title="Spend Over Time"
+	subtitle="${total.toLocaleString()} total · most charging is free"
+	height={320}
+>
 	<Chart type="bar" {data} {options} />
 </Card>

@@ -1,21 +1,22 @@
 <script lang="ts">
 	import Chart from './Chart.svelte';
 	import Card from './Card.svelte';
-	import { cleanTrips } from '$lib/data';
+	import { ranged } from '$lib/range.svelte';
 	import { linearRegression } from '$lib/stats';
 	import type { ChartConfiguration } from 'chart.js';
 
 	// Each point: average temperature over the trip's driving days vs. its efficiency.
-	const points = cleanTrips
-		.filter((t) => t.avgTempF != null && t.miPerKwh != null)
-		.map((t) => ({ x: t.avgTempF as number, y: t.miPerKwh as number }));
+	const points = $derived(
+		ranged.cleanTrips
+			.filter((t) => t.avgTempF != null && t.miPerKwh != null)
+			.map((t) => ({ x: t.avgTempF as number, y: t.miPerKwh as number }))
+	);
 
-	const reg = linearRegression(points);
-	const xs = points.map((p) => p.x);
-	const minX = Math.min(...xs);
-	const maxX = Math.max(...xs);
+	const reg = $derived(linearRegression(points));
+	const minX = $derived(points.length ? Math.min(...points.map((p) => p.x)) : 0);
+	const maxX = $derived(points.length ? Math.max(...points.map((p) => p.x)) : 0);
 
-	const data: ChartConfiguration['data'] = {
+	const data: ChartConfiguration['data'] = $derived({
 		datasets: [
 			{
 				type: 'scatter',
@@ -43,7 +44,7 @@
 					]
 				: [])
 		]
-	};
+	});
 
 	const options: ChartConfiguration['options'] = {
 		responsive: true,
@@ -72,10 +73,13 @@
 	};
 
 	// Slope is per °F; show the swing across the observed range for an intuitive headline.
-	const swing = reg ? Math.abs(reg.slope) * (maxX - minX) : null;
-	const subtitle =
-		`${points.length} trips · ${minX}°–${maxX}°F` +
-		(swing != null ? ` · ~${swing.toFixed(2)} mi/kWh swing across the range` : '');
+	const swing = $derived(reg ? Math.abs(reg.slope) * (maxX - minX) : null);
+	const subtitle = $derived(
+		points.length
+			? `${points.length} trips · ${minX}°–${maxX}°F` +
+					(swing != null ? ` · ~${swing.toFixed(2)} mi/kWh swing across the range` : '')
+			: 'No trips in this range'
+	);
 </script>
 
 <Card title="Efficiency vs. Temperature" {subtitle} height={380}>

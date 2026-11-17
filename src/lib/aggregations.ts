@@ -1,5 +1,8 @@
-// Derived aggregations for the dashboard charts, computed from the imported datasets.
-import { sessions, cleanTrips, weather } from './data';
+// Derived aggregations for the dashboard charts. Each helper takes its data as an
+// argument (a date-filtered subset for the active range) rather than importing the
+// full datasets, so charts + cards recompute when the range filter changes.
+import { weather } from './data';
+import type { Session, Trip } from './types';
 
 export const NETWORKS = ['Charge Point', 'Blink', 'Electrify America'] as const;
 
@@ -50,7 +53,7 @@ export interface MonthBucket {
 	byNetwork: Record<string, number>; // energy kWh per network
 }
 
-export function sessionsByMonth(): MonthBucket[] {
+export function sessionsByMonth(sessions: Session[]): MonthBucket[] {
 	const map = new Map<string, MonthBucket>();
 	for (const s of sessions) {
 		const mk = monthKey(s.date);
@@ -79,7 +82,7 @@ export interface NetworkTotal {
 	costUsd: number;
 }
 
-export function byNetwork(): NetworkTotal[] {
+export function byNetwork(sessions: Session[]): NetworkTotal[] {
 	const map = new Map<string, NetworkTotal>();
 	for (const s of sessions) {
 		let b = map.get(s.network);
@@ -103,7 +106,7 @@ export interface MonthEfficiency {
 }
 
 /** Monthly average trip efficiency (clean trips only), keyed by trip end month. */
-export function efficiencyByMonth(): MonthEfficiency[] {
+export function efficiencyByMonth(cleanTrips: Trip[]): MonthEfficiency[] {
 	const map = new Map<string, { sum: number; n: number }>();
 	for (const t of cleanTrips) {
 		const mk = monthKey(t.endTime ?? t.startTime);
@@ -167,7 +170,7 @@ export function weatherByMonth(): Map<string, MonthWeather> {
 }
 
 /** Blended cost per mile (¢) across all clean trips — one source for the card + chart. */
-export function overallCentsPerMile(): number | null {
+export function overallCentsPerMile(cleanTrips: Trip[]): number | null {
 	let cost = 0;
 	let miles = 0;
 	for (const t of cleanTrips) {
@@ -186,7 +189,7 @@ export interface MonthCostPerMile {
 }
 
 /** Monthly cost per mile = summed trip cost ÷ summed trip miles (clean trips). */
-export function costPerMileByMonth(): MonthCostPerMile[] {
+export function costPerMileByMonth(cleanTrips: Trip[]): MonthCostPerMile[] {
 	const map = new Map<string, { cost: number; miles: number }>();
 	for (const t of cleanTrips) {
 		const mk = monthKey(t.endTime ?? t.startTime);
@@ -210,4 +213,37 @@ export function costPerMileByMonth(): MonthCostPerMile[] {
 			miles: b ? round(b.miles, 1) : 0
 		};
 	});
+}
+
+export interface Summary {
+	sessions: number;
+	trips: number;
+	energyKwh: number;
+	miles: number;
+	costUsd: number;
+	avgMiPerKwh: number | null; // mean of clean-trip efficiency
+	centsPerMile: number | null;
+}
+
+/** Headline stat-card numbers for a (possibly range-filtered) slice of the data. */
+export function summary(sessions: Session[], trips: Trip[], cleanTrips: Trip[]): Summary {
+	let energyKwh = 0;
+	let miles = 0;
+	let costUsd = 0;
+	for (const s of sessions) {
+		energyKwh += s.energyKwh ?? 0;
+		miles += s.miles ?? 0;
+		costUsd += s.costUsd ?? 0;
+	}
+	const effs = cleanTrips.map((t) => t.miPerKwh).filter((v): v is number => v != null);
+	const avg = mean(effs);
+	return {
+		sessions: sessions.length,
+		trips: trips.length,
+		energyKwh,
+		miles,
+		costUsd,
+		avgMiPerKwh: avg == null ? null : round(avg, 3),
+		centsPerMile: overallCentsPerMile(cleanTrips)
+	};
 }
